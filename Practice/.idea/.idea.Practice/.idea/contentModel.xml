@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\msear\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Practice.-1138074983.00" t="ExcludeRecursive" />
-    <e p="C:\Users\msear\Documents\NewGitRepos\OctaveBackUp\ActuallyOctave\Practice" t="IncludeRecursive">
+    <e p="C:\Users\msear\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Practice.-23682642.00" t="ExcludeRecursive" />
+    <e p="C:\Users\msear\Documents\NewGitRepos\DGM2640\Practice" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="FloatDatas.cs" t="Include" />
+        <e p="FloatInputs.cs" t="Include" />
         <e p="MoveBases.cs" t="Include" />
         <e p="MovePatternNotGroundeds.cs" t="Include" />
         <e p="MovePatterns.cs" t="Include" />

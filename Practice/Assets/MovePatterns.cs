@@ -14,15 +14,15 @@ public class MovePatterns : ScriptableObject
 
 
 
-	public FloatData jumpSpeed;
+	public FloatDatas jumpSpeed;
 
-	public FloatData gravity;
+	public FloatDatas gravity;
 
 
 
-	public FloatData MoveX, MoveY, MoveZ;
+	public FloatDatas MoveX, MoveY, MoveZ;
 
-	public FloatData RotX, RotY, RotZ;
+	public FloatDatas RotX, RotY, RotZ;
 
 
 

@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: human torso practice.ma
-//Last modified: Thu, Jan 10, 2019 12:41:50 PM
+//Last modified: Thu, Jan 10, 2019 12:53:59 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "35C3446F-418E-7BE0-DA58-A08624EB4A07";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1.1592264295724397 2.3348665384846616 -5.5467645524020419 ;
-	setAttr ".r" -type "double3" -6.9383527295564198 162.19999999997484 0 ;
+	setAttr ".t" -type "double3" 0.42941271015665894 2.2793976462864851 8.3758469422944426 ;
+	setAttr ".r" -type "double3" -4.5383527295545854 7.3999999999662167 -2.5056777278084055e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "C9AADF1F-452E-D113-26C7-3D83ABCE5003";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 5.9549028254216756;
+	setAttr ".coi" 8.3902643470803575;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";

@@ -14,7 +14,8 @@ public class Carry : MonoBehaviour
     {
         if (Input.GetButton("PickUp"))
         {
-            box.transform.parent = newParent.transform; 
+            
+            box.transform.SetParent(newParent.transform);
         }
     }
 }

@@ -8,11 +8,13 @@
         <e p="Carry.cs" t="Include" />
         <e p="FloatDatas.cs" t="Include" />
         <e p="FloatInputs.cs" t="Include" />
+        <e p="InputMatch.cs" t="Include" />
         <e p="MatchFour.cs" t="Include" />
         <e p="MoveBases.cs" t="Include" />
         <e p="MovePatternNotGroundeds.cs" t="Include" />
         <e p="MovePatterns.cs" t="Include" />
         <e p="PutDown.cs" t="Include" />
+        <e p="TextForMatch.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

@@ -6,6 +6,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Carry.cs" t="Include" />
+        <e p="ChoiceTest.cs" t="Include" />
         <e p="FloatDatas.cs" t="Include" />
         <e p="FloatInputs.cs" t="Include" />
         <e p="InputMatch.cs" t="Include" />

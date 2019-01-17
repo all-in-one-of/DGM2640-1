@@ -76,8 +76,8 @@
       <file leaf-file-name="ChangePlaces.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/ChangePlaces.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="210">
+              <caret line="17" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <marker date="1547746194320" expanded="false" signature="6:114" ph="..." />
                 <marker date="1547746194320" expanded="true" signature="158:576" ph="{...}" />
@@ -138,8 +138,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="512" />
-    <option name="y" value="213" />
+    <option name="x" value="248" />
+    <option name="y" value="198" />
     <option name="width" value="1490" />
     <option name="height" value="780" />
   </component>
@@ -205,12 +205,12 @@
       <workItem from="1547183058218" duration="2903000" />
       <workItem from="1547319220265" duration="1420000" />
       <workItem from="1547534851768" duration="525000" />
-      <workItem from="1547745069824" duration="1123000" />
+      <workItem from="1547745069824" duration="1434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8670000" />
+    <option name="totallyTimeSpent" value="8981000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -222,8 +222,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="237" width="1490" height="780" extended-state="0" />
-    <editor active="true" />
+    <frame x="248" y="198" width="1490" height="780" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -315,8 +314,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ChangePlaces.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="210">
+          <caret line="17" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
           <folding>
             <marker date="1547746194320" expanded="false" signature="6:114" ph="..." />
             <marker date="1547746194320" expanded="true" signature="158:576" ph="{...}" />

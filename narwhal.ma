@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: narwhal.ma
-//Last modified: Thu, Jan 24, 2019 04:39:07 AM
+//Last modified: Thu, Jan 24, 2019 04:53:11 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "F466932A-4139-3208-BAD6-8F9366838B61";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 28.730809473564936 17.068875233921943 28.052163548065383 ;
-	setAttr ".r" -type "double3" 338.66164727501081 -1039.0000000000289 -1.0535690697484252e-15 ;
+	setAttr ".t" -type "double3" 32.375839229758093 22.044881648080782 20.683832807705144 ;
+	setAttr ".r" -type "double3" 330.86164727500625 -1026.5999999999779 2.6672442018194871e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "39E09FB6-40B7-04E8-7A79-C4A6A5791549";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 40.440425533731386;
+	setAttr ".coi" 40.44042553372762;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";

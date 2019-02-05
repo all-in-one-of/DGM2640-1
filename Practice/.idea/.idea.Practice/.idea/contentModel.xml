@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10845064\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Practice.155489322.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10845064\Documents\GitRepos\DGM2640\Practice" t="IncludeRecursive">
+    <e p="C:\Users\msear\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Practice.-23682642.00" t="ExcludeRecursive" />
+    <e p="C:\Users\msear\Documents\NewGitRepos\DGM2640\Practice" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BirdList.cs" t="Include" />
         <e p="Carry.cs" t="Include" />
         <e p="ChangePlaces.cs" t="Include" />
         <e p="ChoiceTest.cs" t="Include" />
+        <e p="EachBirdFish.cs" t="Include" />
         <e p="FloatDatas.cs" t="Include" />
         <e p="FloatInputs.cs" t="Include" />
+        <e p="Flock.cs" t="Include" />
         <e p="InputMatch.cs" t="Include" />
         <e p="MatchFour.cs" t="Include" />
         <e p="MoveBases.cs" t="Include" />
@@ -17,6 +20,7 @@
         <e p="MovePatterns.cs" t="Include" />
         <e p="PutDown.cs" t="Include" />
         <e p="TextForMatch.cs" t="Include" />
+        <e p="VectorSO.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

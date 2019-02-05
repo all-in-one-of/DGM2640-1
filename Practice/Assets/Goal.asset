@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b3a2ff7f551414ea4f4e4fb61ffe4d, type: 3}
   m_Name: Goal
   m_EditorClassIdentifier: 
-  VectorData: {x: 0, y: 0, z: 0}
+  VectorData: {x: 10, y: 10, z: 10}

@@ -25,16 +25,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="317">
               <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-              <folding>
-                <marker date="1549391135175" expanded="false" signature="6:113" ph="..." />
-                <marker date="1549391135175" expanded="true" signature="149:1408" ph="{...}" />
-                <marker date="1549391135175" expanded="true" signature="328:719" ph="{...}" />
-                <marker date="1549391135175" expanded="true" signature="386:713" ph="{...}" />
-                <marker date="1549391135175" expanded="true" signature="749:1095" ph="{...}" />
-                <marker date="1549391135175" expanded="true" signature="776:1067" ph="{...}" />
-                <marker date="1549391135175" expanded="true" signature="1122:1406" ph="{...}" />
-                <marker date="1549391135175" expanded="true" signature="1178:1400" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -51,22 +41,21 @@
       <file leaf-file-name="EachBirdFish.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/EachBirdFish.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+            <state relative-caret-position="525">
+              <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
               <folding>
-                <marker date="1549391342991" expanded="false" signature="6:114" ph="..." />
-                <marker date="1549391342991" expanded="true" signature="157:2495" ph="{...}" />
-                <marker date="1549391342991" expanded="true" signature="409:461" ph="{...}" />
-                <marker date="1549391342991" expanded="true" signature="485:1055" ph="{...}" />
-                <marker date="1549391342991" expanded="true" signature="568:616" ph="{...}" />
-                <marker date="1549391342991" expanded="true" signature="669:895" ph="{...}" />
-                <marker date="1549391342991" expanded="true" signature="931:977" ph="{...}" />
-                <marker date="1549391342991" expanded="true" signature="1085:2483" ph="{...}" />
-                <marker date="1549391342991" expanded="true" signature="1442:1999" ph="{...}" />
-                <marker date="1549391342991" expanded="true" signature="1580:1989" ph="{...}" />
-                <marker date="1549391342991" expanded="true" signature="1707:1832" ph="{...}" />
-                <marker date="1549391342991" expanded="true" signature="1850:1975" ph="/* EachBirdFish anotherFlocking = go.GetComponent&lt;EachBirdFish&gt;(); ... */" />
-                <marker date="1549391342991" expanded="true" signature="2027:2477" ph="{...}" />
+                <marker date="1549391427413" expanded="false" signature="6:114" ph="..." />
+                <marker date="1549391427413" expanded="true" signature="157:2491" ph="{...}" />
+                <marker date="1549391427413" expanded="true" signature="409:461" ph="{...}" />
+                <marker date="1549391427413" expanded="true" signature="485:1055" ph="{...}" />
+                <marker date="1549391427413" expanded="true" signature="568:616" ph="{...}" />
+                <marker date="1549391427413" expanded="true" signature="669:895" ph="{...}" />
+                <marker date="1549391427413" expanded="true" signature="931:977" ph="{...}" />
+                <marker date="1549391427413" expanded="true" signature="1085:2479" ph="{...}" />
+                <marker date="1549391427413" expanded="true" signature="1442:1995" ph="{...}" />
+                <marker date="1549391427413" expanded="true" signature="1580:1985" ph="{...}" />
+                <marker date="1549391427413" expanded="true" signature="1707:1832" ph="{...}" />
+                <marker date="1549391427413" expanded="true" signature="2023:2473" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -239,12 +228,12 @@
       <workItem from="1547319220265" duration="1420000" />
       <workItem from="1547534851768" duration="525000" />
       <workItem from="1547745069824" duration="1434000" />
-      <workItem from="1549385860305" duration="5465000" />
+      <workItem from="1549385860305" duration="6130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14446000" />
+    <option name="totallyTimeSpent" value="15111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,7 +246,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="270" width="1490" height="780" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -300,10 +288,10 @@
           <line>80</line>
           <properties documentPath="$PROJECT_DIR$/Assets/EachBirdFish.cs" initialLine="63">
             <startOffsets>
-              <startOffset value="2050" />
+              <startOffset value="2046" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="2126" />
+              <endOffset value="2122" />
             </endOffsets>
           </properties>
         </line-breakpoint>
@@ -542,37 +530,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <marker date="1549391135175" expanded="false" signature="6:113" ph="..." />
-            <marker date="1549391135175" expanded="true" signature="149:1408" ph="{...}" />
-            <marker date="1549391135175" expanded="true" signature="328:719" ph="{...}" />
-            <marker date="1549391135175" expanded="true" signature="386:713" ph="{...}" />
-            <marker date="1549391135175" expanded="true" signature="749:1095" ph="{...}" />
-            <marker date="1549391135175" expanded="true" signature="776:1067" ph="{...}" />
-            <marker date="1549391135175" expanded="true" signature="1122:1406" ph="{...}" />
-            <marker date="1549391135175" expanded="true" signature="1178:1400" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/EachBirdFish.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        <state relative-caret-position="525">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
           <folding>
-            <marker date="1549391342991" expanded="false" signature="6:114" ph="..." />
-            <marker date="1549391342991" expanded="true" signature="157:2495" ph="{...}" />
-            <marker date="1549391342991" expanded="true" signature="409:461" ph="{...}" />
-            <marker date="1549391342991" expanded="true" signature="485:1055" ph="{...}" />
-            <marker date="1549391342991" expanded="true" signature="568:616" ph="{...}" />
-            <marker date="1549391342991" expanded="true" signature="669:895" ph="{...}" />
-            <marker date="1549391342991" expanded="true" signature="931:977" ph="{...}" />
-            <marker date="1549391342991" expanded="true" signature="1085:2483" ph="{...}" />
-            <marker date="1549391342991" expanded="true" signature="1442:1999" ph="{...}" />
-            <marker date="1549391342991" expanded="true" signature="1580:1989" ph="{...}" />
-            <marker date="1549391342991" expanded="true" signature="1707:1832" ph="{...}" />
-            <marker date="1549391342991" expanded="true" signature="1850:1975" ph="/* EachBirdFish anotherFlocking = go.GetComponent&lt;EachBirdFish&gt;(); ... */" />
-            <marker date="1549391342991" expanded="true" signature="2027:2477" ph="{...}" />
+            <marker date="1549391427413" expanded="false" signature="6:114" ph="..." />
+            <marker date="1549391427413" expanded="true" signature="157:2491" ph="{...}" />
+            <marker date="1549391427413" expanded="true" signature="409:461" ph="{...}" />
+            <marker date="1549391427413" expanded="true" signature="485:1055" ph="{...}" />
+            <marker date="1549391427413" expanded="true" signature="568:616" ph="{...}" />
+            <marker date="1549391427413" expanded="true" signature="669:895" ph="{...}" />
+            <marker date="1549391427413" expanded="true" signature="931:977" ph="{...}" />
+            <marker date="1549391427413" expanded="true" signature="1085:2479" ph="{...}" />
+            <marker date="1549391427413" expanded="true" signature="1442:1995" ph="{...}" />
+            <marker date="1549391427413" expanded="true" signature="1580:1985" ph="{...}" />
+            <marker date="1549391427413" expanded="true" signature="1707:1832" ph="{...}" />
+            <marker date="1549391427413" expanded="true" signature="2023:2473" ph="{...}" />
           </folding>
         </state>
       </provider>

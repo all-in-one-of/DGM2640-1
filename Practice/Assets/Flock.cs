@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 
 public class Flock : MonoBehaviour
 {
@@ -8,10 +9,10 @@ public class Flock : MonoBehaviour
 
     public FloatDatas numBirdFish;
 
-    public GameObject[] allBirdFish;
+    public BirdList allBirdFish;
     public int tankSize;
 
-    public Vector3 goal; 
+    public VectorSo goal; 
     
     void Start()
     {
@@ -20,17 +21,32 @@ public class Flock : MonoBehaviour
             Vector3 pos = new Vector3(Random.Range(-tankSize, tankSize),
                                       Random.Range(-tankSize, tankSize),
                                       Random.Range(-tankSize, tankSize));
-            allBirdFish[i] = (GameObject) Instantiate(birdfish, pos, Quaternion.identity);
+            allBirdFish.GameObjects = Instantiate(birdfish, pos, Quaternion.identity);
         }
+    }
+
+    IEnumerator ChangeGoal()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(Random.Range(3, 10));
+                    goal.VectorData = new Vector3(Random.Range(-tankSize, tankSize),
+                        Random.Range(-tankSize, tankSize),
+                        Random.Range(-tankSize, tankSize));
+
+        }
+
+        yield break;
     }
 
     private void Update()
     {
+        
         if (Random.Range(0, 10000) < 50)
         {
-            goal = new Vector3(Random.Range(-tankSize, tankSize),
-                               Random.Range(-tankSize, tankSize),
-                               Random.Range(-tankSize, tankSize));
+            goal = new VectorSo(Random.Range(-tankSize, tankSize),
+                                Random.Range(-tankSize, tankSize),
+                                Random.Range(-tankSize, tankSize));
         }
     }
 }

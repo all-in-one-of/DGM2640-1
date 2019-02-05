@@ -295,19 +295,9 @@ MonoBehaviour:
   birdfish: {fileID: 2272658588477807317, guid: b6e6e616532b26644bb522bdcd205321,
     type: 3}
   numBirdFish: {fileID: 11400000, guid: 83cfb2a5ccbc82643b71879f9d49aef1, type: 2}
-  allBirdFish:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  allBirdFish: {fileID: 11400000, guid: e12082132fd980640ae83eec0940922d, type: 2}
   tankSize: 10
-  goal: {x: 0, y: 0, z: 0}
+  goal: {fileID: 11400000, guid: 05aa665cd4b226943b96b69b6da87191, type: 2}
 --- !u!4 &1985265614
 Transform:
   m_ObjectHideFlags: 0

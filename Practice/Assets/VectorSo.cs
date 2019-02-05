@@ -7,5 +7,10 @@ using Vector3 = UnityEngine.Vector3;
 [CreateAssetMenu]
 public class VectorSo : ScriptableObject
 {
-    public Vector3 VectorData; 
+    public Vector3 VectorData;
+
+    public VectorSo(int range, int i, int range1)
+    {
+        
+    }
 }

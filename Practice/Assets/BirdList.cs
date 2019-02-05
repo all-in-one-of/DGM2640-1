@@ -6,5 +6,5 @@ using UnityEngine;
 [CreateAssetMenu]
 public class BirdList : ScriptableObject
 {
-    public GameObject[] GameObjects;
+    public GameObject GameObjects;
 }

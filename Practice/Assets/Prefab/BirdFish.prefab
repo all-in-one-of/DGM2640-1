@@ -105,3 +105,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
+  rotationspeed: 1
+  neighborDistance: 0.1
+  tankSize: 10

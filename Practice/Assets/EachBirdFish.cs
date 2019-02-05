@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using UnityEngine;
 
 public class EachBirdFish : MonoBehaviour
@@ -8,16 +9,32 @@ public class EachBirdFish : MonoBehaviour
     public float rotationspeed;
     private Vector3 averageHeading;
     private Vector3 averagePosition;
-    public float neighborDistance; 
+    public float neighborDistance;
+    public float tankSize; 
+
+    private bool turning = false; 
     
     void Start()
     {
         speed = Random.Range(0.1f, 1f);
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
+
+        if (Vector3.Distance(transform.position, Vector3.zero) >= tankSize)
+        {
+            turning = true;
+        }
+
+        else turning = false;
+
+        if (turning)
+        {
+            Vector3 direction = Vector3.zero - transform.position;
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), rotationspeed * Time.deltaTime);
+        }
         if (Random.Range(0, 5) < 1)
         {
             ApplyRules();
@@ -26,16 +43,16 @@ public class EachBirdFish : MonoBehaviour
         transform.Translate(0, 0, Time.deltaTime * speed);
     }
 
-    private void ApplyRules()
+   private void ApplyRules()
     {
         GameObject[] gos;
-        gos = Flock.allBirdFish; 
+        gos = BirdList.FindObjectsOfType<GameObject>(); 
         
         Vector3 vcentre = Vector3.zero;
         Vector3 vavoid = Vector3.zero;
         float gSpeed = 0.1f;
 
-        Vector3 goal = Flock.goal;
+        VectorSo goal = Flock.FindObjectOfType<VectorSo>() ;
 
         float dist; 
 
@@ -61,7 +78,7 @@ public class EachBirdFish : MonoBehaviour
 
         if (groupSize > 0)
         {
-            vcentre = vcentre / groupSize + (goal - this.transform.position);
+            vcentre = vcentre / groupSize + (goal.VectorData - this.transform.position);
             speed = gSpeed / groupSize;
 
             Vector3 direction = (vcentre + vavoid) - transform.position;

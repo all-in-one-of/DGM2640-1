@@ -12,7 +12,7 @@ public class Flock : MonoBehaviour
     public BirdList allBirdFish;
     public int tankSize;
 
-    public VectorSo goal; 
+    public Transform goal;  
     
     void Start()
     {
@@ -25,7 +25,7 @@ public class Flock : MonoBehaviour
         }
     }
 
-    IEnumerator ChangeGoal()
+    /*IEnumerator ChangeGoal()
     {
         while (true)
         {
@@ -39,7 +39,7 @@ public class Flock : MonoBehaviour
         yield break;
     }
 
-    private void Update()
+    /*private void Update()
     {
         
         if (Random.Range(0, 10000) < 50)
@@ -48,5 +48,5 @@ public class Flock : MonoBehaviour
                                 Random.Range(-tankSize, tankSize),
                                 Random.Range(-tankSize, tankSize));
         }
-    }
+    }*/
 }

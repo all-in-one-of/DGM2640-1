@@ -12,7 +12,9 @@ public class EachBirdFish : MonoBehaviour
     public float neighborDistance;
     public float tankSize; 
 
-    private bool turning = false; 
+    private bool turning = false;
+
+    public Transform goal;
     
     void Start()
     {
@@ -52,7 +54,7 @@ public class EachBirdFish : MonoBehaviour
         Vector3 vavoid = Vector3.zero;
         float gSpeed = 0.1f;
 
-        VectorSo goal = Flock.FindObjectOfType<VectorSo>() ;
+        //VectorSo goal = Flock.FindObjectOfType<VectorSo>() ;
 
         float dist; 
 
@@ -60,7 +62,7 @@ public class EachBirdFish : MonoBehaviour
         foreach (GameObject go in gos)
         {
 
-            dist = Vector3.Distance(go.transform.position, this.transform.position);
+            dist = Vector3.Distance(go.transform.position, transform.position);
             if (dist <= neighborDistance)
             {
                 vcentre += go.transform.position;
@@ -68,7 +70,7 @@ public class EachBirdFish : MonoBehaviour
 
                 if (dist < 1.0f)
                 {
-                    vavoid = vavoid + (this.transform.position - go.transform.position);
+                    vavoid = vavoid + (transform.position - go.transform.position);
                 }
 
                 EachBirdFish anotherFlocking = go.GetComponent<EachBirdFish>();
@@ -78,7 +80,7 @@ public class EachBirdFish : MonoBehaviour
 
         if (groupSize > 0)
         {
-            vcentre = vcentre / groupSize + (goal.VectorData - this.transform.position);
+            //vcentre = vcentre / groupSize + (goal.VectorData - this.transform.position);
             speed = gSpeed / groupSize;
 
             Vector3 direction = (vcentre + vavoid) - transform.position;

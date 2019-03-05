@@ -15,8 +15,12 @@
         <e p="Flock.cs" t="Include" />
         <e p="InputMatch.cs" t="Include" />
         <e p="Inputs" t="Include">
+          <e p="DoubleTap.cs" t="Include" />
           <e p="Flip.cs" t="Include" />
           <e p="MoveCharacter.cs" t="Include" />
+          <e p="MoveSingleJump.cs" t="Include" />
+          <e p="MoveWithAxis.cs" t="Include" />
+          <e p="MovingBase.cs" t="Include" />
         </e>
         <e p="MatchFour.cs" t="Include" />
         <e p="MoveBases.cs" t="Include" />

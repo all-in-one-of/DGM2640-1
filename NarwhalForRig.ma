@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: NarwhalForRig.ma
-//Last modified: Mon, Apr 08, 2019 10:26:36 PM
+//Last modified: Tue, Apr 09, 2019 10:19:03 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -10,7 +10,7 @@ fileInfo "application" "maya";
 fileInfo "product" "Maya 2018";
 fileInfo "version" "2018";
 fileInfo "cutIdentifier" "201706261615-f9658c4cfc";
-fileInfo "osv" "Microsoft Windows 8 Home Premium Edition, 64-bit  (Build 9200)\n";
+fileInfo "osv" "Microsoft Windows 8 Enterprise Edition, 64-bit  (Build 9200)\n";
 fileInfo "license" "student";
 createNode transform -n "transform13";
 	rename -uid "5BCF9D45-445D-CA2A-26A4-6CA7BE74790D";
@@ -11796,7 +11796,7 @@ createNode parentConstraint -n "polySurface233_parentConstraint1" -p "polySurfac
 	setAttr ".tg[0].tot" -type "double3" -0.0013874313125183946 0.013131039272151313 
 		-0.0071927987022428752 ;
 	setAttr ".tg[0].tor" -type "double3" 179.80883827995092 -3.243888825130142e-14 -180 ;
-	setAttr ".lr" -type "double3" -0.81489133753949283 -3.0513277759720197 0.8154598668363906 ;
+	setAttr ".lr" -type "double3" -1.1158328166712845 -360.26804400886806 0.003050544205181601 ;
 	setAttr ".rst" -type "double3" 4.2740647897732309 -0.027826721828222212 -0.0067909996518320526 ;
 	setAttr ".rsrr" -type "double3" 4.3484146035634175e-16 360 -7.0087356977515338e-15 ;
 	setAttr -k on ".w0";
@@ -13143,7 +13143,7 @@ createNode parentConstraint -n "polySurface231_parentConstraint1" -p "polySurfac
 	setAttr ".lo" yes;
 	setAttr ".tg[0].tot" -type "double3" -0.0070221472048506151 0.0040285391818444261 
 		0.012521431932758453 ;
-	setAttr ".lr" -type "double3" -0.81412703122366259 4.1359892325548566 -1.0952217541918192 ;
+	setAttr ".lr" -type "double3" -1.115745357727099 0.26696178782533758 -0.0029612448921245583 ;
 	setAttr ".rst" -type "double3" 4.4486430275258932 -0.02957966965436043 -0.0038193837183380097 ;
 	setAttr -k on ".w0";
 createNode scaleConstraint -n "polySurface231_scaleConstraint1" -p "polySurface231";
@@ -13166,15 +13166,15 @@ createNode scaleConstraint -n "polySurface231_scaleConstraint1" -p "polySurface2
 createNode transform -s -n "persp";
 	rename -uid "5DC4544D-40DE-BECE-CA8F-C79A2B4B34C3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 11.418730276792315 3.7399399931784774 21.853029619044769 ;
-	setAttr ".r" -type "double3" -4.5383527296414075 390.59999999977879 2.3094569726418751e-16 ;
+	setAttr ".t" -type "double3" 21.233547379893917 4.5262261480948798 10.998270190078467 ;
+	setAttr ".r" -type "double3" -6.3383527296419322 424.59999999977612 0 ;
 	setAttr ".rp" -type "double3" 0 -2.2204460492503131e-16 0 ;
 	setAttr ".rpt" -type "double3" 4.2680764649449882e-17 6.7260138234055288e-18 6.2802707880651282e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "2CD6177C-44C1-7EA4-D8A4-2D9D0FC461C2";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 25.142467525806332;
+	setAttr ".coi" 25.142467525804324;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -13389,7 +13389,7 @@ createNode parentConstraint -n "RightFlukeThree_parentConstraint1" -p "RightFluk
 	setAttr ".erp" yes;
 	setAttr ".lo" yes;
 	setAttr ".tg[0].tot" -type "double3" 0 8.8817841970012523e-16 0 ;
-	setAttr ".lr" -type "double3" 20.052540577075622 10.821885492129976 48.399397090864703 ;
+	setAttr ".lr" -type "double3" 4.8293439289931523 0.6523814551104159 21.354366334461812 ;
 	setAttr ".rst" -type "double3" 0.65470257925394826 0 4.4408920985006262e-16 ;
 	setAttr -k on ".w0";
 createNode scaleConstraint -n "RightFlukeThree_scaleConstraint1" -p "RightFlukeThree";
@@ -13430,7 +13430,7 @@ createNode parentConstraint -n "RightFlukeTwo_parentConstraint1" -p "RightFlukeT
 	setAttr ".tg[0].tot" -type "double3" 2.2204460492503131e-16 1.3322676295501878e-15 
 		0 ;
 	setAttr ".tg[0].tor" -type "double3" 0 1.1131941385122313e-14 0 ;
-	setAttr ".lr" -type "double3" 6.8503185005025573 5.6066636118901689 20.531553359004668 ;
+	setAttr ".lr" -type "double3" 3.8522366427579131 0.66700511688266906 17.092799533736184 ;
 	setAttr ".rst" -type "double3" 0.73819178238112126 -1.3322676295501878e-15 8.8817841970012523e-16 ;
 	setAttr ".rsrr" -type "double3" 0 -7.9513867036587919e-15 0 ;
 	setAttr -k on ".w0";
@@ -13472,7 +13472,7 @@ createNode parentConstraint -n "RightFlukeOne_parentConstraint1" -p "RightFlukeO
 	setAttr ".tg[0].tot" -type "double3" -2.2204460492503131e-16 0 -8.8817841970012523e-16 ;
 	setAttr ".tg[0].tor" -type "double3" 8.6704836241111193e-08 5.0608557462007985e-15 
 		1.7827268721649686e-07 ;
-	setAttr ".lr" -type "double3" -0.2400669402711435 6.5123851270186961 15.567989782600741 ;
+	setAttr ".lr" -type "double3" 10.453071207947302 -0.45957586245987636 6.5870830343442961 ;
 	setAttr ".rst" -type "double3" 0.57823001678335273 4.4408920985006262e-16 -4.4408920985006262e-16 ;
 	setAttr ".rsrr" -type "double3" -8.6704822663186548e-08 -5.5020746839787342e-15 
 		-1.7827268721649678e-07 ;
@@ -13553,7 +13553,7 @@ createNode parentConstraint -n "LeftFlukeThree_parentConstraint1" -p "LeftFlukeT
 	setAttr ".lo" yes;
 	setAttr ".tg[0].tot" -type "double3" -4.4408920985006262e-16 -4.4408920985006262e-16 
 		-8.8817841970012523e-16 ;
-	setAttr ".lr" -type "double3" -7.0806691319634858 2.8282029679842999 -38.722631259632927 ;
+	setAttr ".lr" -type "double3" -7.2587540513215991 0.29595605568591621 -32.068868040552189 ;
 	setAttr ".rst" -type "double3" 0.65470257925394915 4.4408920985006262e-16 -8.8817841970012523e-16 ;
 	setAttr -k on ".w0";
 createNode scaleConstraint -n "LeftFlukeThree_scaleConstraint1" -p "LeftFlukeThree";
@@ -13593,7 +13593,7 @@ createNode parentConstraint -n "LeftFlukeTwo_parentConstraint1" -p "LeftFlukeTwo
 	setAttr ".lo" yes;
 	setAttr ".tg[0].tot" -type "double3" -2.2204460492503131e-16 0 8.8817841970012523e-16 ;
 	setAttr ".tg[0].tor" -type "double3" 0 1.1131941385122313e-14 0 ;
-	setAttr ".lr" -type "double3" -6.6951049561110887 5.1610817238862667 -19.160698360406009 ;
+	setAttr ".lr" -type "double3" -3.9827669580105987 0.66925765038349649 -17.661993725132795 ;
 	setAttr ".rst" -type "double3" 0.73819178238112126 4.4408920985006262e-16 0 ;
 	setAttr ".rsrr" -type "double3" 0 -4.7708320221952752e-15 0 ;
 	setAttr -k on ".w0";
@@ -13635,7 +13635,7 @@ createNode parentConstraint -n "LeftFlukeOne_parentConstraint1" -p "LeftFlukeOne
 	setAttr ".tg[0].tot" -type "double3" 0 0 4.4408920985006262e-16 ;
 	setAttr ".tg[0].tor" -type "double3" 8.6704877041664226e-08 9.0163600302279378e-15 
 		1.7827264239055437e-07 ;
-	setAttr ".lr" -type "double3" -11.143232654825614 5.4199390018803761 -14.900812067675789 ;
+	setAttr ".lr" -type "double3" -15.866575452295269 -1.2935765932017362 -6.534214456473773 ;
 	setAttr ".rst" -type "double3" -0.36412839326988955 -0.42478067730094704 -0.011524934101390549 ;
 	setAttr ".rsrr" -type "double3" -8.6704878532549217e-08 -1.6037662118048167e-14 
 		-1.7827264070088465e-07 ;
@@ -13677,7 +13677,7 @@ createNode parentConstraint -n "FlukeCenter_parentConstraint1" -p "FlukeCenter";
 	setAttr ".lo" yes;
 	setAttr ".tg[0].tot" -type "double3" -3.4694469519536142e-18 0 -8.8817841970012523e-16 ;
 	setAttr ".tg[0].tor" -type "double3" 89.999999999965496 24.264108627296693 -179.3612069801882 ;
-	setAttr ".lr" -type "double3" -13.174329644780869 -6.0060060664283537 0.4409166756789909 ;
+	setAttr ".lr" -type "double3" -3.237070558353131 -1.4594064954949808 0.0016403735204200795 ;
 	setAttr ".rst" -type "double3" 1.4738298525118496 -4.4408920985006262e-16 3.3133218391157016e-16 ;
 	setAttr ".rsrr" -type "double3" 3.180554681463516e-15 9.5416640443905487e-15 3.180554681463516e-15 ;
 	setAttr -k on ".w0";
@@ -13717,7 +13717,7 @@ createNode parentConstraint -n "BodySix_parentConstraint1" -p "BodySix";
 	setAttr ".lo" yes;
 	setAttr ".tg[0].tot" -type "double3" 0 0 3.4694469519536142e-18 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 2.8624992133171654e-14 ;
-	setAttr ".lr" -type "double3" 0.031427208604662527 0.074158522445387662 -6.7027393175407406 ;
+	setAttr ".lr" -type "double3" 0 0 -0.54886512211027672 ;
 	setAttr ".rst" -type "double3" 1.4632786407153866 1.3322676295501878e-15 2.5517411777337129e-08 ;
 	setAttr ".rsrr" -type "double3" 0 0 -1.9083328088781097e-14 ;
 	setAttr -k on ".w0";
@@ -13757,7 +13757,7 @@ createNode parentConstraint -n "BodyFive_parentConstraint1" -p "BodyFive";
 	setAttr ".tg[0].tot" -type "double3" 2.0816681711721685e-16 -4.4408920985006262e-16 
 		1.7347234759768071e-18 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 1.3914926731402885e-14 ;
-	setAttr ".lr" -type "double3" 0.022445819796328207 0.06734133565980184 -8.9929180097571404 ;
+	setAttr ".lr" -type "double3" 0 0 1.6840071624873985 ;
 	setAttr ".rst" -type "double3" 1.1409514670569976 8.8817841970012523e-16 1.1747581310506128e-08 ;
 	setAttr ".rsrr" -type "double3" 0 0 -1.7493050748049341e-14 ;
 	setAttr -k on ".w0";
@@ -13796,7 +13796,7 @@ createNode parentConstraint -n "BodyFour_parentConstraint1" -p "BodyFour";
 	setAttr ".lo" yes;
 	setAttr ".tg[0].tot" -type "double3" -2.2204460492503131e-16 0 1.7347234759768071e-18 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 1.9480897423964034e-14 ;
-	setAttr ".lr" -type "double3" -0.02742294839491009 0.10918968110141139 -6.4084383702199847 ;
+	setAttr ".lr" -type "double3" 0 0 3.2201555118723935 ;
 	setAttr ".rst" -type "double3" 1.5623665031026475 -4.4408920985006262e-16 7.6976245169668722e-10 ;
 	setAttr ".rsrr" -type "double3" 0 0 -2.2661452105427557e-14 ;
 	setAttr -k on ".w0";
@@ -13837,7 +13837,7 @@ createNode parentConstraint -n "BodyThree_parentConstraint1" -p "BodyThree";
 	setAttr ".tg[0].tot" -type "double3" -4.4408920985006262e-16 8.8817841970012523e-16 
 		1.7347234759768071e-18 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 3.1805546814635152e-15 ;
-	setAttr ".lr" -type "double3" -0.099922466265482845 -0.028775891833660989 -3.6094498925419551 ;
+	setAttr ".lr" -type "double3" 0 0 4.6080061778842536 ;
 	setAttr ".rst" -type "double3" 1.3626170642551223 0 -2.9020179662109236e-09 ;
 	setAttr ".rsrr" -type "double3" 0 0 -1.2722218725854064e-14 ;
 	setAttr -k on ".w0";
@@ -13877,7 +13877,7 @@ createNode parentConstraint -n "Body2_parentConstraint1" -p "Body2";
 	setAttr ".lo" yes;
 	setAttr ".tg[0].tot" -type "double3" -4.4408920985006262e-16 0 3.4694469519536142e-18 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 3.180554681463516e-15 ;
-	setAttr ".lr" -type "double3" 0 0 0.0094700864931940472 ;
+	setAttr ".lr" -type "double3" 0 0 9.5416640443905503e-15 ;
 	setAttr ".rst" -type "double3" 1.8146609681790009 1.3322676295501878e-15 -2.5628804634081348e-14 ;
 	setAttr -k on ".w0";
 createNode scaleConstraint -n "Body2_scaleConstraint1" -p "Body2";
@@ -13934,7 +13934,7 @@ createNode parentConstraint -n "Mouth_parentConstraint1" -p "Mouth";
 	setAttr ".tg[1].tot" -type "double3" -8.8817841970012523e-16 -1.6375789613221059e-15 
 		2.6020852139652106e-18 ;
 	setAttr ".tg[1].tor" -type "double3" 0 0 -7.1562480332929135e-15 ;
-	setAttr ".lr" -type "double3" 0 0 10.7638943524887 ;
+	setAttr ".lr" -type "double3" 0 0 5.8103021312547893 ;
 	setAttr ".rst" -type "double3" -0.83823201530079317 0.72314574945495513 -0.0026839681135962358 ;
 	setAttr ".rsrr" -type "double3" 0 0 5.8103021312547876 ;
 	setAttr -k on ".w0";
@@ -14019,7 +14019,7 @@ createNode parentConstraint -n "LeftFinThree_parentConstraint1" -p "LeftFinThree
 	setAttr ".lo" yes;
 	setAttr ".tg[0].tot" -type "double3" -2.2204460492503131e-16 -4.4408920985006262e-16 
 		-8.8817841970012523e-16 ;
-	setAttr ".lr" -type "double3" 4.9039348274135897 -3.3617021426422822 -4.8434407393277557 ;
+	setAttr ".lr" -type "double3" -0.2892301254862818 -0.93946026006706285 -16.479474421424602 ;
 	setAttr ".rst" -type "double3" 0.52161875326518292 -4.4408920985006262e-16 0 ;
 	setAttr -k on ".w0";
 createNode scaleConstraint -n "LeftFinThree_scaleConstraint1" -p "LeftFinThree";
@@ -14060,7 +14060,7 @@ createNode parentConstraint -n "LeftFinTwo_parentConstraint1" -p "LeftFinTwo";
 	setAttr ".tg[0].tot" -type "double3" 2.2204460492503131e-16 -4.4408920985006262e-16 
 		-1.7763568394002505e-15 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 -2.9420130803537521e-14 ;
-	setAttr ".lr" -type "double3" -0.90050205765945757 -1.1255841202995909 -3.0138685522774171 ;
+	setAttr ".lr" -type "double3" -0.17429329251712231 -0.44592284264666948 -8.0058211704882236 ;
 	setAttr ".rst" -type "double3" 0.5404591651984253 -8.8817841970012523e-16 -1.7763568394002505e-15 ;
 	setAttr ".rsrr" -type "double3" 0 0 3.1805546814635168e-14 ;
 	setAttr -k on ".w0";
@@ -14103,7 +14103,7 @@ createNode parentConstraint -n "LeftFinOne_parentConstraint1" -p "LeftFinOne";
 		8.8817841970012523e-16 ;
 	setAttr ".tg[0].tor" -type "double3" 3.5245005257224099e-15 -8.9412024072767742e-16 
 		-3.1805546814635174e-14 ;
-	setAttr ".lr" -type "double3" -0.19668135480541935 -8.809672225783336 -10.433953409452434 ;
+	setAttr ".lr" -type "double3" 4.0637351894843841 -1.9847013311447732 -3.7466644766964117 ;
 	setAttr ".rst" -type "double3" 1.1372295935760386 0.41746630223321191 -0.74383330470715159 ;
 	setAttr ".rsrr" -type "double3" 5.5659706925611536e-15 -4.9696166897867467e-15 2.544443745170814e-14 ;
 	setAttr -k on ".w0";
@@ -14184,7 +14184,7 @@ createNode parentConstraint -n "RightFinThree_parentConstraint1" -p "RightFinThr
 	setAttr ".lo" yes;
 	setAttr ".tg[0].tot" -type "double3" -8.8817841970012523e-16 4.4408920985006262e-16 
 		-8.8817841970012523e-16 ;
-	setAttr ".lr" -type "double3" -3.7771263937533388 -5.3404389481217125 -8.0766383432857776 ;
+	setAttr ".lr" -type "double3" -0.036142566668271238 0.18114934332899291 9.471625719199384 ;
 	setAttr ".rst" -type "double3" 0.52161875326518214 4.4408920985006262e-16 2.6767210670186614e-10 ;
 	setAttr -k on ".w0";
 createNode scaleConstraint -n "RightFinThree_scaleConstraint1" -p "RightFinThree";
@@ -14225,7 +14225,7 @@ createNode parentConstraint -n "RightFinTwo_parentConstraint1" -p "RightFinTwo";
 	setAttr ".tg[0].tot" -type "double3" -4.4408920985006262e-16 1.3322676295501878e-15 
 		-1.7763568394002505e-15 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 -1.1131941385122306e-14 ;
-	setAttr ".lr" -type "double3" 5.118647147882994 1.4563316661239734 1.8868833989300378 ;
+	setAttr ".lr" -type "double3" -0.0096706943908358798 0.035924945436883939 1.9055738493502317 ;
 	setAttr ".rst" -type "double3" 0.54045916519842563 4.4408920985006262e-16 0 ;
 	setAttr ".rsrr" -type "double3" 0 0 8.7465253740246703e-15 ;
 	setAttr -k on ".w0";
@@ -14268,7 +14268,7 @@ createNode parentConstraint -n "RightFinOne_parentConstraint1" -p "RightFinOne";
 		0 ;
 	setAttr ".tg[0].tor" -type "double3" 1.6565728148715195e-14 1.5024515924330606e-14 
 		-6.361109362927032e-15 ;
-	setAttr ".lr" -type "double3" 4.656090167727684 -8.3407048860147235 13.101095243830327 ;
+	setAttr ".lr" -type "double3" -0.04361631923531134 0.15394586694627238 8.202032598568989 ;
 	setAttr ".rst" -type "double3" 1.1372295935760599 0.41746630223313064 0.76535851315756287 ;
 	setAttr ".rsrr" -type "double3" -1.8288189418415224e-14 -1.2722218725854062e-14 
 		2.3059021440610504e-14 ;
@@ -14311,7 +14311,7 @@ createNode parentConstraint -n "Head_parentConstraint1" -p "Head";
 		-1.7347234759768071e-18 ;
 	setAttr ".tg[0].tor" -type "double3" -2.5407165326534726e-14 -1.6399735076296259e-15 
 		3.1689678066130619e-15 ;
-	setAttr ".lr" -type "double3" 2.5433760540851171e-14 -1.1864959846865855e-14 6.3611093629270304e-15 ;
+	setAttr ".lr" -type "double3" 2.5436090048674507e-14 3.4632016306951356e-15 1.113194138512231e-14 ;
 	setAttr ".rst" -type "double3" 0.92413482520741574 4.4408920985006262e-16 -3.170207152347615e-16 ;
 	setAttr ".rsrr" -type "double3" 2.5430654530420055e-14 1.6368674971985098e-15 -3.1805546814635164e-15 ;
 	setAttr -k on ".w0";
@@ -14365,7 +14365,7 @@ createNode parentConstraint -n "EyelidLeft_parentConstraint1" -p "EyelidLeft";
 		1.7763568394002505e-15 ;
 	setAttr ".tg[0].tor" -type "double3" -3.4232344954943449e-14 -3.1804673249201411e-14 
 		-1.4733412435084172 ;
-	setAttr ".lr" -type "double3" 0.0024043735241070633 0.1103157833776853 -1.4580379727603174 ;
+	setAttr ".lr" -type "double3" 4.9750333607306309e-14 -3.4739266585430451e-14 5.0212624445435283 ;
 	setAttr ".rst" -type "double3" 0.43478585065679276 -0.29355432196091469 0.5859067066862591 ;
 	setAttr ".rsrr" -type "double3" 3.3775793307001386e-14 1.0486634558707388e-14 5.0212624445435647 ;
 	setAttr -k on ".w0";
@@ -14421,7 +14421,7 @@ createNode parentConstraint -n "EyelidRight_parentConstraint1" -p "EyelidRight";
 		-8.8817841970012523e-16 ;
 	setAttr ".tg[0].tor" -type "double3" 2.7599397498420842e-18 -4.8531412986198669e-20 
 		3.7272125173400581e-17 ;
-	setAttr ".lr" -type "double3" -0.0031488650646779273 -0.084101952259480153 4.9422698298942915 ;
+	setAttr ".lr" -type "double3" -1.1739601265865983e-12 -7.3140584216721712e-15 -3.1496842143959831e-14 ;
 	setAttr ".rst" -type "double3" 0.43478585065679365 -0.29165176743062693 -0.55457522382351987 ;
 	setAttr -k on ".w0";
 createNode scaleConstraint -n "EyelidRight_scaleConstraint1" -p "EyelidRight";
@@ -14473,7 +14473,7 @@ createNode parentConstraint -n "EyeballRight_parentConstraint1" -p "EyeballRight
 		-1.7763568394002505e-15 ;
 	setAttr ".tg[0].tor" -type "double3" 1.6865309139235237e-12 -2.2372981386637586e-17 
 		1.3405541020699741e-14 ;
-	setAttr ".lr" -type "double3" -0.18903073804676729 176.93742724232234 0.77210813867321959 ;
+	setAttr ".lr" -type "double3" -0.19116172004961524 179.99999999999994 -2.5444437451708134e-14 ;
 	setAttr ".rst" -type "double3" 0.43115478890568237 -0.2993090600409305 -0.55389428139486474 ;
 	setAttr ".rsrr" -type "double3" -0.19116172005078566 179.99999999999994 0 ;
 	setAttr -k on ".w0";
@@ -14524,7 +14524,7 @@ createNode parentConstraint -n "EyeballLeft_parentConstraint1" -p "EyeballLeft";
 	setAttr ".tg[0].tot" -type "double3" -2.2204460492503131e-16 -4.4408920985006262e-16 
 		8.8817841970012523e-16 ;
 	setAttr ".tg[0].tor" -type "double3" -1.7999676519002637e-14 0 1.2424041724466856e-17 ;
-	setAttr ".lr" -type "double3" -0.00045894665212783655 4.1510877068867584 -1.0364365653764405 ;
+	setAttr ".lr" -type "double3" -1.1559701141695702e-12 -2.0021270075734968e-14 -3.1510214592553098e-14 ;
 	setAttr ".rst" -type "double3" 0.43478585065679454 -0.2935543219609178 0.5859067066862591 ;
 	setAttr ".rsrr" -type "double3" 1.7990012417028016e-14 -6.3461022911357695e-15 -2.5796490318045728e-17 ;
 	setAttr -k on ".w0";
@@ -14564,7 +14564,7 @@ createNode parentConstraint -n "Head_root_parentConstraint1" -p "Head_root";
 	setAttr ".tg[0].tot" -type "double3" -1.7763568394002505e-15 -4.4408920985006262e-16 
 		0 ;
 	setAttr ".tg[0].tor" -type "double3" -5.1078838228394172e-18 0 0 ;
-	setAttr ".lr" -type "double3" -1.7272517073998768e-05 0.001353957698466398 -0.81168056218221696 ;
+	setAttr ".lr" -type "double3" -1.8212854738600289e-05 0.0018658167526522948 -1.118530600588729 ;
 	setAttr ".rst" -type "double3" -0.00818254739299701 2.6175414145902893 6.4441663027430325 ;
 	setAttr -k on ".w0";
 createNode scaleConstraint -n "Head_root_scaleConstraint1" -p "Head_root";
@@ -14651,7 +14651,7 @@ createNode transform -n "BodyThreeControlGroup" -p "BodyTwo";
 createNode transform -n "BodyThreeControl" -p "BodyThreeControlGroup";
 	rename -uid "71DEB24C-43FF-2E20-F6A1-C2B655C6A0E6";
 	setAttr ".rp" -type "double3" 0 -4.4408920985006262e-16 -1.7347234759768071e-18 ;
-	setAttr ".rpt" -type "double3" 3.2759104117163946e-17 4.0690078593182346e-17 0 ;
+	setAttr ".rpt" -type "double3" 3.8058914592544696e-17 3.3874870511799022e-17 1.4152067999538978e-20 ;
 	setAttr ".sp" -type "double3" 0 -4.4408920985006262e-16 -1.7347234759768071e-18 ;
 createNode nurbsCurve -n "BodyThreeControlShape" -p "BodyThreeControl";
 	rename -uid "5D7E3A7E-47E6-8084-75FC-599D7FA6F9E9";
@@ -14667,7 +14667,7 @@ createNode transform -n "BodyFourControlGroup" -p "BodyThreeControl";
 createNode transform -n "BodyFourControl" -p "BodyFourControlGroup";
 	rename -uid "05FCC5C8-4A18-06F9-9A7D-66B3FC2C7EE5";
 	setAttr ".rp" -type "double3" 0 0 -1.7347234759768071e-18 ;
-	setAttr ".rpt" -type "double3" 1.1737695441633838e-16 3.2144086531445277e-17 0 ;
+	setAttr ".rpt" -type "double3" 1.3739966775637724e-16 2.2838105531042757e-17 -2.4801844875016415e-20 ;
 	setAttr ".sp" -type "double3" 0 0 -1.7347234759768071e-18 ;
 createNode nurbsCurve -n "BodyFourControlShape" -p "BodyFourControl";
 	rename -uid "D9B1D470-4011-DF33-BA3E-19AF6346E01E";
@@ -14848,7 +14848,7 @@ createNode transform -n "LeftFinTwoControlGroup" -p "LeftFinOneControl";
 createNode transform -n "LeftFinTwocontrol" -p "LeftFinTwoControlGroup";
 	rename -uid "76666FBF-4519-63F0-5F14-97A62324C7AC";
 	setAttr ".rp" -type "double3" -1.1102230246251565e-16 -4.4408920985006262e-16 0 ;
-	setAttr ".rpt" -type "double3" -6.0832845274765911e-17 -5.1606373043286326e-17 9.0324044985490105e-18 ;
+	setAttr ".rpt" -type "double3" -8.0618892426576173e-17 -5.0616913962393636e-17 2.3185807104719979e-17 ;
 	setAttr ".sp" -type "double3" -1.1102230246251565e-16 -4.4408920985006262e-16 0 ;
 createNode nurbsCurve -n "LeftFinTwocontrolShape" -p "LeftFinTwocontrol";
 	rename -uid "924A1A57-4B41-A0A3-0998-56B4C5F4ED2B";
@@ -15023,22 +15023,22 @@ createNode phongE -n "phongE1";
 	rename -uid "98332767-41CD-6D5D-D6B0-FF9DEBD35B24";
 	setAttr ".c" -type "float3" 0.086500004 0.10130774 0.125 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "D46B14D9-44F0-6F77-4C12-8CA301B64669";
+	rename -uid "BC50C32B-4470-0422-FAE3-92A0BC01F990";
 	setAttr -s 6 ".lnk";
 	setAttr -s 6 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "05A899D7-4ECB-29F8-4F57-09A2324E21E7";
+	rename -uid "E54C6A95-4367-B70A-D588-FC9E8DF3D6D7";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "0E6106B8-46C5-C2EA-3504-F89FA55387B1";
+	rename -uid "461B147A-4978-8B3E-9548-C9A20F9392B3";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "C820039E-49D2-8DFD-0C55-DDAC400F07AE";
+	rename -uid "AE2F7A56-409D-DEAD-BBD1-AF80CCFB9124";
 	setAttr ".cdl" 2;
 	setAttr -s 3 ".dli[1:2]"  1 2;
 	setAttr -s 3 ".dli";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "CD5F316E-40A6-A631-B198-F999971B35C4";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "1F81EF00-44A9-845B-099C-61B6EDFDCC85";
+	rename -uid "19954008-4A0B-1177-BB62-27B80889B605";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "4D895055-4380-066C-1600-C082458E045F";
 	setAttr ".g" yes;
@@ -20068,14 +20068,14 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 1\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n"
 		+ "            -xray 0\n            -jointXray 1\n            -activeComponentsXray 1\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n"
 		+ "            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n"
-		+ "            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1251\n            -height 505\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n"
+		+ "            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1259\n            -height 417\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n"
 		+ "            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n"
 		+ "            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n"
 		+ "\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n"
 		+ "            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"graphEditor\" (localizedPanelLabel(\"Graph Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Graph Editor\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"OutlineEd\");\n            outlinerEditor -e \n                -showShapes 1\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 1\n                -showConnected 1\n                -showAnimCurvesOnly 1\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -organizeByClip 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 1\n                -showDagOnly 0\n                -showAssets 1\n                -showContainedOnly 0\n                -showPublishedAsConnected 0\n                -showParentContainers 1\n"
 		+ "                -showContainerContents 0\n                -ignoreDagHierarchy 0\n                -expandConnections 1\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 0\n                -showLeafs 1\n                -showNumericAttrsOnly 1\n                -highlightActive 0\n                -autoSelectNewObjects 1\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 1\n                -setFilter \"0\" \n                -showSetMembers 0\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -isSet 0\n                -isSetMember 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n"
-		+ "                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 1\n                -mapMotionTrails 1\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                -selectionOrder \"display\" \n                -expandAttribute 1\n                $editorName;\n\n\t\t\t$editorName = ($panelName+\"GraphEd\");\n            animCurveEditor -e \n                -displayKeys 1\n                -displayTangents 0\n                -displayActiveKeys 0\n                -displayActiveKeyTangents 1\n                -displayInfinities 0\n                -displayValues 0\n                -autoFit 1\n                -snapTime \"integer\" \n                -snapValue \"none\" \n                -showResults \"off\" \n                -showBufferCurves \"off\" \n                -smoothness \"fine\" \n                -resultSamples 1\n"
+		+ "                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 1\n                -mapMotionTrails 1\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                -selectionOrder \"display\" \n                -expandAttribute 1\n                $editorName;\n\n\t\t\t$editorName = ($panelName+\"GraphEd\");\n            animCurveEditor -e \n                -displayKeys 1\n                -displayTangents 0\n                -displayActiveKeys 0\n                -displayActiveKeyTangents 1\n                -displayInfinities 0\n                -displayValues 0\n                -autoFit 0\n                -snapTime \"integer\" \n                -snapValue \"none\" \n                -showResults \"off\" \n                -showBufferCurves \"off\" \n                -smoothness \"fine\" \n                -resultSamples 1\n"
 		+ "                -resultScreenSamples 0\n                -resultUpdate \"delayed\" \n                -showUpstreamCurves 1\n                -showCurveNames 0\n                -showActiveCurveNames 0\n                -clipTime \"on\" \n                -stackedCurves 0\n                -stackedCurvesMin -1\n                -stackedCurvesMax 1\n                -stackedCurvesSpace 0.2\n                -displayNormalized 1\n                -preSelectionHighlight 0\n                -constrainDrag 0\n                -classicMode 1\n                -valueLinesToggle 0\n                -outliner \"graphEditor1OutlineEd\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"dopeSheetPanel\" (localizedPanelLabel(\"Dope Sheet\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Dope Sheet\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"OutlineEd\");\n            outlinerEditor -e \n"
 		+ "                -showShapes 1\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 1\n                -showConnected 1\n                -showAnimCurvesOnly 1\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -organizeByClip 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 0\n                -showDagOnly 0\n                -showAssets 1\n                -showContainedOnly 0\n                -showPublishedAsConnected 0\n                -showParentContainers 1\n                -showContainerContents 0\n                -ignoreDagHierarchy 0\n                -expandConnections 1\n                -showUpstreamCurves 1\n                -showUnitlessCurves 0\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 1\n                -highlightActive 0\n                -autoSelectNewObjects 0\n"
 		+ "                -doNotSelectNewObjects 1\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"0\" \n                -showSetMembers 0\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 1\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n"
@@ -20092,10 +20092,10 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -smoothWireframe 0\n                -lineWidth 1\n                -textureAnisotropic 0\n                -textureHilight 1\n                -textureSampling 2\n                -textureDisplay \"modulate\" \n                -textureMaxSize 16384\n                -fogging 0\n                -fogSource \"fragment\" \n                -fogMode \"linear\" \n                -fogStart 0\n                -fogEnd 100\n                -fogDensity 0.1\n                -fogColor 0.5 0.5 0.5 1 \n                -depthOfFieldPreview 1\n                -maxConstantTransparency 1\n                -objectFilterShowInHUD 1\n                -isFiltered 0\n                -colorResolution 4 4 \n                -bumpResolution 4 4 \n                -textureCompression 0\n                -transparencyAlgorithm \"frontAndBackCull\" \n                -transpInShadows 0\n                -cullingOverride \"none\" \n                -lowQualityLighting 0\n                -maximumNumHardwareLights 0\n                -occlusionCulling 0\n                -shadingModel 0\n"
 		+ "                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -controllers 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n"
 		+ "                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n            stereoCameraView -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels  $panelName;\n"
-		+ "\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -connectNodeOnCreation 0\n                -connectOnDrop 0\n                -highlightConnections 0\n                -copyConnectionsOnPaste 0\n                -connectionStyle \"bezier\" \n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -crosshairOnEdgeDragging 0\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n"
-		+ "                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 1\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 1\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1251\\n    -height 505\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 1\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 1\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1251\\n    -height 505\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -connectNodeOnCreation 0\n                -connectOnDrop 0\n                -highlightConnections 0\n                -copyConnectionsOnPaste 0\n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -crosshairOnEdgeDragging 0\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n"
+		+ "                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 1\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 1\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1259\\n    -height 417\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 1\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 1\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1259\\n    -height 417\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -20432,15 +20432,15 @@ createNode animCurveTA -n "MouthControl_rotateZ";
 	setAttr ".wgt" no;
 	setAttr -s 49 ".ktv[0:48]"  1 0 2 0 3 0 4 0 6 0 7 0 8 0 10 0 11 0.021622044170704645
 		 12 0.10583955465881711 14 0.65133830014466643 15 0.95832190360750413 16 1.2669178808141253
-		 18 1.9006558854688373 19 2.2094814072314679 20 2.5175283598569305 21 2.8388129532835711
+		 18 1.9006558854688373 19 2.2094814072314679 20 2.5175283598569305 21 2.8388129532835715
 		 22 3.1519134389858099 23 3.4593750739063731 24 3.7666237178520459 26 4.4017948578304944
 		 27 4.7092946448990576 28 5.0154783812843817 30 5.651410150711758 31 5.9578348864332646
 		 32 6.2624361522315368 34 6.8989896574973422 35 7.2037920323334976 36 7.5058958129244306
 		 37 7.8076768268170591 38 8.109238354567605 39 8.4105264657043488 40 8.7114499491208957
-		 41 9.0118716350472443 42 9.3115779335058839 43 9.6102190323653982 44 9.9071844424678197
+		 41 9.0118716350472461 42 9.3115779335058839 43 9.6102190323653982 44 9.9071844424678197
 		 45 10.201318129226113 46 10.490179771809474 47 10.76777426801903 48 11.015637563992213
 		 49 11.153026418800266 50 11.121486190287992 51 10.999662015042015 52 10.654814064562814
-		 53 10.302568036222382 79 1.47591085253464 106 11.386346402309719 145 0;
+		 53 10.302568036222384 79 1.47591085253464 106 11.386346402309719 145 0;
 	setAttr -s 49 ".kit[48]"  1;
 	setAttr -s 49 ".kot[48]"  1;
 	setAttr -s 49 ".kix[48]"  1;
@@ -20619,9 +20619,9 @@ createNode animCurveTA -n "RightFinOneControl_rotateX";
 		 25 6.7629572080844058 37 11.50053675632128 43 5.7134114251246872 49 -0.043616319235320569
 		 54 -0.48989219459421635 55 -0.53010404131667477 56 -0.54627664181302404 57 -0.55940664454640909
 		 58 -0.57190448203245958 59 -0.58385219125069421 60 -0.59450885710023749 61 -0.6004139456758778
-		 62 -0.49404855773208844 63 -0.10441102885825082 64 0.5747800108650758 65 1.2782163660988088
+		 62 -0.49404855773208844 63 -0.10441102885825083 64 0.5747800108650758 65 1.2782163660988088
 		 66 1.9844103058100737 67 2.6914834245346291 68 3.3991651773308518 69 4.1070418823448138
-		 70 4.8138127373969866 71 5.5151856138585105 72 6.1946188464609548 73 6.7629572080844058
+		 70 4.8138127373969866 71 5.5151856138585105 72 6.1946188464609557 73 6.7629572080844058
 		 74 7.1991307731412943 75 7.6255933657285402 76 8.0508316757902083 77 8.4753026858195906
 		 78 8.8987577069844139 79 9.3207071972415658 80 9.7402890543959728 81 10.155869968364707
 		 82 10.564002020449516 83 10.956214743226262 84 11.306420311096417 85 11.50053675632128
@@ -20632,7 +20632,7 @@ createNode animCurveTA -n "RightFinOneControl_rotateX";
 		 102 -0.31369992810850961 103 -0.36019859655277042 104 -0.40643617706658802 105 -0.45223283557508587
 		 106 -0.49720863299688001 107 -0.54043013370263338 108 -0.57902248241250542 109 -0.6004139456758778
 		 110 -0.49404855773209294 111 -0.10441102885825629 112 0.57478001086507791 113 1.2782163660987955
-		 114 1.9844103058100677 115 2.6914834245346304 116 3.3991651773308371 117 4.1322164949373983
+		 114 1.9844103058100677 115 2.6914834245346304 116 3.3991651773308376 117 4.1322164949373983
 		 118 4.8430522168929313 119 5.5344804858562542 120 6.2021742104541735 121 6.7629572080844058
 		 122 7.1986424189515521 123 7.6251163856784583 124 8.0504040118082294 125 8.4749273752675549
 		 126 8.898434904195021 127 9.3204367429518484 128 9.7400706578435834 129 10.15570313351134
@@ -20715,7 +20715,7 @@ createNode animCurveTA -n "RightFinOneControl_rotateY";
 	setAttr ".wgt" no;
 	setAttr -s 98 ".ktv[0:97]"  1 0.15394586694629767 13 0.47779726345482482
 		 25 -13.885657883582001 37 -20.954091986268164 43 -10.316168156652292 49 0.15394586694629767
-		 54 0.41351426055990315 55 0.43690276313040627 56 0.44630926740988586 57 0.45394609903316413
+		 54 0.41351426055990315 55 0.43690276313040632 56 0.44630926740988586 57 0.45394609903316413
 		 58 0.46121524302910427 59 0.46816441474188308 60 0.47436267413383071 61 0.47779726345482482
 		 62 0.26339790921536832 63 -0.52147335065906009 64 -1.853967549723031 65 -3.232682428347923
 		 66 -4.6170427213491054 67 -6.003511927179555 68 -7.3915206490243461 69 -8.780025426535051
@@ -20727,14 +20727,14 @@ createNode animCurveTA -n "RightFinOneControl_rotateY";
 		 90 -12.301463622791529 91 -10.316168156652292 92 -8.3049484515572285 93 -6.3084112799156884
 		 94 -4.3470423648868666 95 -2.4620798069824832 96 -0.77898461736533819 97 0.15394586694629767
 		 98 0.22834922598211002 99 0.25646287524953004 100 0.28102868451499652 101 0.30526472736015481
-		 102 0.32941722846500687 103 0.35348135543815179 104 0.37741018278361438 105 0.40111080269519889
-		 106 0.42438660876440176 107 0.44675453339817323 108 0.46672678631736758 109 0.47779726345482482
-		 110 0.26339790921537731 111 -0.5214733506590491 112 -1.8539675497230319 113 -3.2326824283478923
+		 102 0.32941722846500687 103 0.35348135543815185 104 0.37741018278361438 105 0.40111080269519889
+		 106 0.42438660876440176 107 0.44675453339817328 108 0.46672678631736758 109 0.47779726345482482
+		 110 0.26339790921537731 111 -0.5214733506590491 112 -1.8539675497230319 113 -3.2326824283478928
 		 114 -4.6170427213490912 115 -6.0035119271795576 116 -7.3915206490243177 117 -8.8443107153199758
 		 118 -10.24037127965828 119 -11.586873481495598 120 -12.872767807185316 121 -13.885657883582001
 		 122 -14.547086417298853 123 -15.183117195198392 124 -15.816493081245182 125 -16.44865785571869
 		 126 -17.07930341314443 127 -17.707706206152185 128 -18.332582855187592 129 -18.951500954699014
-		 130 -19.559325580628261 131 -20.143441800412944 132 -20.664997427143881 133 -20.954091986268164
+		 130 -19.559325580628265 131 -20.143441800412944 132 -20.664997427143881 133 -20.954091986268164
 		 134 -20.410403622190319 135 -18.615839285495959 136 -16.535347653349387 137 -14.412863424341513
 		 138 -12.301463622791553 139 -10.316168156652292 140 -8.3049484515572694 141 -6.3084112799157008
 		 142 -4.3470423648868524 143 -2.4620798069825107 144 -0.77898461736534197 145 0.15394586694629767;
@@ -20814,28 +20814,28 @@ createNode animCurveTA -n "RightFinOneControl_rotateZ";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 98 ".ktv[0:97]"  1 8.202032598568973 13 -8.3215102443334512
-		 25 -25.178871929071004 37 0.61360606834456832 43 13.333428251990348 49 8.202032598568973
-		 54 1.6300146648589182 55 0.23989331307260098 56 -1.1854067356377211 57 -2.6149570311193457
+		 25 -25.178871929071004 37 0.61360606834456843 43 13.333428251990348 49 8.202032598568973
+		 54 1.6300146648589182 55 0.23989331307260098 56 -1.1854067356377214 57 -2.6149570311193457
 		 58 -4.0449967377019451 59 -5.4746894824988166 60 -6.9026155881371132 61 -8.3215102443334512
 		 62 -9.8219124556779622 63 -11.340563017743667 64 -12.858866319392499 65 -14.374760329727787
-		 66 -15.887055532779852 67 -17.393976894030121 68 -18.892442967686385 69 -20.376620383408074
+		 66 -15.887055532779852 67 -17.393976894030121 68 -18.892442967686389 69 -20.376620383408078
 		 70 -21.83419544557367 71 -23.234917298220722 72 -24.485617653937307 73 -25.178871929071004
 		 74 -24.834820588069256 75 -23.574640550692617 76 -21.231047933129659 77 -18.798332062615479
 		 78 -16.356942143522133 79 -13.913811729449996 80 -11.469482149120751 81 -9.0240193485739528
-		 82 -6.5779950952261723 83 -4.1342987187715954 84 -1.7069126960855971 85 0.61360606834456832
+		 82 -6.5779950952261723 83 -4.1342987187715954 84 -1.7069126960855971 85 0.61360606834456843
 		 86 3.0479124352623925 87 5.4743871131243091 88 7.8594828204540148 89 10.151880651467085
 		 90 12.198816571023409 91 13.333428251990348 92 12.953324870255427 93 11.911841604301763
 		 94 10.797663566591295 95 9.7125212038744522 96 8.7409743205531925 97 8.202032598568973
 		 98 6.8803000998576316 99 5.5034498070840066 100 4.1224634801290563 101 2.741180461377037
-		 102 1.3599163252050035 103 -0.021299920351476209 104 -1.4024722318252358 105 -2.7836300735140189
+		 102 1.3599163252050035 103 -0.021299920351476209 104 -1.4024722318252361 105 -2.7836300735140189
 		 106 -4.1648713861169284 107 -5.5465199899240316 108 -6.9298239754477313 109 -8.3215102443334512
 		 110 -9.8219124556779267 111 -11.340563017743648 112 -12.858866319392494 113 -14.374760329727746
 		 114 -15.887055532779826 115 -17.393976894030114 116 -18.892442967686346 117 -20.538749758278986
 		 118 -22.03945336629867 119 -23.368945827475773 120 -24.535527091837753 121 -25.178871929071004
 		 122 -24.83482058806927 123 -23.574640550692624 124 -21.231047933129641 125 -18.798332062615522
 		 126 -16.356942143522151 127 -13.913811729449987 128 -11.469482149120799 129 -9.0240193485739795
-		 130 -6.5779950952261714 131 -4.1342987187716469 132 -1.7069126960856247 133 0.61360606834456832
-		 134 3.047912435262333 135 5.4743871131242781 136 7.8594828204540184 137 10.151880651467039
+		 130 -6.5779950952261714 131 -4.1342987187716469 132 -1.7069126960856249 133 0.61360606834456843
+		 134 3.047912435262333 135 5.4743871131242781 136 7.8594828204540184 137 10.151880651467041
 		 138 12.198816571023389 139 13.333428251990348 140 12.953324870255441 141 11.911841604301763
 		 142 10.797663566591282 143 9.7125212038744646 144 8.7409743205531925 145 8.202032598568973;
 	setAttr -s 98 ".kit[49:97]"  1 18 18 18 18 18 18 18 
@@ -21173,21 +21173,21 @@ createNode animCurveTA -n "LeftFinThreeControl_rotateX";
 	setAttr -s 140 ".ktv[0:139]"  1 -0.28923012548628174 2 -0.31504674855862902
 		 3 -0.409981063184368 4 -0.60052544749824877 6 -0.99414326010797183 7 -1.1929105902893902
 		 8 -1.3923150651071519 10 -1.7875052221070151 11 -1.9882826396288986 12 -2.1935483870192853
-		 13 -2.4130911187860558 14 -2.6713118735298202 15 -2.9320445331149432 16 -3.192670399285094
+		 13 -2.4130911187860558 14 -2.6713118735298202 15 -2.9320445331149432 16 -3.1926703992850944
 		 18 -3.7469481946983625 19 -4.0060235551285794 20 -4.2572353041993543 21 -4.5324003505291115
 		 22 -4.7830768836805841 23 -5.0051380427922014 24 -5.1999853955356823 25 -5.3074390533365099
 		 26 -4.9618782278534717 27 -3.704117459554237 28 -1.9894553950352558 30 1.7390998902439869
 		 31 3.4844508936889276 32 5.1773967456060666 34 8.7212647577109941 35 10.266601895252501
 		 36 11.555384890240466 37 12.255181724154509 38 12.008358805816671 39 11.109980979080936
 		 40 9.8852533377571064 41 8.635655743512725 42 7.3866268981018699 43 6.1418012761728775
-		 44 4.9039348274135905 45 3.6778689894683567 46 2.4737786955554553 47 1.3166542847348626
-		 48 0.28346134453747646 49 -0.28923012548628174 50 -0.31504674855862941 51 -0.40998106318436839
+		 44 4.9039348274135914 45 3.6778689894683567 46 2.4737786955554553 47 1.3166542847348626
+		 48 0.28346134453747646 49 -0.28923012548628174 50 -0.31504674855862946 51 -0.40998106318436839
 		 52 -0.60052544749824865 53 -0.79881802840239446 54 -0.99771875870023363 55 -1.1965960970784562
 		 56 -1.3954012967837799 57 -1.5941813283689579 58 -1.7931113491324215 59 -1.9927727075452042
 		 60 -2.1954064235095405 61 -2.4130911187860558 62 -2.6457354879467374 63 -2.9070638409601659
-		 64 -3.1702725185399494 65 -3.4332228280088013 66 -3.695563126241252 67 -3.9569726122839124
+		 64 -3.1702725185399494 65 -3.4332228280088017 66 -3.695563126241252 67 -3.9569726122839124
 		 68 -4.216915489573716 69 -4.4743796939173226 70 -4.727229119749885 71 -4.9702160683929959
-		 72 -5.1871783886636385 73 -5.3074390533365099 74 -4.9618782278534646 75 -3.704117459554229
+		 72 -5.1871783886636393 73 -5.3074390533365099 74 -4.9618782278534646 75 -3.704117459554229
 		 76 -1.9894553950352569 77 -0.23997451580154305 78 1.508710094926248 79 3.2515100439465123
 		 80 4.9845669041102418 81 6.7011024912836934 82 8.3868715386747343 83 10.006886686710706
 		 84 11.45339338755592 85 12.255181724154509 86 12.008358805816666 87 11.10998097908093
@@ -21195,13 +21195,13 @@ createNode animCurveTA -n "LeftFinThreeControl_rotateX";
 		 92 4.9039348274135834 93 3.6778689894683607 94 2.4737786955554695 95 1.316654284734865
 		 96 0.28346134453748478 97 -0.28923012548628174 98 -0.31504674855862835 99 -0.40998106318436733
 		 100 -0.60052544749824932 101 -0.7988180284023908 102 -0.99771875870023219 103 -1.1965960970784568
-		 104 -1.3954012967837766 105 -1.5941813283689565 106 -1.793111349132422 107 -1.9927727075452002
+		 104 -1.3954012967837766 105 -1.5941813283689568 106 -1.793111349132422 107 -1.9927727075452002
 		 108 -2.1954064235095387 109 -2.4130911187860558 110 -2.6457354879467316 111 -2.9070638409601628
 		 112 -3.1702725185399498 113 -3.4332228280087955 114 -3.6955631262412498 115 -3.9569726122839133
 		 116 -4.2169154895737107 117 -4.5025047071260316 118 -4.7628357569445301 119 -4.9934663537362045
 		 120 -5.1958363115690229 121 -5.3074390533365099 122 -4.9618782278534788 123 -3.704117459554245
 		 124 -1.9894553950352538 125 -0.23997451580158041 126 1.5087100949262284 127 3.251510043946515
-		 128 4.984566904110201 129 6.701102491283673 130 8.3868715386747361 131 10.006886686710672
+		 128 4.984566904110201 129 6.7011024912836739 130 8.3868715386747361 131 10.006886686710672
 		 132 11.453393387555908 133 12.255181724154509 134 12.008358805816677 135 11.109980979080946
 		 136 9.8852533377571135 137 8.6356557435127463 138 7.3866268981018814 139 6.1418012761728802
 		 140 4.9039348274136083 141 3.6778689894683687 142 2.473778695555461 143 1.3166542847348806
@@ -21312,7 +21312,7 @@ createNode animCurveTA -n "LeftFinThreeControl_rotateY";
 	setAttr ".wgt" no;
 	setAttr -s 140 ".ktv[0:139]"  1 -0.93946026006706296 2 -1.0440170927347827
 		 3 -1.4267460151881193 4 -2.0303283017160534 6 -3.3182600817988801 7 -3.9406951471830287
-		 8 -4.5557806114988404 10 -5.8313366879767994 11 -6.4293476803375391 12 -6.9712633295580488
+		 8 -4.5557806114988404 10 -5.8313366879767994 11 -6.4293476803375391 12 -6.9712633295580497
 		 13 -7.334736792479303 14 -7.4521630236167935 15 -7.5521046695991361 16 -7.6506042784988741
 		 18 -7.8598341722406291 19 -7.9576225424730529 20 -8.0524410328185727 21 -8.1563003306008106
 		 22 -8.2509165520088938 23 -8.334732082644809 24 -8.4082759393320057 25 -8.4488336183034409
@@ -21320,19 +21320,19 @@ createNode animCurveTA -n "LeftFinThreeControl_rotateY";
 		 31 -8.3604666152537224 32 -8.2557481785641027 34 -8.0568485228801503 35 -7.9240459579092626
 		 36 -7.7456076436880021 37 -7.4233096520612429 38 -6.8558066502681969 39 -6.271464351974406
 		 40 -5.6865100032134608 41 -5.1024226516736508 42 -4.5197164770096974 43 -3.9390803736350093
-		 44 -3.3617021426422822 45 -2.7898295080738769 46 -2.2282071012830986 47 -1.6884909667448522
-		 48 -1.2065800433046201 49 -0.93946026006706296 50 -1.044017092734784 51 -1.4267460151881211
-		 52 -2.0303283017160525 53 -2.6515309603939978 54 -3.2735419593259061 55 -3.8952433212400326
+		 44 -3.3617021426422822 45 -2.7898295080738769 46 -2.2282071012830986 47 -1.6884909667448524
+		 48 -1.2065800433046201 49 -0.93946026006706296 50 -1.044017092734784 51 -1.4267460151881213
+		 52 -2.0303283017160525 53 -2.6515309603939983 54 -3.2735419593259061 55 -3.8952433212400326
 		 56 -4.5177812006179483 57 -5.1406257453686361 58 -5.7615950395531241 59 -6.3734257795648004
 		 60 -6.9481155778360426 61 -7.334736792479303 62 -7.590695380356725 63 -7.6874105026283699
 		 64 -7.7719205292069846 65 -7.8552961104008059 66 -7.9383842956201045 67 -8.0211684607219009
 		 68 -8.1034871750417654 69 -8.1850208219496778 70 -8.265093046246891 71 -8.3420420237823407
-		 72 -8.4107495353809387 73 -8.4488336183034409 74 -8.4482401437859398 75 -8.4459986739140529
+		 72 -8.4107495353809405 73 -8.4488336183034409 74 -8.4482401437859398 75 -8.4459986739140529
 		 76 -8.4395292131035173 77 -8.4228002037185412 78 -8.3823534159627453 79 -8.2880476087592623
 		 80 -8.1855517776300761 81 -8.0822383895903886 82 -7.977232966430317 83 -7.8646722134441811
 		 84 -7.7214951557227369 85 -7.4233096520612429 86 -6.8573652031762027 87 -6.2729866050025143
 		 88 -5.6878748669881061 89 -5.1036204326378849 90 -4.5207466826200768 91 -3.9399435121696773
-		 92 -3.3623991420516552 93 -2.7903619514343152 94 -2.2285779379349182 95 -1.6887065001876294
+		 92 -3.3623991420516552 93 -2.7903619514343156 94 -2.2285779379349182 95 -1.6887065001876294
 		 96 -1.2066569069716941 97 -0.93946026006706296 98 -1.0440170927347796 99 -1.4267460151881155
 		 100 -2.0303283017160534 101 -2.6515309603939854 102 -3.2735419593259008 103 -3.8952433212400339
 		 104 -4.5177812006179359 105 -5.1406257453686317 106 -5.7615950395531259 107 -6.373425779564788
@@ -21344,7 +21344,7 @@ createNode animCurveTA -n "LeftFinThreeControl_rotateY";
 		 128 -8.1855517776300744 129 -8.0822383895903869 130 -7.9772329664303161 131 -7.8646722134441829
 		 132 -7.7214951557227387 133 -7.4233096520612429 134 -6.8573652031762151 135 -6.2729866050025196
 		 136 -5.6878748669881034 137 -5.1036204326378956 138 -4.5207466826200813 139 -3.9399435121696742
-		 140 -3.3623991420516641 141 -2.790361951434317 142 -2.2285779379349129 143 -1.6887065001876358
+		 140 -3.3623991420516646 141 -2.790361951434317 142 -2.2285779379349129 143 -1.6887065001876358
 		 144 -1.2066569069716944 145 -0.93946026006706296;
 	setAttr -s 140 ".kit[43:139]"  1 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
@@ -21451,7 +21451,7 @@ createNode animCurveTA -n "LeftFinThreeControl_rotateZ";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 140 ".ktv[0:139]"  1 -16.479474421424602 2 -16.921314722880222
-		 3 -18.5295103169484 4 -20.721908145673829 6 -25.4893061542267 7 -27.720943413542802
+		 3 -18.5295103169484 4 -20.721908145673829 6 -25.489306154226703 7 -27.720943413542802
 		 8 -29.885574501321667 10 -34.416828032732802 11 -36.392723957126059 12 -38.040585129527123
 		 13 -38.935357977757405 14 -38.933807079837479 15 -38.927949556288674 16 -38.911043230880907
 		 18 -38.820536739935825 19 -38.713316378580004 20 -38.478561412762538 21 -38.315104762340795
@@ -21460,9 +21460,9 @@ createNode animCurveTA -n "LeftFinThreeControl_rotateZ";
 		 31 -10.126993665203134 32 -5.927623297622425 34 2.862596036074847 35 6.6956380388673162
 		 36 9.8923196413865551 37 11.628086214215658 38 11.075043933190333 39 9.0620990824189942
 		 40 6.3179204909260864 41 3.5180171896501591 42 0.71938825201250722 43 -2.0698227583203277
-		 44 -4.8434407393277565 45 -7.5906177529969572 46 -10.288555396674678 47 -12.8812592181018
+		 44 -4.8434407393277565 45 -7.5906177529969572 46 -10.288555396674678 47 -12.881259218101802
 		 48 -15.196276738492369 49 -16.479474421424602 50 -16.921314722880229 51 -18.529510316948407
-		 52 -20.721908145673826 53 -22.958825938629516 54 -25.194725608317896 55 -27.423101043454562
+		 52 -20.721908145673829 53 -22.958825938629516 54 -25.194725608317896 55 -27.423101043454562
 		 56 -29.639018789524584 57 -31.833812138093094 58 -33.989266834216835 59 -36.060647409171551
 		 60 -37.910176955426195 61 -38.935357977757405 62 -38.933807079837479 63 -38.927949556288674
 		 64 -38.911043230880907 65 -38.867326129147898 66 -38.761812005329453 67 -38.521942957982681
@@ -21474,12 +21474,12 @@ createNode animCurveTA -n "LeftFinThreeControl_rotateZ";
 		 88 6.3179204909260989 89 3.5180171896501418 90 0.71938825201251122 91 -2.0698227583203024
 		 92 -4.8434407393277565 93 -7.5906177529969368 94 -10.288555396674642 95 -12.881259218101789
 		 96 -15.196276738492346 97 -16.479474421424602 98 -16.921314722880211 99 -18.529510316948386
-		 100 -20.721908145673829 101 -22.95882593862947 102 -25.194725608317878 103 -27.423101043454565
+		 100 -20.721908145673829 101 -22.95882593862947 102 -25.194725608317881 103 -27.423101043454565
 		 104 -29.639018789524538 105 -31.833812138093069 106 -33.989266834216835 107 -36.060647409171509
 		 108 -37.910176955426174 109 -38.935357977757405 110 -38.933807079837479 111 -38.927949556288674
 		 112 -38.911043230880907 113 -38.867326129147898 114 -38.761812005329453 115 -38.521942957982681
 		 116 -38.262798380548006 117 -38.107972403525267 118 -37.862340901706531 119 -37.59698413786316
-		 120 -37.295375706348011 121 -36.255406372127823 122 -32.69166495557765 123 -28.361663122360678
+		 120 -37.295375706348011 121 -36.255406372127823 122 -32.69166495557765 123 -28.361663122360682
 		 124 -23.978404827524461 125 -19.597647848333455 126 -15.226892676296346 127 -10.871629638716072
 		 128 -6.5407996062391867 129 -2.2512657899324742 130 1.961382615516863 131 6.0097152526773936
 		 132 9.6244593666714326 133 11.628086214215658 134 11.075043933190345 135 9.062099082419012
@@ -21879,10 +21879,10 @@ createNode animCurveTA -n "LeftFinOneControl_rotateX";
 		 18 0.35190501889904824 19 -0.26396343673721767 20 -0.87514646918666839 21 -1.5162865930524874
 		 22 -2.1305153167277306 23 -2.7213440561326361 24 -3.2835678383788407 25 -3.7169522672651056
 		 26 -3.9810624455484267 27 -4.2329868860922755 28 -4.4836982841501269 30 -5.0166919536228196
-		 31 -5.2658126155063325 32 -5.5073704320859953 34 -6.0130038163375756 35 -6.2334890559244984
+		 31 -5.2658126155063334 32 -5.5073704320859953 34 -6.0130038163375756 35 -6.2334890559244984
 		 36 -6.4173693920397445 37 -6.5172145978953591 38 -6.2464702359178137 39 -5.3526995806398254
 		 40 -4.3150603285735425 41 -3.2562183170053101 42 -2.2024565226781876 43 -1.2088923037255164
-		 44 -0.19668129749466717 45 0.80881562073441304 46 1.7966936636319137 47 2.7461029077685311
+		 44 -0.1966812974946672 45 0.80881562073441304 46 1.7966936636319137 47 2.7461029077685311
 		 48 3.5938391877083378 49 4.0637352099315356 50 4.0633628281446983 51 4.0619563944539161
 		 52 4.0578970636731384 53 4.047400271943947 54 4.0220655690861431 55 3.9644712791522974
 		 56 3.9022487952901788 57 3.840343622452691 58 3.7795560100484429 59 3.7195727156669931
@@ -21898,9 +21898,9 @@ createNode animCurveTA -n "LeftFinOneControl_rotateX";
 		 96 3.5938391877083316 97 4.0637352099315356 98 4.0633628281446983 99 4.0619563944539161
 		 100 4.0578970636731384 101 4.047400271943947 102 4.0220655690861422 103 3.9644712791522951
 		 104 3.9022487952901774 105 3.8403436224526883 106 3.7795560100484402 107 3.7195727156669913
-		 108 3.6522171841789226 109 3.4202594822768431 110 3.1762833357594098 111 2.5590222489377266
+		 108 3.6522171841789226 109 3.4202594822768431 110 3.1762833357594102 111 2.5590222489377266
 		 112 1.9128322188165559 113 1.2635349257740049 114 0.61315795208274859 115 -0.038141070031633112
-		 116 -0.6902271783873879 117 -1.3762618579234327 118 -2.0325650497307319 119 -2.6628954916381216
+		 116 -0.6902271783873879 117 -1.3762618579234327 118 -2.0325650497307324 119 -2.6628954916381216
 		 120 -3.2614623540153613 121 -3.7169522672651056 122 -3.9824912722620889 123 -4.2343824343475438
 		 124 -4.4849495434507887 125 -4.7350150564569136 126 -4.9844776021485568 127 -5.23305278720541
 		 128 -5.4802331259350989 129 -5.725056458825895 130 -5.9654915836510298 131 -6.1965484546480152
@@ -22021,7 +22021,7 @@ createNode animCurveTA -n "LeftFinOneControl_rotateY";
 		 26 -14.742713250645044 27 -15.169786893286938 28 -15.594829212924468 30 -16.498441888569513
 		 31 -16.920789613561301 32 -17.330315669528076 34 -18.187543353843246 35 -18.561343932347228
 		 36 -18.873086233882098 37 -19.042359223763579 38 -18.60204148991539 39 -17.148738212646816
-		 40 -15.464661792817024 41 -13.746732204320104 42 -12.038014052706 43 -10.432810819849694
+		 40 -15.464661792817024 41 -13.746732204320105 42 -12.038014052706 43 -10.432810819849694
 		 44 -8.809672533334469 45 -7.198743915250887 46 -5.6162405851024317 47 -4.0953924588252679
 		 48 -2.737418805853288 49 -1.9847016431986171 50 -1.9850156184256331 51 -1.9862014587458514
 		 52 -1.9896241001007182 53 -1.9984745129904187 54 -2.019835571351317 55 -2.0683964325319879
@@ -22029,21 +22029,21 @@ createNode animCurveTA -n "LeftFinOneControl_rotateY";
 		 60 -2.3316747501658219 61 -2.5272508354824867 62 -2.8202058940000461 63 -3.7555145127844596
 		 64 -4.833076838988819 65 -5.9235167248273264 66 -7.0164457247345435 67 -8.1109833731781862
 		 68 -9.2068445080152763 69 -10.303137302446473 70 -11.396954441704674 71 -12.478690195082869
-		 72 -13.511322533330114 73 -14.295312025330672 74 -14.746222821992745 75 -15.173214724054787
+		 72 -13.511322533330116 73 -14.295312025330672 74 -14.746222821992745 75 -15.173214724054787
 		 76 -15.597902632358847 77 -16.021735469078116 78 -16.444545904681064 79 -16.865852322567825
 		 80 -17.28479463129554 81 -17.699742085039762 82 -18.107252029618014 83 -18.498866910180627
 		 84 -18.848538666484234 85 -19.042359223763579 86 -18.602041489915379 87 -17.148738212646805
 		 88 -15.464661792817024 89 -13.746732204320084 90 -12.038014052705991 91 -10.432810819849694
 		 92 -8.8096725333344548 93 -7.1987439152508879 94 -5.6162405851024468 95 -4.0953924588252688
-		 96 -2.7374188058532978 97 -1.9847016431986171 98 -1.9850156184256331 99 -1.9862014587458514
+		 96 -2.7374188058532982 97 -1.9847016431986171 98 -1.9850156184256331 99 -1.9862014587458514
 		 100 -1.9896241001007182 101 -1.9984745129904182 102 -2.0198355713513161 103 -2.0683964325319861
 		 104 -2.1208595743576 105 -2.1730551740946527 106 -2.2243084981803878 107 -2.274883658234669
 		 108 -2.331674750165821 109 -2.5272508354824867 110 -2.8202058940000367 111 -3.7555145127844534
-		 112 -4.8330768389888235 113 -5.9235167248273068 114 -7.0164457247345347 115 -8.1109833731781897
+		 112 -4.8330768389888235 113 -5.9235167248273077 114 -7.0164457247345347 115 -8.1109833731781897
 		 116 -9.2068445080152532 117 -10.359481182960085 118 -11.46239586157099 119 -12.521874392258104
 		 120 -13.528232326640335 121 -14.295312025330672 122 -14.745129827873859 123 -15.172147186598329
 		 124 -15.596945470063565 125 -16.02089547991708 126 -16.443823434068996 127 -16.865247014055477
-		 128 -17.284305834122595 129 -17.699368689014126 130 -18.106991966403342 131 -18.498715759209631
+		 128 -17.284305834122595 129 -17.699368689014126 130 -18.106991966403346 131 -18.498715759209631
 		 132 -18.848484762933296 133 -19.042359223763579 134 -18.602041489915401 135 -17.14873821264683
 		 136 -15.464661792817031 137 -13.746732204320123 138 -12.038014052706011 139 -10.432810819849694
 		 140 -8.8096725333344885 141 -7.1987439152508994 142 -5.6162405851024362 143 -4.0953924588252892
@@ -22152,21 +22152,21 @@ createNode animCurveTA -n "LeftFinOneControl_rotateZ";
 	rename -uid "8D209096-4E13-E43B-D5ED-E0BF240A62DB";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 140 ".ktv[0:139]"  1 -3.7466644774045812 2 -3.5665772536666842
+	setAttr -s 140 ".ktv[0:139]"  1 -3.7466644774045812 2 -3.5665772536666847
 		 3 -2.9056018933184036 4 -1.66503062042169 6 0.9218942155742923 7 2.2151108457096056
 		 8 3.507664901030541 10 6.1026883733623878 11 7.3917244163341458 12 8.6687922345650694
 		 13 9.9077769822241972 14 11.182967987659637 15 12.459626499395304 16 13.734939413919454
 		 18 16.447023313916656 19 17.7146756414718 20 18.943850395572913 21 20.290228083315419
 		 22 21.516783885640429 23 22.603325170851303 24 23.55670978704611 25 24.082478615012285
-		 26 23.660412784795707 27 22.116459778386755 28 19.440122104740031 30 13.793472553615517
+		 26 23.66041278479571 27 22.116459778386755 28 19.440122104740031 30 13.793472553615517
 		 31 11.00036020784035 32 8.2173793751773783 34 2.5157849915880943 35 -0.2497833192656512
 		 36 -2.8745285120417079 37 -4.9285056703792547 38 -6.1789616623681116 39 -7.3214316743644865
 		 40 -8.4302264816056134 41 -9.4936888868139437 42 -10.442871881145708 43 -10.968936533495777
 		 44 -10.433953418229766 45 -8.968099682400883 46 -7.3999304257773737 47 -5.8726279349033597
 		 48 -4.5052073771229004 49 -3.7466644774045812 50 -3.5665772536666815 51 -2.9056018933184014
-		 52 -1.6650306204216905 53 -0.37683632854800064 54 0.91581108447117088 55 2.2091117932794044
+		 52 -1.6650306204216905 53 -0.3768363285480007 54 0.91581108447117088 55 2.2091117932794049
 		 56 3.5026674190981217 57 4.796297426483247 58 6.0895309971163769 59 7.3808266088133951
-		 60 8.6642451751194667 61 9.9077769822241972 62 11.161019466371206 63 12.438189175822828
+		 60 8.6642451751194667 61 9.9077769822241972 62 11.161019466371208 63 12.438189175822828
 		 64 13.715718544701881 65 14.991274201018863 66 16.263806410552792 67 17.531817229577641
 		 68 18.792713331322098 69 20.041586135272233 70 21.26807417964676 71 22.446722642120058
 		 72 23.499134331513297 73 24.082478615012285 74 23.660412784795696 75 22.116459778386741
@@ -22176,9 +22176,9 @@ createNode animCurveTA -n "LeftFinOneControl_rotateZ";
 		 88 -8.4340540417071903 89 -9.495931956655058 90 -10.443674452724466 91 -10.968936533495777
 		 92 -10.433953418229759 93 -8.9680996824008883 94 -7.3999304257773906 95 -5.8726279349033623
 		 96 -4.505207377122912 97 -3.7466644774045812 98 -3.5665772536666891 99 -2.9056018933184102
-		 100 -1.6650306204216885 101 -0.37683632854802629 102 0.91581108447115867 103 2.2091117932794044
+		 100 -1.6650306204216885 101 -0.37683632854802629 102 0.91581108447115867 103 2.2091117932794049
 		 104 3.502667419098096 105 4.7962974264832354 106 6.0895309971163778 107 7.3808266088133676
-		 108 8.6642451751194525 109 9.9077769822241972 110 11.161019466371176 111 12.438189175822812
+		 108 8.6642451751194525 109 9.9077769822241972 110 11.161019466371178 111 12.438189175822812
 		 112 13.715718544701879 113 14.991274201018831 114 16.263806410552775 115 17.531817229577634
 		 116 18.792713331322062 117 20.178011177514414 118 21.440790077433192 119 22.559502006157146
 		 120 23.54113102204964 121 24.082478615012285 122 23.660412784795714 123 22.116459778386769
@@ -22583,9 +22583,9 @@ createNode animCurveTA -n "RightFlukeThreeControl_rotateX";
 		 24 -4.8671441066595449 25 -4.4491438187073404 26 -3.3456559384822486 27 -2.1374893629406015
 		 28 -0.94116695706805265 29 0 30 0.35839415279738368 31 0.62835550060863632 32 0.91688918276180031
 		 33 1.4919571283700079 34 2.4614312264128029 35 3.4971261927165656 36 4.6168899719643921
-		 37 6.3338926132143918 38 9.5114984502556137 39 12.850904679645062 40 16.062527457811626
+		 37 6.3338926132143918 38 9.5114984502556137 39 12.850904679645062 40 16.06252745781163
 		 41 18.408915310345808 42 19.171147513889181 43 19.660199898856185 44 20.052540577075618
-		 45 20.262919292237076 46 17.851423141730201 47 12.760486823993505 48 7.7097421087652265
+		 45 20.262919292237076 46 17.851423141730201 47 12.760486823993507 48 7.7097421087652265
 		 49 4.8293439289931523 50 4.1804456444278966 51 2.685290949646534 52 1.1351906102408571
 		 53 0 54 -0.43448978450859999 55 -0.6001960987205891 56 -0.70229467420947345 57 -0.75154989752839141
 		 58 -0.74383741230979572 59 -0.71742105849534854 60 -0.67224741813818834 61 -0.59528487038578826
@@ -22717,12 +22717,12 @@ createNode animCurveTA -n "RightFlukeThreeControl_rotateY";
 		 16 -18.118588471107323 17 -17.802445688584228 18 -18.483499678739957 19 -19.92128032462427
 		 20 -21.347710070672658 21 -22.161191225580886 22 -22.141445513074821 23 -22.069044567219251
 		 24 -21.868296490074258 25 -20.897465625192737 26 -16.03872921412578 27 -9.6116598919392402
-		 28 -3.5289620812683933 29 0 30 0.13928344066607387 31 0.18128955769235008 32 0.21334685752819235
+		 28 -3.5289620812683937 29 0 30 0.13928344066607387 31 0.18128955769235008 32 0.21334685752819235
 		 33 0.31836215009388291 34 0.84731300548407151 35 1.8110704366424342 36 2.8779152802358317
 		 37 4.1467031060672035 38 6.0864287533462189 39 8.0600048146432126 40 9.8421470922636498
 		 41 10.833166424664384 42 10.832405912358693 43 10.82961736723783 44 10.821885492129978
 		 45 10.784493637100203 46 9.1382523533015458 47 5.8124215076235073 48 2.5252455731843586
-		 49 0.65238145511041568 50 0.64218799487431533 51 0.60481197400861453 52 0.50117846160826296
+		 49 0.65238145511041568 50 0.64218799487431533 51 0.60481197400861453 52 0.50117846160826307
 		 53 0 54 -3.4790081689721539 55 -10.17119951502519 56 -16.75647878246215 57 -20.504222352623763
 		 58 -20.474985101528357 59 -20.374843377089654 60 -20.203594677276062 61 -19.911837446007205
 		 62 -19.31211572268203 63 -18.68634292598005 64 -18.118588471107326 65 -17.802445688584228
@@ -22736,11 +22736,11 @@ createNode animCurveTA -n "RightFlukeThreeControl_rotateY";
 		 95 5.8124215076234984 96 2.5252455731843804 97 0.65238145511041568 98 0.64218799487431577
 		 99 0.60481197400861453 100 0.50117846160825985 101 0 102 -3.479008168972201 103 -10.171199515025291
 		 104 -16.756478782462086 105 -20.504222352623763 106 -20.474985101528354 107 -20.37484337708965
-		 108 -20.203594677276058 109 -19.911837446007205 110 -19.312115722682044 111 -18.686342925980053
+		 108 -20.203594677276058 109 -19.911837446007205 110 -19.312115722682044 111 -18.686342925980057
 		 112 -18.118588471107316 113 -17.802445688584228 114 -18.483499678739964 115 -19.921280324624284
-		 116 -21.347710070672644 117 -22.161191225580886 118 -22.141445513074821 119 -22.069044567219255
-		 120 -21.868296490074265 121 -20.897465625192737 122 -16.038729214125834 123 -9.6116598919392295
-		 124 -3.5289620812683391 125 0 126 0.13928344066607401 127 0.18128955769235031 128 0.21334685752819216
+		 116 -21.347710070672644 117 -22.161191225580886 118 -22.141445513074821 119 -22.069044567219258
+		 120 -21.868296490074268 121 -20.897465625192737 122 -16.038729214125834 123 -9.6116598919392295
+		 124 -3.5289620812683391 125 0 126 0.13928344066607401 127 0.18128955769235031 128 0.21334685752819219
 		 129 0.31836215009388291 130 0.84731300548407351 131 1.8110704366424242 132 2.8779152802358268
 		 133 4.1467031060672035 134 6.086428753346202 135 8.0600048146432108 136 9.842147092263664
 		 137 10.833166424664384 138 10.832405912358693 139 10.82961736723783 140 10.821885492129978
@@ -22851,17 +22851,17 @@ createNode animCurveTA -n "RightFlukeThreeControl_rotateZ";
 		 3 12.455611789513958 4 5.620425236792169 5 0 6 -3.4530221395882927 7 -6.4450972616404929
 		 8 -9.0572991434186534 9 -10.495718327252741 10 -10.4517032796994 11 -10.300945510138257
 		 12 -10.043140163077897 13 -9.6039159567247339 14 -8.7010684186717064 15 -7.759002445556022
-		 16 -6.9042798436159414 17 -6.4283445526752656 18 -7.3614819001902614 19 -9.3314385227219194
+		 16 -6.9042798436159414 17 -6.4283445526752656 18 -7.3614819001902614 19 -9.3314385227219212
 		 20 -11.285842856128331 21 -12.400423576771241 22 -12.371207969614106 23 -12.247802337444849
 		 24 -11.80698440134632 25 -10.530624718714597 26 -7.9355041236820529 27 -5.1384762001656563
 		 28 -2.3562959235796703 29 0 30 1.344844061107014 31 2.537102083276574 32 3.7751928606642786
 		 33 5.6219198111228508 34 8.5833708642069357 35 11.720571390939968 36 14.922282695222764
-		 37 18.394887660158588 38 22.380515174593754 39 26.445948862875063 40 30.52472357232412
+		 37 18.394887660158588 38 22.380515174593754 39 26.445948862875067 40 30.52472357232412
 		 41 34.5943289106796 42 39.39763603476657 43 44.140932325279039 44 48.399397090864703
 		 45 50.763543881924129 46 46.168359890133118 47 36.467415907463298 48 26.843058324656585
-		 49 21.354366334461815 50 18.76423295396107 51 12.455611789513965 52 5.6204252367922072
+		 49 21.354366334461815 50 18.764232953961073 51 12.455611789513965 52 5.6204252367922072
 		 53 0 54 -3.879415066410036 55 -6.7609438741010326 56 -9.1796897057471263 57 -10.495718327252741
-		 58 -10.4517032796994 59 -10.300945510138256 60 -10.043140163077895 61 -9.6039159567247339
+		 58 -10.4517032796994 59 -10.300945510138257 60 -10.043140163077895 61 -9.6039159567247339
 		 62 -8.7010684186717029 63 -7.7590024455560238 64 -6.9042798436159458 65 -6.4283445526752656
 		 66 -7.3614819001902578 67 -9.3314385227219088 68 -11.285842856128335 69 -12.400423576771241
 		 70 -12.371207969614106 71 -12.247802337444847 72 -11.806984401346314 73 -10.530624718714597
@@ -22877,8 +22877,8 @@ createNode animCurveTA -n "RightFlukeThreeControl_rotateZ";
 		 112 -6.9042798436159325 113 -6.4283445526752656 114 -7.3614819001902712 115 -9.3314385227219407
 		 116 -11.285842856128316 117 -12.400423576771241 118 -12.371207969614106 119 -12.247802337444854
 		 120 -11.806984401346325 121 -10.530624718714597 122 -7.9355041236820769 123 -5.1384762001656563
-		 124 -2.3562959235796463 125 0 126 1.3448440611070178 127 2.5371020832765829 128 3.7751928606642728
-		 129 5.6219198111228508 130 8.5833708642069499 131 11.720571390939941 132 14.922282695222751
+		 124 -2.3562959235796463 125 0 126 1.3448440611070178 127 2.5371020832765834 128 3.7751928606642728
+		 129 5.6219198111228508 130 8.5833708642069517 131 11.720571390939941 132 14.922282695222751
 		 133 18.394887660158588 134 22.380515174593711 135 26.44594886287506 136 30.524723572324152
 		 137 34.5943289106796 138 39.397636034766592 139 44.140932325279081 140 48.399397090864689
 		 141 50.763543881924129 142 46.168359890133104 143 36.467415907463419 144 26.84305832465666
@@ -23281,17 +23281,17 @@ createNode animCurveTA -n "RightFlukeTwoControl_rotateX";
 		 37 2.1469884905883272 38 3.0147110104786177 39 3.9295566324274285 40 4.8329573556143357
 		 41 5.5708442645434131 42 6.0529000637451027 43 6.4778534139223307 44 6.8503185005025529
 		 45 7.0556573694631091 46 6.5551228809154196 47 5.4984389606480821 48 4.450097281856535
-		 49 3.8522366427579104 50 3.3468816188796175 51 2.1655831444075213 52 0.92272686877415211
+		 49 3.8522366427579104 50 3.346881618879618 51 2.1655831444075213 52 0.92272686877415211
 		 53 0 54 -0.39695635638305449 55 -0.54834811992854382 56 -0.64162690337291162 57 -0.68662721104096069
 		 58 -0.66676968168059081 59 -0.624848230808698 60 -0.58325773875947862 61 -0.55953902313459236
-		 62 -0.6859073151321905 63 -0.99270553756851565 64 -1.3247325246107031 65 -1.5951529513005132
+		 62 -0.68590731513219061 63 -0.99270553756851565 64 -1.3247325246107031 65 -1.5951529513005132
 		 66 -1.753705879166688 67 -1.8891792439332646 68 -2.0070663486807554 69 -2.0719180856765944
 		 70 -1.1182567472005656 71 0.89502830069330075 72 2.8924189929458755 73 4.0315144805700198
 		 74 3.4015903429809486 75 2.0717504969595955 76 0.752409386564725 77 0 78 0.012278802696652116
 		 79 0.061566298736676593 80 0.17656968081044594 81 0.40063261084682322 82 0.77399599752293047
-		 83 1.1717156590713629 84 1.5904710906906263 85 2.1469884905883272 86 3.0147110104786252
+		 83 1.1717156590713629 84 1.5904710906906265 85 2.1469884905883272 86 3.0147110104786252
 		 87 3.9295566324274285 88 4.8329573556143277 89 5.5708442645434131 90 6.0529000637451009
-		 91 6.4778534139223281 92 6.8503185005025546 93 7.0556573694631091 94 6.5551228809154267
+		 91 6.4778534139223289 92 6.8503185005025546 93 7.0556573694631091 94 6.5551228809154276
 		 95 5.4984389606480812 96 4.4500972818565421 97 3.8522366427579104 98 3.3468816188796318
 		 99 2.165583144407516 100 0.92272686877412946 101 0 102 -0.39695635638305787 103 -0.54834811992854759
 		 104 -0.64162690337291184 105 -0.68662721104096069 106 -0.66676968168059048 107 -0.62484823080869889
@@ -23409,15 +23409,15 @@ createNode animCurveTA -n "RightFlukeTwoControl_rotateY";
 		 3 0.6183693271099634 4 0.51241278510516641 5 0 6 -2.2299103012624579 7 -4.887847574618096
 		 8 -7.3548958407544704 9 -8.7373678489439364 10 -8.6962237172184444 11 -8.6093638835757424
 		 12 -8.5231897854617955 13 -8.4740454059007924 14 -9.5024925871047063 15 -11.81643289767532
-		 16 -14.188188792441109 17 -15.827087176962564 18 -16.241686383334699 19 -16.451473342734815
+		 16 -14.18818879244111 17 -15.827087176962564 18 -16.241686383334699 19 -16.451473342734815
 		 20 -16.60443946297482 21 -16.683731411803375 22 -16.6213967322781 23 -16.32986688610961
 		 24 -15.517812054218554 25 -13.782229751071092 26 -9.9287757225127322 27 -5.8775395716190912
 		 28 -2.1724027771282395 29 0 30 0.15050757774933307 31 0.1931552225791707 32 0.22428070849406664
-		 33 0.32549849703873679 34 0.5721811133249638 35 0.84290330535678326 36 1.1388077981331437
+		 33 0.32549849703873679 34 0.5721811133249638 35 0.84290330535678337 36 1.1388077981331437
 		 37 1.6073062763173001 38 2.4717862309655203 39 3.3960922859087455 40 4.3038040835766393
-		 41 4.984281456235002 42 5.2516444840605105 43 5.4452867287347821 44 5.6066636118901592
+		 41 4.984281456235002 42 5.2516444840605114 43 5.4452867287347821 44 5.6066636118901592
 		 45 5.6942696363333907 46 4.90875955516921 47 3.2504604949337299 48 1.6052532693843096
-		 49 0.66700511688265696 50 0.65658316193136523 51 0.61836932710996328 52 0.5124127851051673
+		 49 0.66700511688265696 50 0.65658316193136523 51 0.6183693271099634 52 0.5124127851051673
 		 53 0 54 -1.6466065100823541 55 -4.4557706922624503 56 -7.1874660488416735 57 -8.7373678489439364
 		 58 -8.6962237172184444 59 -8.6093638835757407 60 -8.5231897854617937 61 -8.4740454059007924
 		 62 -9.5024925871047135 63 -11.816432897675318 64 -14.188188792441098 65 -15.827087176962564
@@ -23429,16 +23429,16 @@ createNode animCurveTA -n "RightFlukeTwoControl_rotateY";
 		 87 3.3960922859087455 88 4.3038040835766314 89 4.984281456235002 90 5.2516444840605097
 		 91 5.4452867287347804 92 5.60666361189016 93 5.6942696363333907 94 4.9087595551692216
 		 95 3.2504604949337264 96 1.6052532693843202 97 0.66700511688265696 98 0.65658316193136579
-		 99 0.61836932710996328 100 0.51241278510516386 101 0 102 -1.6466065100823748 103 -4.4557706922624982
+		 99 0.6183693271099634 100 0.51241278510516386 101 0 102 -1.6466065100823748 103 -4.4557706922624982
 		 104 -7.1874660488416513 105 -8.7373678489439364 106 -8.6962237172184444 107 -8.6093638835757424
-		 108 -8.5231897854617955 109 -8.4740454059007924 110 -9.502492587104685 111 -11.81643289767533
+		 108 -8.5231897854617955 109 -8.4740454059007924 110 -9.502492587104685 111 -11.816432897675332
 		 112 -14.188188792441141 113 -15.827087176962564 114 -16.241686383334695 115 -16.451473342734815
 		 116 -16.604439462974817 117 -16.683731411803375 118 -16.6213967322781 119 -16.329866886109617
 		 120 -15.517812054218561 121 -13.782229751071092 122 -9.9287757225127695 123 -5.8775395716190904
 		 124 -2.1724027771282097 125 0 126 0.15050757774933318 127 0.19315522257917087 128 0.22428070849406645
-		 129 0.32549849703873679 130 0.57218111332496446 131 0.84290330535678049 132 1.1388077981331417
+		 129 0.32549849703873679 130 0.57218111332496457 131 0.84290330535678049 132 1.1388077981331419
 		 133 1.6073062763173001 134 2.4717862309655128 135 3.3960922859087455 136 4.3038040835766465
-		 137 4.984281456235002 138 5.2516444840605105 139 5.4452867287347839 140 5.6066636118901583
+		 137 4.984281456235002 138 5.2516444840605114 139 5.4452867287347839 140 5.6066636118901583
 		 141 5.6942696363333907 142 4.9087595551692056 143 3.2504604949337508 144 1.605253269384322
 		 145 0.66700511688265696;
 	setAttr -s 145 ".kit[48:144]"  1 18 18 18 18 18 18 18 
@@ -23550,22 +23550,22 @@ createNode animCurveTA -n "RightFlukeTwoControl_rotateZ";
 		 20 -10.639706101373452 21 -11.042235395072515 22 -11.58833758419421 23 -12.136943502198736
 		 24 -12.631126980957301 25 -12.905742906069918 26 -11.308358981320513 27 -7.459602033417208
 		 28 -3.3056501729251524 29 0 30 1.4537520147901599 31 2.6199924856058461 32 3.7467369084570277
-		 33 4.9774956784212172 34 6.4044472480015626 35 7.8627574030566247 36 9.3388895720406566
+		 33 4.9774956784212172 34 6.4044472480015635 35 7.8627574030566247 36 9.3388895720406566
 		 37 10.915651978223995 38 12.787425875631879 39 14.702185537683752 40 16.580535817312036
-		 41 18.092729709893174 42 19.022389239215695 43 19.828102269297823 44 20.531553359004665
+		 41 18.092729709893174 42 19.022389239215695 43 19.828102269297826 44 20.531553359004665
 		 45 20.918916561640678 46 20.3210857760306 47 19.058998561964884 48 17.806875194325997
 		 49 17.092799533736184 50 14.92302788307221 51 9.7645868904610875 52 4.223993641917783
 		 53 0 54 -2.1720400788495318 55 -3.1949458347686832 56 -3.9144625085831106 57 -4.2822735961763883
 		 58 -4.1887576512330211 59 -3.9913351007970213 60 -3.7954711494434132 61 -3.6837715485388358
 		 62 -4.3922812482888736 63 -6.085717839337355 64 -7.908149119775099 65 -9.3220032039190901
-		 66 -9.8593802904886108 67 -10.260473414538057 68 -10.639706101373454 69 -11.042235395072515
+		 66 -9.8593802904886108 67 -10.260473414538057 68 -10.639706101373456 69 -11.042235395072515
 		 70 -11.58833758419421 71 -12.136943502198738 72 -12.631126980957303 73 -12.905742906069918
 		 74 -11.30835898132049 75 -7.4596020334172177 76 -3.3056501729251906 77 0 78 1.4537520147901564
 		 79 2.6199924856058381 80 3.7467369084570326 81 4.9774956784212172 82 6.4044472480015573
 		 83 7.8627574030566372 84 9.3388895720406637 85 10.915651978223995 86 12.787425875631895
 		 87 14.702185537683752 88 16.580535817312022 89 18.092729709893174 90 19.022389239215691
 		 91 19.828102269297815 92 20.531553359004668 93 20.918916561640678 94 20.321085776030607
-		 95 19.058998561964884 96 17.806875194326008 97 17.092799533736184 98 14.923027883072271
+		 95 19.058998561964884 96 17.806875194326011 97 17.092799533736184 98 14.923027883072271
 		 99 9.7645868904610591 100 4.22399364191768 101 0 102 -2.1720400788495495 103 -3.194945834768705
 		 104 -3.9144625085831093 105 -4.2822735961763883 106 -4.1887576512330194 107 -3.9913351007970252
 		 108 -3.795471149443415 109 -3.6837715485388358 110 -4.392281248288854 111 -6.0857178393373621
@@ -23576,7 +23576,7 @@ createNode animCurveTA -n "RightFlukeTwoControl_rotateZ";
 		 129 4.9774956784212172 130 6.4044472480015688 131 7.8627574030566132 132 9.3388895720406495
 		 133 10.915651978223995 134 12.787425875631861 135 14.702185537683752 136 16.580535817312054
 		 137 18.092729709893174 138 19.022389239215698 139 19.828102269297826 140 20.531553359004661
-		 141 20.918916561640678 142 20.321085776030596 143 19.058998561964898 144 17.806875194326008
+		 141 20.918916561640678 142 20.321085776030596 143 19.058998561964898 144 17.806875194326011
 		 145 17.092799533736184;
 	setAttr -s 145 ".kit[48:144]"  1 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
@@ -23966,19 +23966,19 @@ createNode animCurveTA -n "RightFlukeOneControl_rotateX";
 	setAttr ".wgt" no;
 	setAttr -s 145 ".ktv[0:144]"  1 10.453071294082543 2 8.8197789043821455
 		 3 5.3717171927924188 4 1.9508770210310313 5 0 6 0.58875795980686463 7 1.9833813128600284
-		 8 3.4768225182070158 9 4.5977672278602979 10 4.9747985760064868 11 5.2228551423323335
+		 8 3.4768225182070163 9 4.5977672278602979 10 4.9747985760064868 11 5.2228551423323335
 		 12 5.4235354652070358 13 5.5314419006424167 14 5.4694126132708227 15 5.3020567677159391
 		 16 5.1144955291155965 17 4.9175080139849605 18 4.7212102446876072 19 4.5247179942091993
 		 20 4.3236667055404734 21 4.0851322507806946 22 3.8094059479256934 23 3.5268728680526391
 		 24 3.2278846489613069 25 2.8027640133027449 26 2.001695113216047 27 1.1713188972004684
 		 28 0.41885152249889512 29 0 30 0.7549267403690223 31 2.3706192994421933 32 3.9852578691136209
-		 33 4.950106117150006 34 5.0077467318387487 35 5.0251304092845608 36 5.0383968999668909
+		 33 4.950106117150006 34 5.0077467318387487 35 5.0251304092845608 36 5.0383968999668918
 		 37 5.0818560935814201 38 5.8361561473858723 39 7.254730597626053 40 8.6476956222184675
 		 41 9.4400171468930161 42 7.5804492487525463 43 3.6546947971226658 44 -0.24006685620485146
 		 45 -2.4612174012059698 46 -0.44335979256712987 47 3.8165618256703882 48 8.0428524837639479
 		 49 10.453071294082543 50 8.8197789043821295 51 5.3717171927924232 52 1.9508770210310509
 		 53 0 54 0.58875795980686196 55 1.9833813128600204 56 3.4768225182070212 57 4.5977672278602979
-		 58 4.9747985760064859 59 5.2228551423323344 60 5.4235354652070358 61 5.5314419006424167
+		 58 4.9747985760064868 59 5.2228551423323344 60 5.4235354652070358 61 5.5314419006424167
 		 62 5.4694126132708227 63 5.3020567677159391 64 5.1144955291155973 65 4.9175080139849605
 		 66 4.7212102446876081 67 4.5247179942092002 68 4.3236667055404734 69 4.0851322507806946
 		 70 3.8094059479256943 71 3.5268728680526378 72 3.2278846489613051 73 2.8027640133027449
@@ -23995,7 +23995,7 @@ createNode animCurveTA -n "RightFlukeOneControl_rotateX";
 		 116 4.3236667055404743 117 4.0851322507806946 118 3.8094059479256921 119 3.5268728680526427
 		 120 3.2278846489613087 121 2.8027640133027449 122 2.0016951132160541 123 1.171318897200468
 		 124 0.41885152249888935 125 0 126 0.75492674036902807 127 2.3706192994422062 128 3.9852578691136133
-		 129 4.950106117150006 130 5.0077467318387487 131 5.0251304092845608 132 5.0383968999668909
+		 129 4.950106117150006 130 5.0077467318387487 131 5.0251304092845608 132 5.0383968999668918
 		 133 5.0818560935814201 134 5.8361561473858607 135 7.2547305976260548 136 8.6476956222184782
 		 137 9.4400171468930161 138 7.5804492487525312 139 3.6546947971226338 140 -0.24006685620483237
 		 141 -2.4612174012059698 142 -0.44335979256711988 143 3.8165618256703318 144 8.0428524837639177
@@ -24124,19 +24124,19 @@ createNode animCurveTA -n "RightFlukeOneControl_rotateY";
 		 79 2.2587121151164848 80 3.2702709716015081 81 3.9173186683296914 82 4.023224712532822
 		 83 4.0575903136519011 84 4.0850734206789818 85 4.1757629869342576 86 4.7151751334146645
 		 87 5.4911758442966265 88 6.2309794828606666 89 6.6485534088518499 90 6.6393735231145614
-		 91 6.6057139420778359 92 6.5123851037487306 93 6.0610407216653561 94 4.2805507340760123
-		 95 2.3271160663875361 96 0.5387595464505841 97 -0.45957587240604481 98 -0.38776714234260168
+		 91 6.6057139420778368 92 6.5123851037487306 93 6.0610407216653561 94 4.2805507340760123
+		 95 2.3271160663875361 96 0.53875954645058421 97 -0.45957587240604481 98 -0.38776714234260168
 		 99 -0.2361709344308838 100 -0.085771538686890358 101 0 102 -0.42337743515833459 103 -1.3171742427148154
 		 104 -2.2039147596853041 105 -2.709615585013315 106 -2.6997716612706584 107 -2.6789900444806056
 		 108 -2.6583724930862633 109 -2.6466144730603118 110 -2.9428328765693754 111 -3.6516677051390434
 		 112 -4.414821610432754 113 -5.0091232281347793 114 -5.277248424804422 115 -5.4851040141993401
 		 116 -5.6616268633816862 117 -5.7580209571698049 118 -5.7440468365931689 119 -5.6795213996311178
 		 120 -5.4598519672112058 121 -4.8636772402651109 122 -3.6952989167701311 123 -2.4385202741420517
-		 124 -1.1761451832764909 125 0 126 1.1487519929284515 127 2.2587121151165044 128 3.270270971601501
+		 124 -1.1761451832764909 125 0 126 1.1487519929284515 127 2.2587121151165048 128 3.270270971601501
 		 129 3.9173186683296914 130 4.0232247125328238 131 4.057590313651902 132 4.0850734206789827
 		 133 4.1757629869342576 134 4.7151751334146486 135 5.4911758442966256 136 6.2309794828606782
 		 137 6.6485534088518499 138 6.6393735231145605 139 6.6057139420778332 140 6.5123851037487297
-		 141 6.0610407216653561 142 4.2805507340759998 143 2.3271160663875681 144 0.53875954645058799
+		 141 6.0610407216653561 142 4.2805507340760007 143 2.3271160663875685 144 0.53875954645058799
 		 145 -0.45957587240604481;
 	setAttr -s 145 ".kit[48:144]"  1 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
@@ -24246,22 +24246,22 @@ createNode animCurveTA -n "RightFlukeOneControl_rotateZ";
 		 20 -6.7492876679848166 21 -7.2052481726267841 22 -7.832438571466418 23 -8.4634871823683415
 		 24 -9.0321061192909706 25 -9.3481127012497183 26 -8.3291776245002502 27 -5.6970265536794518
 		 28 -2.7875443881084605 29 0 30 2.6369888097941816 31 5.2015726716053496 32 7.6746439339717911
-		 33 9.4980753657708519 34 10.031999664962992 35 10.366216815403668 36 10.680392185863296
-		 37 11.128067816749994 38 11.883882654228149 39 12.686709364948436 40 13.483558004460903
+		 33 9.4980753657708519 34 10.031999664962992 35 10.366216815403668 36 10.680392185863298
+		 37 11.128067816749994 38 11.883882654228149 39 12.686709364948438 40 13.483558004460903
 		 41 14.16035624410253 42 14.676895462263586 43 15.149902147238363 44 15.56798997040806
 		 45 15.799051746247166 46 14.359681662759488 47 11.321011486507757 48 8.3063308116474683
 		 49 6.5870832119260934 50 5.8060470938367361 51 3.8802630223509555 52 1.7847467610551997
 		 53 0 54 -1.3699927079528633 55 -2.4972528067930777 56 -3.4693086891545675 57 -4.0025971624355918
 		 58 -3.9562673107977595 59 -3.8584598462290018 60 -3.7614245458542093 61 -3.7060861119534652
 		 62 -3.9010331168428491 63 -4.4020900811456487 64 -4.9550230908929995 65 -5.4786212523465077
-		 66 -5.9108658245016805 67 -6.3291749203933607 68 -6.7492876679848175 69 -7.2052481726267841
-		 70 -7.8324385714664162 71 -8.4634871823683451 72 -9.0321061192909742 73 -9.3481127012497183
-		 74 -8.329177624500236 75 -5.697026553679458 76 -2.7875443881084894 77 0 78 2.6369888097941701
+		 66 -5.9108658245016805 67 -6.3291749203933616 68 -6.7492876679848175 69 -7.2052481726267841
+		 70 -7.8324385714664162 71 -8.4634871823683469 72 -9.0321061192909742 73 -9.3481127012497183
+		 74 -8.329177624500236 75 -5.697026553679458 76 -2.7875443881084894 77 0 78 2.6369888097941705
 		 79 5.2015726716053274 80 7.6746439339718 81 9.4980753657708519 82 10.031999664962992
 		 83 10.36621681540367 84 10.680392185863298 85 11.128067816749994 86 11.883882654228156
-		 87 12.686709364948436 88 13.483558004460896 89 14.16035624410253 90 14.676895462263582
+		 87 12.686709364948438 88 13.483558004460896 89 14.16035624410253 90 14.676895462263582
 		 91 15.149902147238359 92 15.567989970408064 93 15.799051746247166 94 14.359681662759511
-		 95 11.321011486507754 96 8.3063308116474897 97 6.5870832119260934 98 5.8060470938367583
+		 95 11.321011486507754 96 8.3063308116474914 97 6.5870832119260934 98 5.8060470938367583
 		 99 3.8802630223509476 100 1.7847467610551608 101 0 102 -1.3699927079528762 103 -2.4972528067930986
 		 104 -3.4693086891545608 105 -4.0025971624355918 106 -3.9562673107977595 107 -3.8584598462290041
 		 108 -3.7614245458542097 109 -3.7060861119534652 110 -3.9010331168428438 111 -4.4020900811456514
@@ -24660,15 +24660,15 @@ createNode animCurveTA -n "LeftFlukeThreeControl_rotateX";
 	rename -uid "5E506C66-44E6-CB90-7B3F-6EA93489BFEF";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 145 ".ktv[0:144]"  1 -7.2587540513215973 2 -6.233117239504173
+	setAttr -s 145 ".ktv[0:144]"  1 -7.2587540513215973 2 -6.2331172395041738
 		 3 -3.9392398116507041 4 -1.5949181474687706 5 0 6 0.3868669971088004 7 0.57244405369790741
 		 8 0.70423766503715712 9 0.77186495076674888 10 0.76076708145136296 11 0.72275530779961306
 		 12 0.65775276413505712 13 0.5470076187082753 14 0.31936537938347054 15 0.081834679378216729
 		 16 -0.13367343124559056 17 -0.25367483883327419 18 0.21329084785911395 19 1.1991072975430446
 		 20 2.1771409857821049 21 2.7349055559980129 22 2.712507304502489 23 2.6310393217926569
 		 24 2.4715412231948726 25 2.1813209130269553 26 1.6548592420671091 27 1.0919196861028537
-		 28 0.52696204941961677 29 0 30 -0.42507357912077243 31 -0.83501213695400556 32 -1.2531426359568654
-		 33 -1.7618517508679594 34 -2.3275365831096639 35 -2.9055283233351568 36 -3.5372314942100536
+		 28 0.52696204941961677 29 0 30 -0.42507357912077243 31 -0.83501213695400567 32 -1.2531426359568654
+		 33 -1.7618517508679594 34 -2.3275365831096639 35 -2.9055283233351572 36 -3.5372314942100536
 		 37 -4.595511871347167 38 -6.8551335428701616 39 -9.2192662589973864 40 -11.365275136317624
 		 41 -12.560405374956755 42 -11.507734591884406 43 -9.2854296053983365 44 -7.0806691319634858
 		 45 -5.8233123632937351 46 -6.0476001270480895 47 -6.5210965171961677 48 -6.9908547779483428
@@ -24682,7 +24682,7 @@ createNode animCurveTA -n "LeftFlukeThreeControl_rotateX";
 		 79 -0.83501213695400245 80 -1.2531426359568671 81 -1.7618517508679594 82 -2.3275365831096626
 		 83 -2.9055283233351612 84 -3.5372314942100576 85 -4.595511871347167 86 -6.8551335428701838
 		 87 -9.2192662589973864 88 -11.365275136317608 89 -12.560405374956755 90 -11.507734591884413
-		 91 -9.2854296053983543 92 -7.0806691319634769 93 -5.8233123632937351 94 -6.0476001270480859
+		 91 -9.2854296053983543 92 -7.0806691319634778 93 -5.8233123632937351 94 -6.0476001270480859
 		 95 -6.5210965171961686 96 -6.9908547779483401 97 -7.2587540513215973 98 -6.2331172395041916
 		 99 -3.939239811650697 100 -1.5949181474687413 101 0 102 0.44623442466202951 103 0.61641992595955952
 		 104 0.72127831553854649 105 0.77186495076674888 106 0.76076708145136296 107 0.72275530779961383
@@ -24798,7 +24798,7 @@ createNode animCurveTA -n "LeftFlukeThreeControl_rotateY";
 	rename -uid "66506AA5-4EC0-25FE-931B-8188F4929665";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 145 ".ktv[0:144]"  1 0.29595605568591588 2 0.29133174231582348
+	setAttr -s 145 ".ktv[0:144]"  1 0.29595605568591588 2 0.29133174231582354
 		 3 0.27437592662548455 4 0.22736207402954478 5 0 6 -3.1352827194908119 7 -8.8447646089643541
 		 8 -14.433783164237511 9 -17.610299005222124 10 -17.585553555519898 11 -17.500796886806221
 		 12 -17.35585760800808 13 -17.108923863516701 14 -16.60133908095807 15 -16.071705524941525
@@ -24810,7 +24810,7 @@ createNode animCurveTA -n "LeftFlukeThreeControl_rotateY";
 		 37 1.4131477570237179 38 2.5520056376261642 39 3.7435636522008409 40 4.8251883887631886
 		 41 5.4275549127970502 42 4.9982184455613075 43 3.9560308048868316 44 2.8282029679842999
 		 45 1.9100616939216317 46 1.3729799103137315 47 0.91440643264329324 48 0.5154292562789522
-		 49 0.29595605568591588 50 0.29133174231582337 51 0.27437592662548449 52 0.22736207402954514
+		 49 0.29595605568591588 50 0.29133174231582337 51 0.27437592662548455 52 0.22736207402954514
 		 53 0 54 -2.8764656805584399 55 -8.6530482838292393 56 -14.359493088247685 57 -17.610299005222124
 		 58 -17.585553555519898 59 -17.500796886806221 60 -17.35585760800808 61 -17.108923863516701
 		 62 -16.601339080958066 63 -16.071705524941525 64 -15.591176789171499 65 -15.323603914480984
@@ -24828,9 +24828,9 @@ createNode animCurveTA -n "LeftFlukeThreeControl_rotateY";
 		 112 -15.591176789171492 113 -15.323603914480984 114 -15.731583070472922 115 -16.592872399789233
 		 116 -17.447362076505659 117 -17.93467051282936 118 -17.918891453754934 119 -17.861034903815373
 		 120 -17.700614469892042 121 -16.924810732066124 122 -12.991450231921068 123 -7.7668330348336241
-		 124 -2.8278756438519395 125 0 126 0.063186617888943322 127 0.082242899474497588 128 0.09678585121084135
-		 129 0.14442655517472702 130 0.29923461002091589 131 0.56619211068392372 132 0.87993924601600648
-		 133 1.4131477570237179 134 2.5520056376261531 135 3.7435636522008409 136 4.8251883887631966
+		 124 -2.8278756438519399 125 0 126 0.063186617888943322 127 0.082242899474497588 128 0.09678585121084135
+		 129 0.14442655517472702 130 0.29923461002091589 131 0.56619211068392372 132 0.87993924601600659
+		 133 1.4131477570237179 134 2.5520056376261531 135 3.7435636522008409 136 4.8251883887631974
 		 137 5.4275549127970502 138 4.9982184455613039 139 3.9560308048868236 140 2.8282029679843057
 		 141 1.9100616939216317 142 1.3729799103137292 143 0.91440643264329757 144 0.51542925627895486
 		 145 0.29595605568591588;
@@ -24937,37 +24937,37 @@ createNode animCurveTA -n "LeftFlukeThreeControl_rotateZ";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 145 ".ktv[0:144]"  1 -32.068868040552182 2 -27.948341361266024
-		 3 -18.194359613676575 4 -7.7900227001323099 5 0 6 2.5777135510162146 7 4.2540665370164277
+		 3 -18.194359613676578 4 -7.7900227001323099 5 0 6 2.577713551016215 7 4.2540665370164277
 		 8 5.6050461255388173 9 6.3305525479119238 10 6.2774866819598101 11 6.0957285779596742
 		 12 5.7849106929565135 13 5.2553687714349291 14 4.1668686085882269 15 3.0310855201610294
 		 16 2.0006062285999646 17 1.426804318688802 18 1.6443659545263019 19 2.1036627412943574
-		 20 2.5593335007984561 21 2.8191987880488032 22 2.5833088955113093 23 2.0107067736917053
-		 24 1.3910542280579501 25 0.88662365760151607 26 0.71627656229497338 27 0.59123406099499098
+		 20 2.5593335007984561 21 2.8191987880488032 22 2.5833088955113097 23 2.0107067736917053
+		 24 1.3910542280579503 25 0.88662365760151607 26 0.71627656229497338 27 0.5912340609949911
 		 28 0.4576400898460356 29 0 30 -1.0505858980946983 31 -2.1968278946300406 32 -3.4103138316016
 		 33 -5.0374796988123443 34 -7.3762199813153781 35 -9.8281038815779294 36 -12.335659015511352
 		 37 -15.134774658935456 38 -18.541876107747829 39 -22.042135767517937 40 -25.536661414240719
 		 41 -28.843939350706258 42 -32.321508533087361 43 -35.699675922707733 44 -38.722631259632927
 		 45 -40.399289730348023 46 -39.097661341317419 47 -36.349779186697269 48 -33.623590838560951
 		 49 -32.068868040552182 50 -27.948341361265982 51 -18.194359613676593 52 -7.7900227001323721
-		 53 0 54 3.6598506917615703 55 5.0556496042352057 56 5.9156595640860985 57 6.3305525479119238
+		 53 0 54 3.6598506917615703 55 5.0556496042352057 56 5.9156595640860994 57 6.3305525479119238
 		 58 6.2774866819598101 59 6.0957285779596715 60 5.7849106929565126 61 5.2553687714349291
 		 62 4.1668686085882216 63 3.0310855201610303 64 2.0006062285999691 65 1.426804318688802
 		 66 1.644365954526301 67 2.1036627412943556 68 2.559333500798457 69 2.8191987880488032
 		 70 2.5833088955113097 71 2.0107067736917017 72 1.391054228057947 73 0.88662365760151607
-		 74 0.71627656229497272 75 0.59123406099499098 76 0.45764008984603671 77 0 78 -1.0505858980946929
-		 79 -2.1968278946300313 80 -3.4103138316016053 81 -5.0374796988123443 82 -7.3762199813153702
+		 74 0.71627656229497272 75 0.5912340609949911 76 0.45764008984603671 77 0 78 -1.0505858980946929
+		 79 -2.1968278946300317 80 -3.4103138316016053 81 -5.0374796988123443 82 -7.3762199813153702
 		 83 -9.8281038815779507 84 -12.335659015511364 85 -15.134774658935456 86 -18.541876107747857
 		 87 -22.042135767517934 88 -25.53666141424069 89 -28.843939350706258 90 -32.321508533087346
 		 91 -35.699675922707712 92 -38.722631259632941 93 -40.399289730348023 94 -39.097661341317441
 		 95 -36.349779186697269 96 -33.623590838560972 97 -32.068868040552182 98 -27.948341361266099
 		 99 -18.194359613676529 100 -7.790022700132166 101 0 102 3.6598506917615992 103 5.0556496042352377
 		 104 5.9156595640860994 105 6.3305525479119238 106 6.2774866819598101 107 6.0957285779596777
-		 108 5.7849106929565179 109 5.2553687714349291 110 4.1668686085882438 111 3.0310855201610307
-		 112 2.0006062285999531 113 1.426804318688802 114 1.6443659545263043 115 2.1036627412943627
+		 108 5.7849106929565179 109 5.2553687714349291 110 4.1668686085882447 111 3.0310855201610307
+		 112 2.0006062285999535 113 1.426804318688802 114 1.6443659545263043 115 2.1036627412943627
 		 116 2.5593335007984526 117 2.8191987880488032 118 2.5833088955113057 119 2.0107067736917128
-		 120 1.391054228057953 121 0.88662365760151607 122 0.71627656229497394 123 0.59123406099499098
+		 120 1.391054228057953 121 0.88662365760151607 122 0.71627656229497394 123 0.5912340609949911
 		 124 0.4576400898460341 125 0 126 -1.050585898094704 127 -2.1968278946300508 128 -3.4103138316015968
-		 129 -5.0374796988123443 130 -7.3762199813153844 131 -9.8281038815779063 132 -12.335659015511338
+		 129 -5.0374796988123443 130 -7.3762199813153844 131 -9.828103881577908 132 -12.335659015511338
 		 133 -15.134774658935456 134 -18.5418761077478 135 -22.042135767517937 136 -25.536661414240754
 		 137 -28.843939350706258 138 -32.321508533087375 139 -35.699675922707762 140 -38.722631259632912
 		 141 -40.399289730348023 142 -39.097661341317412 143 -36.349779186697305 144 -33.623590838560972
@@ -25360,14 +25360,14 @@ createNode animCurveTA -n "LeftFlukeTwoControl_rotateX";
 	rename -uid "33EB151B-4CC2-1B52-E794-41836E81CFB6";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 145 ".ktv[0:144]"  1 -3.9827669580105947 2 -3.4234091400651181
+	setAttr -s 145 ".ktv[0:144]"  1 -3.9827669580105947 2 -3.4234091400651185
 		 3 -2.1679357978914178 4 -0.88261649626518723 5 0 6 0.21959788149552986 7 0.32845806989773463
 		 8 0.40705314316838692 9 0.44764102573282361 10 0.42825799080394616 11 0.38733825039853825
-		 12 0.34674156057527822 13 0.32358960218800792 14 0.42005474213720745 15 0.68241424625205305
+		 12 0.34674156057527822 13 0.32358960218800792 14 0.42005474213720745 15 0.68241424625205316
 		 16 0.97717405500124066 17 1.2915519844722214 18 1.6949119414738869 19 2.0974757285887771
 		 20 2.4596438072619931 21 2.6608261795835912 22 2.6550759850858556 23 2.6339919385941584
 		 24 2.5573394644006564 25 2.2928137317285193 26 1.7259956644227521 27 1.112951835252139
-		 28 0.50416606527656427 29 0 30 -0.28669765907575806 31 -0.53985608419648656 32 -0.79176240880115145
+		 28 0.50416606527656427 29 0 30 -0.28669765907575806 31 -0.53985608419648667 32 -0.79176240880115145
 		 33 -1.0836030372052752 34 -1.4238131340321096 35 -1.7724632454854909 36 -2.1362581524552082
 		 37 -2.6128784860490115 38 -3.3434165014653714 39 -4.1124528844057684 40 -4.8729065838747037
 		 41 -5.504499069008328 42 -5.9474452752968983 43 -6.3451201027256667 44 -6.6951049561110914
@@ -25378,13 +25378,13 @@ createNode animCurveTA -n "LeftFlukeTwoControl_rotateX";
 		 62 0.42005474213720811 63 0.68241424625205249 64 0.97717405500123899 65 1.2915519844722214
 		 66 1.6949119414738862 67 2.0974757285887753 68 2.4596438072619939 69 2.6608261795835912
 		 70 2.6550759850858556 71 2.6339919385941584 72 2.557339464400656 73 2.2928137317285193
-		 74 1.7259956644227468 75 1.112951835252139 76 0.50416606527656926 77 0 78 -0.28669765907575712
+		 74 1.725995664422747 75 1.112951835252139 76 0.50416606527656926 77 0 78 -0.28669765907575712
 		 79 -0.53985608419648456 80 -0.79176240880115245 81 -1.0836030372052752 82 -1.4238131340321083
 		 83 -1.7724632454854941 84 -2.13625815245521 85 -2.6128784860490115 86 -3.3434165014653772
 		 87 -4.1124528844057675 88 -4.8729065838746966 89 -5.504499069008328 90 -5.9474452752968965
 		 91 -6.3451201027256632 92 -6.6951049561110931 93 -6.8882834474680008 94 -6.4342964959902851
 		 95 -5.4758795984262045 96 -4.5250291500534301 97 -3.9827669580105947 98 -3.4234091400651283
-		 99 -2.1679357978914129 100 -0.88261649626517091 101 0 102 0.2587924680017899 103 0.35749109693940917
+		 99 -2.1679357978914129 100 -0.88261649626517102 101 0 102 0.2587924680017899 103 0.35749109693940917
 		 104 0.41830344114703527 105 0.44764102573282361 106 0.42825799080394594 107 0.38733825039853875
 		 108 0.34674156057527844 109 0.32358960218800792 110 0.42005474213720551 111 0.68241424625205416
 		 112 0.97717405500124499 113 1.2915519844722214 114 1.69491194147389 115 2.097475728588782
@@ -25499,8 +25499,8 @@ createNode animCurveTA -n "LeftFlukeTwoControl_rotateY";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 145 ".ktv[0:144]"  1 0.66925765038348572 2 0.65880049959624387
-		 3 0.62045761337635674 4 0.51414324703939696 5 0 6 -1.9291468841854404 7 -4.0078859178545168
-		 8 -5.9049296743163184 9 -6.9629982098363108 10 -6.9296070904478499 11 -6.8591147272944308
+		 3 0.62045761337635685 4 0.51414324703939696 5 0 6 -1.9291468841854404 7 -4.0078859178545168
+		 8 -5.9049296743163193 9 -6.9629982098363108 10 -6.9296070904478499 11 -6.8591147272944308
 		 12 -6.7891788827974855 13 -6.7492950457501566 14 -7.5190449962882395 15 -9.4012532385218144
 		 16 -11.443392039962184 17 -13.141982323001328 18 -14.242137629653673 19 -15.209713419829686
 		 20 -16.057330215604743 21 -16.524545671133211 22 -16.509664008272932 23 -16.455097911118578
@@ -25510,8 +25510,8 @@ createNode animCurveTA -n "LeftFlukeTwoControl_rotateY";
 		 37 1.4422134945162388 38 2.184670048806034 39 2.9780388006044585 40 3.7598506310425277
 		 41 4.369536816803282 42 4.6834221045621272 43 4.9400917646498126 44 5.1610817238862747
 		 45 5.2822646004712226 46 4.561482264520011 47 3.0398306664007961 48 1.5301921072140929
-		 49 0.66925765038348572 50 0.65880049959624365 51 0.62045761337635674 52 0.51414324703939795
-		 53 0 54 -1.3703115415424509 55 -3.5939338121930327 56 -5.7445232333725054 57 -6.9629982098363108
+		 49 0.66925765038348572 50 0.65880049959624365 51 0.62045761337635685 52 0.51414324703939795
+		 53 0 54 -1.3703115415424512 55 -3.5939338121930327 56 -5.7445232333725054 57 -6.9629982098363108
 		 58 -6.9296070904478499 59 -6.8591147272944299 60 -6.7891788827974855 61 -6.7492950457501566
 		 62 -7.519044996288244 63 -9.4012532385218108 64 -11.443392039962175 65 -13.141982323001328
 		 66 -14.242137629653673 67 -15.209713419829683 68 -16.057330215604747 69 -16.524545671133211
@@ -25523,9 +25523,9 @@ createNode animCurveTA -n "LeftFlukeTwoControl_rotateY";
 		 91 4.9400917646498108 92 5.1610817238862756 93 5.2822646004712226 94 4.5614822645200208
 		 95 3.0398306664007939 96 1.5301921072141034 97 0.66925765038348572 98 0.65880049959624409
 		 99 0.62045761337635663 100 0.51414324703939462 101 0 102 -1.3703115415424683 103 -3.5939338121930717
-		 104 -5.7445232333724876 105 -6.9629982098363108 106 -6.9296070904478491 107 -6.8591147272944317
-		 108 -6.7891788827974864 109 -6.7492950457501566 110 -7.5190449962882235 111 -9.4012532385218215
-		 112 -11.443392039962212 113 -13.141982323001328 114 -14.24213762965368 115 -15.209713419829699
+		 104 -5.7445232333724876 105 -6.9629982098363108 106 -6.9296070904478491 107 -6.8591147272944326
+		 108 -6.7891788827974864 109 -6.7492950457501566 110 -7.5190449962882235 111 -9.4012532385218233
+		 112 -11.443392039962212 113 -13.141982323001328 114 -14.242137629653682 115 -15.209713419829699
 		 116 -16.05733021560474 117 -16.524545671133211 118 -16.509664008272932 119 -16.455097911118582
 		 120 -16.303801005372428 121 -15.572119248075435 122 -11.950190456382606 123 -7.1761904142098798
 		 124 -2.6534830774164342 125 0 126 0.15501243583671709 127 0.19765608390011893 128 0.22807256488186503
@@ -25636,12 +25636,12 @@ createNode animCurveTA -n "LeftFlukeTwoControl_rotateZ";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 145 ".ktv[0:144]"  1 -17.661993725132792 2 -15.241758047914297
-		 3 -9.7300595087985045 4 -4.0474843735177322 5 0 6 1.1040702684803267 7 1.7118567383534986
-		 8 2.172014896483101 9 2.4138726565937922 10 2.3260407411737387 11 2.1406178086202918
+		 3 -9.7300595087985045 4 -4.0474843735177322 5 0 6 1.104070268480327 7 1.7118567383534986
+		 8 2.172014896483101 9 2.4138726565937922 10 2.3260407411737387 11 2.1406178086202923
 		 12 1.9566587413238457 13 1.8517483979054479 14 2.1863203260496333 15 3.0943015080897776
 		 16 4.1137401088140839 17 5.1965691549346529 18 6.5758459244622891 19 7.9511872640959673
 		 20 9.1883057695348374 21 9.8754845106149283 22 9.8516501407862478 23 9.7433270719330825
-		 24 9.3714356164468811 25 8.3500848415793385 26 6.294883997828606 27 4.081323261253905
+		 24 9.3714356164468811 25 8.3500848415793385 26 6.2948839978286069 27 4.081323261253905
 		 28 1.8782876442433276 29 0 30 -1.2091111051672785 31 -2.3148240370183797 32 -3.4137432647515737
 		 33 -4.6114690611964422 34 -5.9892973143661168 35 -7.3957280796699862 36 -8.8157245466513903
 		 37 -10.305218773616721 38 -12.01865393818388 39 -13.76432508490049 40 -15.476379773146006
@@ -26077,15 +26077,15 @@ createNode animCurveTA -n "LeftFlukeOneControl_rotateX";
 		 62 -11.430008925471618 63 -11.191405525999482 64 -10.920352885306146 65 -10.611538218918167
 		 66 -10.170925370089936 67 -9.725818177430126 68 -9.324435193865769 69 -9.101319804556919
 		 70 -9.1641330955889 71 -9.2967389322119747 72 -9.428297880651181 73 -9.5033248671616022
-		 74 -8.0184303566675883 75 -4.8836530567358265 76 -1.7736239986456297 77 0 78 -0.81872061819508068
+		 74 -8.0184303566675901 75 -4.8836530567358265 76 -1.7736239986456297 77 0 78 -0.81872061819508068
 		 79 -2.7669000492574281 80 -4.8600906378334834 81 -6.4606140265077254 82 -6.8991421035372529
 		 83 -7.160121397410987 84 -7.4395998739261557 85 -8.1386804670612154 86 -9.9738079803136976
-		 87 -11.918679757187627 88 -13.688269602507924 89 -14.674423523897588 90 -13.996073073969367
+		 87 -11.918679757187627 88 -13.688269602507926 89 -14.674423523897588 90 -13.996073073969367
 		 91 -12.56399990189867 92 -11.143232570660098 93 -10.332980644356944 94 -11.197604819634236
 		 95 -13.022922522997435 96 -14.833829823439322 97 -15.866575366131663 98 -13.387422965173638
 		 99 -8.1536567853732045 100 -2.9612098122554174 101 0 102 -1.4050813616400142 103 -4.5925943122261845
-		 104 -7.8728350300250103 105 -10.187163124965215 106 -10.804258533216657 107 -11.135893225920684
-		 108 -11.384408824133521 109 -11.514543581042114 110 -11.43000892547162 111 -11.19140552599948
+		 104 -7.8728350300250103 105 -10.187163124965215 106 -10.804258533216659 107 -11.135893225920684
+		 108 -11.384408824133521 109 -11.514543581042114 110 -11.430008925471622 111 -11.19140552599948
 		 112 -10.920352885306139 113 -10.611538218918167 114 -10.170925370089931 115 -9.7258181774301189
 		 116 -9.3244351938657726 117 -9.101319804556919 118 -9.1641330955889 119 -9.2967389322119711
 		 120 -9.4282978806511792 121 -9.5033248671616022 122 -8.0184303566676309 123 -4.8836530567358141
@@ -26093,7 +26093,7 @@ createNode animCurveTA -n "LeftFlukeOneControl_rotateX";
 		 129 -6.4606140265077254 130 -6.8991421035372555 131 -7.1601213974109834 132 -7.4395998739261531
 		 133 -8.1386804670612154 134 -9.9738079803136603 135 -11.918679757187627 136 -13.688269602507953
 		 137 -14.674423523897588 138 -13.996073073969356 139 -12.563999901898649 140 -11.143232570660112
-		 141 -10.332980644356944 142 -11.197604819634252 143 -13.02292252299741 144 -14.833829823439322
+		 141 -10.332980644356944 142 -11.197604819634252 143 -13.022922522997412 144 -14.833829823439322
 		 145 -15.866575366131663;
 	setAttr -s 145 ".kit[48:144]"  1 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
@@ -26197,7 +26197,7 @@ createNode animCurveTA -n "LeftFlukeOneControl_rotateY";
 	setAttr ".wgt" no;
 	setAttr -s 145 ".ktv[0:144]"  1 -1.2935765833350084 2 -1.0914552421889134
 		 3 -0.66475463310271266 4 -0.24142271303561366 5 0 6 -0.54571402911925915 7 -1.6977769794821409
-		 8 -2.8407446960263667 9 -3.4925697863632603 10 -3.4829491911000114 11 -3.4626390455442646
+		 8 -2.8407446960263671 9 -3.4925697863632603 10 -3.4829491911000114 11 -3.4626390455442646
 		 12 -3.4424892432429055 13 -3.4309979766784693 14 -3.8569860789849861 15 -4.8912254510118034
 		 16 -6.0105209678317211 17 -6.9221904940711596 18 -7.4568850139376597 19 -7.9137908421749437
 		 20 -8.3113930665533875 21 -8.5301223942183775 22 -8.512371304707397 23 -8.447283976500465
@@ -26208,9 +26208,9 @@ createNode animCurveTA -n "LeftFlukeOneControl_rotateY";
 		 41 7.4993642782356442 42 7.2073420071267167 43 6.3722242628082864 44 5.4199390241762586
 		 45 4.3114806139029174 46 2.6804199209894692 47 1.0273403979529867 48 -0.46428446805138796
 		 49 -1.2935765833350084 50 -1.0914552421889114 51 -0.66475463310271321 52 -0.24142271303561599
-		 53 0 54 -0.54571402911925682 55 -1.697776979482134 56 -2.8407446960263707 57 -3.4925697863632603
+		 53 0 54 -0.54571402911925682 55 -1.6977769794821342 56 -2.8407446960263711 57 -3.4925697863632603
 		 58 -3.4829491911000114 59 -3.4626390455442642 60 -3.4424892432429051 61 -3.4309979766784693
-		 62 -3.8569860789849897 63 -4.8912254510118025 64 -6.0105209678317157 65 -6.9221904940711596
+		 62 -3.8569860789849897 63 -4.8912254510118025 64 -6.0105209678317166 65 -6.9221904940711596
 		 66 -7.4568850139376597 67 -7.9137908421749428 68 -8.3113930665533893 69 -8.5301223942183775
 		 70 -8.512371304707397 71 -8.4472839765004633 72 -8.2238229905403273 73 -7.3940526655155532
 		 74 -5.5956817693525611 75 -3.6484411412011419 76 -1.7034109105474076 77 0 78 1.4334493524585161
@@ -26219,7 +26219,7 @@ createNode animCurveTA -n "LeftFlukeOneControl_rotateY";
 		 87 6.0720876088451883 88 6.9814487715306655 89 7.4993642782356442 90 7.2073420071267185
 		 91 6.3722242628082917 92 5.4199390241762524 93 4.3114806139029174 94 2.680419920989483
 		 95 1.0273403979529863 96 -0.46428446805137724 97 -1.2935765833350084 98 -1.0914552421889172
-		 99 -0.66475463310271166 100 -0.24142271303560869 101 0 102 -0.5457140291192647 103 -1.6977769794821529
+		 99 -0.66475463310271166 100 -0.24142271303560869 101 0 102 -0.5457140291192647 103 -1.6977769794821531
 		 104 -2.84074469602636 105 -3.4925697863632603 106 -3.4829491911000114 107 -3.462639045544265
 		 108 -3.4424892432429055 109 -3.4309979766784693 110 -3.8569860789849777 111 -4.8912254510118069
 		 112 -6.0105209678317362 113 -6.9221904940711596 114 -7.4568850139376632 115 -7.9137908421749508
@@ -26336,8 +26336,8 @@ createNode animCurveTA -n "LeftFlukeOneControl_rotateZ";
 		 8 6.2647964423589917 9 7.3320088115140418 10 7.2713440854880291 11 7.1432741083219993
 		 12 7.0162152099230699 13 6.9437545649475529 14 7.2053516143470633 15 7.9065679505169948
 		 16 8.69086133079335 17 9.5040784320816023 18 10.365300831668451 19 11.233216979616353
-		 20 12.090642615010196 21 12.851106238128784 22 13.525268573889148 23 14.161662563545798
-		 24 14.727807693668632 25 15.041283645233991 26 13.320794858561699 27 8.9943259648144949
+		 20 12.090642615010196 21 12.851106238128784 22 13.52526857388915 23 14.161662563545798
+		 24 14.727807693668632 25 15.041283645233991 26 13.320794858561699 27 8.9943259648144966
 		 28 4.2546277882127459 29 0 30 -3.5072629407062212 31 -6.8006666521279691 32 -9.8071621293340954
 		 33 -11.826419091641176 34 -12.23226728818762 35 -12.388715888096458 36 -12.527224392443085
 		 37 -12.891185785659207 38 -13.878346916421139 39 -14.926416906154861 40 -15.880338947235275
@@ -26347,8 +26347,8 @@ createNode animCurveTA -n "LeftFlukeOneControl_rotateZ";
 		 53 0 54 2.1205951879314289 55 4.2863700693988447 56 6.2434739090883378 57 7.3320088115140418
 		 58 7.2713440854880291 59 7.1432741083219984 60 7.0162152099230699 61 6.9437545649475529
 		 62 7.2053516143470651 63 7.906567950516993 64 8.6908613307933464 65 9.5040784320816023
-		 66 10.365300831668449 67 11.233216979616351 68 12.090642615010196 69 12.851106238128784
-		 70 13.525268573889148 71 14.161662563545804 72 14.727807693668636 73 15.041283645233991
+		 66 10.365300831668451 67 11.233216979616351 68 12.090642615010196 69 12.851106238128784
+		 70 13.52526857388915 71 14.161662563545804 72 14.727807693668636 73 15.041283645233991
 		 74 13.320794858561676 75 8.9943259648145073 76 4.254627788212793 77 0 78 -3.5072629407062075
 		 79 -6.8006666521279415 80 -9.8071621293341078 81 -11.826419091641176 82 -12.23226728818762
 		 83 -12.388715888096458 84 -12.527224392443085 85 -12.891185785659207 86 -13.878346916421147
@@ -26360,9 +26360,9 @@ createNode animCurveTA -n "LeftFlukeOneControl_rotateZ";
 		 108 7.0162152099230699 109 6.9437545649475529 110 7.2053516143470588 111 7.9065679505169975
 		 112 8.6908613307933624 113 9.5040784320816023 114 10.365300831668456 115 11.233216979616365
 		 116 12.090642615010191 117 12.851106238128784 118 13.525268573889152 119 14.161662563545789
-		 120 14.727807693668629 121 15.041283645233991 122 13.320794858561724 123 8.9943259648144824
-		 124 4.2546277882126988 125 0 126 -3.5072629407062363 127 -6.8006666521279984 128 -9.8071621293340847
-		 129 -11.826419091641176 130 -12.232267288187622 131 -12.388715888096458 132 -12.527224392443083
+		 120 14.727807693668629 121 15.041283645233991 122 13.320794858561726 123 8.9943259648144824
+		 124 4.2546277882126988 125 0 126 -3.5072629407062363 127 -6.8006666521279993 128 -9.8071621293340847
+		 129 -11.826419091641176 130 -12.232267288187622 131 -12.388715888096458 132 -12.527224392443085
 		 133 -12.891185785659207 134 -13.878346916421128 135 -14.926416906154861 136 -15.880338947235284
 		 137 -16.411987549473608 138 -16.232667481950969 139 -15.666277740147144 140 -14.900811881453325
 		 141 -13.782673126929639 142 -11.708859201972691 143 -9.561900276301067 144 -7.6168368680714815
@@ -26757,11 +26757,11 @@ createNode animCurveTA -n "FlukeCenterControl_rotateX";
 		 3 -1.9369817473490913 4 -6.2074245059165101 5 -9.9268527272772022 6 -12.525370866765726
 		 7 -14.945531651675028 8 -17.276062749834445 9 -19.13148390393512 10 -20.137917356639967
 		 11 -21.010531862354686 12 -21.834530308642691 13 -22.456438397308865 14 -22.722641816542893
-		 15 -22.925926561674107 16 -23.103012072591458 17 -23.222489652230493 18 -23.25434924289755
+		 15 -22.92592656167411 16 -23.103012072591458 17 -23.222489652230493 18 -23.25434924289755
 		 19 -23.271472105896244 20 -23.284303755253102 21 -23.291023095793904 22 -22.882691893051202
 		 23 -21.43163238047617 24 -18.727333202403241 25 -13.915885473424503 26 -4.4587910654858867
 		 27 5.5075517617157121 28 14.955180268364655 29 21.787763069646811 30 23.855122293610656
-		 31 25.108898975521292 32 26.09492104438154 33 26.620111567580206 34 26.319729197593475
+		 31 25.108898975521296 32 26.09492104438154 33 26.620111567580206 34 26.319729197593475
 		 35 25.409046139379743 36 24.353734532653874 37 23.015523127739449 38 21.042154286226452
 		 39 18.973801382372848 40 16.946890885083505 41 15.40583642140896 42 14.992310503692329
 		 43 14.72993763171241 44 14.458385814131363 45 13.531438056115352 46 10.74484532301862
@@ -26772,21 +26772,21 @@ createNode animCurveTA -n "FlukeCenterControl_rotateX";
 		 63 -22.926074876668192 64 -23.103069544651667 65 -23.222489652230493 66 -23.254342777290777
 		 67 -23.271467316557892 68 -23.284301899384491 69 -23.291023095793904 70 -22.882691893051202
 		 71 -21.431632380476159 72 -18.727333202403226 73 -13.915885473424503 74 -4.4587910654858041
-		 75 5.5075517617156979 76 14.955180268364579 77 21.787763069646811 78 23.855122293610656
+		 75 5.5075517617156988 76 14.955180268364579 77 21.787763069646811 78 23.855122293610656
 		 79 25.108898975521285 80 26.094921044381547 81 26.620111567580206 82 26.319729197593478
 		 83 25.409046139379733 84 24.353734532653871 85 23.015523127739449 86 21.042154286226435
 		 87 18.973801382372848 88 16.946890885083519 89 15.40583642140896 90 14.992310503692332
 		 91 14.729937631712412 92 14.458385814131363 93 13.531438056115352 94 10.744845323018644
 		 95 7.7707425117785229 96 5.0612357179873504 97 3.5507455525993601 98 1.9764855742562033
 		 99 -1.9369817473491044 100 -6.207424505916566 101 -9.9268527272772022 102 -12.66625844315123
-		 103 -15.054365440840563 104 -17.323273754266964 105 -19.13148390393512 106 -20.132606118641313
+		 103 -15.054365440840563 104 -17.323273754266967 105 -19.13148390393512 106 -20.132606118641313
 		 107 -21.006429001255178 108 -21.832750528713682 109 -22.456438397308865 110 -22.722842041784901
 		 111 -22.926074876668189 112 -23.103069544651667 113 -23.222489652230493 114 -23.254342777290777
 		 115 -23.271467316557892 116 -23.284301899384491 117 -23.291023095793904 118 -22.882691893051195
 		 119 -21.431632380476199 120 -18.727333202403255 121 -13.915885473424503 122 -4.4587910654859897
 		 123 5.5075517617156962 124 14.955180268364728 125 21.787763069646811 126 23.855122293610659
 		 127 25.108898975521296 128 26.094921044381536 129 26.620111567580206 130 26.319729197593475
-		 131 25.409046139379754 132 24.353734532653881 133 23.015523127739449 134 21.04215428622647
+		 131 25.409046139379758 132 24.353734532653881 133 23.015523127739449 134 21.04215428622647
 		 135 18.973801382372844 136 16.946890885083484 137 15.40583642140896 138 14.992310503692329
 		 139 14.72993763171241 140 14.458385814131367 141 13.531438056115352 142 10.744845323018611
 		 143 7.7707425117785585 144 5.0612357179873504 145 3.5507455525993601;
@@ -26898,12 +26898,12 @@ createNode animCurveTA -n "FlukeCenterControl_rotateY";
 		 11 0 12 0 13 0 14 0.0036473303934669065 15 0.012648373361863158 16 0.022445728014941893
 		 17 0.030810524907281485 18 0.036850704602630006 19 0.042311970738406583 20 0.047125800387680425
 		 21 0.049784069260622225 22 0.041352875853272596 23 0.01526519011641005 24 -0.017492266661562575
-		 25 -0.06244567183375848 26 -0.14174178871967139 27 -0.22349376365835028 28 -0.29750031626239526
+		 25 -0.06244567183375848 26 -0.14174178871967141 27 -0.22349376365835028 28 -0.29750031626239526
 		 29 -0.33868328598833014 30 -0.3385106533875698 31 -0.33787766718478207 32 -0.33561816562494007
 		 33 -0.32763479953967167 34 -0.31202441216477272 35 -0.29520485514059308 36 -0.27784260811145955
 		 37 -0.25779754122948695 38 -0.23253382856610291 39 -0.20646101803418618 40 -0.1802937299861529
 		 41 -0.15455727503595279 42 -0.12871053013654146 43 -0.10287559891286668 44 -0.077477184986022463
-		 45 -0.055677908147882392 46 -0.038262051688848199 47 -0.022155826271604357 48 -0.0078894088283981249
+		 45 -0.055677908147882392 46 -0.038262051688848206 47 -0.022155826271604357 48 -0.0078894088283981249
 		 49 0 50 0 51 0 52 0 53 0 54 0 55 0 56 0 57 0 58 0 59 0 60 0 61 0 62 0.0036473303934669321
 		 63 0.012648373361863146 64 0.022445728014941844 65 0.030810524907281485 66 0.036850704602629993
 		 67 0.042311970738406562 68 0.047125800387680439 69 0.049784069260622225 70 0.041352875853272589
@@ -26920,7 +26920,7 @@ createNode animCurveTA -n "FlukeCenterControl_rotateY";
 		 120 -0.017492266661562384 121 -0.06244567183375848 122 -0.14174178871967058 123 -0.22349376365835028
 		 124 -0.29750031626239581 125 -0.33868328598833014 126 -0.3385106533875698 127 -0.33787766718478202
 		 128 -0.33561816562494001 129 -0.32763479953967167 130 -0.31202441216477272 131 -0.2952048551405933
-		 132 -0.27784260811145967 133 -0.25779754122948695 134 -0.23253382856610311 135 -0.20646101803418612
+		 132 -0.27784260811145972 133 -0.25779754122948695 134 -0.23253382856610311 135 -0.20646101803418612
 		 136 -0.18029372998615265 137 -0.15455727503595279 138 -0.12871053013654132 139 -0.10287559891286646
 		 140 -0.07747718498602256 141 -0.055677908147882392 142 -0.038262051688848144 143 -0.022155826271604531
 		 144 -0.0078894088283982342 145 0;
@@ -27018,7 +27018,7 @@ createNode animCurveTA -n "FlukeCenterControl_rotateZ";
 		 29 -0.30964304435930412 30 -0.32742460702820314 31 -0.33869642102581021 32 -0.34770184760618045
 		 33 -0.35252403602107252 34 -0.34793387930204817 35 -0.33401768988405367 36 -0.31789142500875101
 		 37 -0.29744215539277991 38 -0.26886453376781333 39 -0.23903577606709217 40 -0.20919760923841962
-		 41 -0.18115818517749566 42 -0.15646303054601124 43 -0.13229544983042796 44 -0.10832611150398645
+		 41 -0.18115818517749566 42 -0.15646303054601127 43 -0.13229544983042796 44 -0.10832611150398645
 		 45 -0.085207992099437996 46 -0.059707555789702264 47 -0.034760264425767885 48 -0.012404502563742027
 		 49 0 50 0 51 0 52 0 53 0 54 0 55 0 56 0 57 0 58 0 59 0 60 0 61 0 62 0.0014112084856898774
 		 63 0.0048481576353019825 64 0.0085718884680892077 65 0.011633199394158354 66 0.013512132814784344
@@ -27030,12 +27030,12 @@ createNode animCurveTA -n "FlukeCenterControl_rotateZ";
 		 87 -0.23903577606709217 88 -0.20919760923841987 89 -0.18115818517749566 90 -0.15646303054601135
 		 91 -0.13229544983042812 92 -0.10832611150398631 93 -0.085207992099437996 94 -0.059707555789702486
 		 95 -0.034760264425767885 96 -0.012404502563742191 97 0 98 0 99 0 100 0 101 0 102 0
-		 103 0 104 0 105 0 106 0 107 0 108 0 109 0 110 0.001411208485689837 111 0.0048481576353020016
-		 112 0.0085718884680892806 113 0.011633199394158354 114 0.013512132814784354 115 0.015139780141830639
+		 103 0 104 0 105 0 106 0 107 0 108 0 109 0 110 0.0014112084856898373 111 0.0048481576353020016
+		 112 0.0085718884680892823 113 0.011633199394158354 114 0.013512132814784354 115 0.015139780141830639
 		 116 0.016560687669795814 117 0.01734310057162149 118 0.016692067543932172 119 0.014304946442404765
 		 120 0.0066984587448809816 121 -0.024323013200494212 122 -0.09846254771584198 123 -0.17776844058631333
 		 124 -0.25402263404998299 125 -0.30964304435930412 126 -0.32742460702820314 127 -0.33869642102581027
-		 128 -0.34770184760618045 129 -0.35252403602107252 130 -0.34793387930204811 131 -0.33401768988405378
+		 128 -0.34770184760618045 129 -0.35252403602107252 130 -0.34793387930204811 131 -0.33401768988405384
 		 132 -0.31789142500875112 133 -0.29744215539277991 134 -0.26886453376781355 135 -0.23903577606709217
 		 136 -0.20919760923841937 137 -0.18115818517749566 138 -0.15646303054601113 139 -0.13229544983042774
 		 140 -0.10832611150398651 141 -0.085207992099437996 142 -0.059707555789702188 143 -0.034760264425768156
@@ -27414,12 +27414,12 @@ createNode animCurveTA -n "BodySixControl_rotateX";
 	setAttr ".wgt" no;
 	setAttr -s 145 ".ktv[0:144]"  1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0
 		 11 0 12 0 13 0 14 0 15 0 16 0 17 0 18 0.00072696123065538469 19 0.0028969705716844958
-		 20 0.005401153789915506 21 0.0085096341108301752 22 0.012820194508086896 23 0.017313687779607692
+		 20 0.005401153789915506 21 0.0085096341108301752 22 0.012820194508086897 23 0.017313687779607692
 		 24 0.021776809466002005 25 0.02571388156423807 26 0.028995238586940239 27 0.032082826934776786
 		 28 0.034901271398848625 29 0.036788466834010838 30 0.037126380621880659 31 0.037259098815654229
 		 32 0.03737634497207197 33 0.037768793088949933 34 0.039725776440889017 35 0.042498072467688906
 		 36 0.045230624248007646 37 0.047192714536256085 38 0.04775316989686916 39 0.048076042645837001
-		 40 0.048325051162870149 41 0.04845678971089841 42 0.045806809023583646 43 0.038974545890982995
+		 40 0.048325051162870156 41 0.04845678971089841 42 0.045806809023583646 43 0.038974545890982995
 		 44 0.031427208604662527 45 0.024228394855449181 46 0.016907147191260692 47 0.0098317688614395077
 		 48 0.0035069554981146784 49 0 50 0 51 0 52 0 53 0 54 0 55 0 56 0 57 0 58 0 59 0 60 0
 		 61 0 62 0 63 0 64 0 65 0 66 0.00072696123065538133 67 0.0028969705716844884 68 0.005401153789915512
@@ -27436,7 +27436,7 @@ createNode animCurveTA -n "BodySixControl_rotateX";
 		 121 0.02571388156423807 122 0.028995238586940208 123 0.032082826934776786 124 0.034901271398848639
 		 125 0.036788466834010838 126 0.037126380621880659 127 0.037259098815654229 128 0.03737634497207197
 		 129 0.037768793088949933 130 0.039725776440889017 131 0.042498072467688879 132 0.045230624248007639
-		 133 0.047192714536256085 134 0.047753169896869153 135 0.048076042645836994 136 0.048325051162870149
+		 133 0.047192714536256085 134 0.04775316989686916 135 0.048076042645836994 136 0.048325051162870156
 		 137 0.04845678971089841 138 0.045806809023583625 139 0.03897454589098294 140 0.031427208604662561
 		 141 0.024228394855449181 142 0.016907147191260671 143 0.0098317688614395875 144 0.0035069554981147265
 		 145 0;
@@ -27628,11 +27628,11 @@ createNode animCurveTA -n "BodySixControl_rotateZ";
 	rename -uid "42F4F091-4D83-53B6-5845-B3911DE9046B";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 145 ".ktv[0:144]"  1 -0.54886512211027383 2 0.81192471209175221
+	setAttr -s 145 ".ktv[0:144]"  1 -0.54886512211027383 2 0.81192471209175232
 		 3 4.0761878070127011 4 7.593703167641535 5 10.354384553057317 6 11.545800872337935
-		 7 12.491481879675465 8 13.371795810191523 9 14.079099786387197 10 14.535690234898656
+		 7 12.491481879675467 8 13.371795810191523 9 14.079099786387197 10 14.535690234898656
 		 11 14.936892885114991 12 15.288282405608044 13 15.481960255929321 14 15.473370350355525
-		 15 15.441874029918274 16 15.328681494835221 17 14.932206299206428 18 14.190504689124941
+		 15 15.441874029918274 16 15.328681494835221 17 14.932206299206428 18 14.190504689124943
 		 19 13.393086980819668 20 12.556170083176601 21 11.475548335498944 22 9.8973885245796716
 		 23 8.2426248626351999 24 6.5869582743723907 25 5.0387160731525453 26 3.6183580290119419
 		 27 2.2203892450466207 28 0.86359454055497553 29 -0.1856273957034254 30 -0.57663784385039252
@@ -27647,11 +27647,11 @@ createNode animCurveTA -n "BodySixControl_rotateZ";
 		 63 15.441874029918274 64 15.328681494835221 65 14.932206299206428 66 14.190504689124943
 		 67 13.393086980819673 68 12.556170083176601 69 11.475548335498944 70 9.8973885245796716
 		 71 8.2426248626351875 72 6.5869582743723809 73 5.0387160731525453 74 3.6183580290119308
-		 75 2.2203892450466216 76 0.86359454055498774 77 -0.1856273957034254 78 -0.57663784385039207
-		 79 -0.86701313950605297 80 -1.1669154279702796 81 -1.6967083855852703 82 -2.681280738309348
+		 75 2.2203892450466216 76 0.86359454055498786 77 -0.1856273957034254 78 -0.57663784385039207
+		 79 -0.86701313950605308 80 -1.1669154279702796 81 -1.6967083855852703 82 -2.681280738309348
 		 83 -3.7366184874710342 84 -4.8040794940150588 85 -5.8658422527850078 86 -7.1063866411777825
 		 87 -8.3297715369087086 88 -9.4278150318507219 89 -10.037362543133465 90 -9.518460340421262
-		 91 -8.1806104436326521 92 -6.7027393175407317 93 -5.2931138326218647 94 -3.8595141246185092
+		 91 -8.1806104436326539 92 -6.7027393175407317 93 -5.2931138326218647 94 -3.8595141246185092
 		 95 -2.4740589709484127 96 -1.2355746296536632 97 -0.54886512211027383 98 0.8119247120917269
 		 99 4.0761878070127109 100 7.5937031676415794 101 10.354384553057317 102 11.844722535357786
 		 103 12.722394910368051 104 13.471963563231681 105 14.079099786387197 106 14.52442136268164
@@ -28064,9 +28064,9 @@ createNode animCurveTA -n "BodyFiveControl_rotateX";
 		 39 0.028883776010130983 40 0.028198202858742975 41 0.027146124700232095 42 0.025674000891314858
 		 43 0.024128243684644203 44 0.022445819796328207 45 0.019741464928152277 46 0.014131706306041545
 		 47 0.0082744344939397942 48 0.0029595750547997549 49 0 50 0 51 0 52 0 53 0 54 0 55 0
-		 56 0 57 0 58 -0.0016201277170079468 59 -0.0055080971067530422 60 -0.0096983330091716963
+		 56 0 57 0 58 -0.001620127717007947 59 -0.0055080971067530422 60 -0.0096983330091716963
 		 61 -0.012991300364637415 62 -0.014568962550748507 63 -0.015823612900252779 64 -0.016896271143400435
-		 65 -0.017483219838576727 66 -0.01365357448332003 67 -0.0041999568169512613 68 0.0060910134288167939
+		 65 -0.017483219838576727 66 -0.013653574483320031 67 -0.0041999568169512613 68 0.0060910134288167939
 		 69 0.014884089437224036 70 0.021252758499164397 71 0.027015159386285244 72 0.032095223254100511
 		 73 0.034900640175808455 74 0.034586443385112874 75 0.033821994207405892 76 0.032994052418084847
 		 77 0.032315407570193008 78 0.03195633280626959 79 0.031647175879650671 80 0.031349442622890425
@@ -28078,7 +28078,7 @@ createNode animCurveTA -n "BodyFiveControl_rotateX";
 		 108 -0.0096983330091716547 109 -0.012991300364637415 110 -0.014568962550748486 111 -0.015823612900252779
 		 112 -0.016896271143400452 113 -0.017483219838576727 114 -0.013653574483319974 115 -0.0041999568169511095
 		 116 0.0060910134288167011 117 0.014884089437224036 118 0.021252758499164453 119 0.02701515938628515
-		 120 0.032095223254100476 121 0.034900640175808455 122 0.034586443385112881 123 0.033821994207405885
+		 120 0.032095223254100476 121 0.034900640175808455 122 0.034586443385112881 123 0.033821994207405892
 		 124 0.032994052418084827 125 0.032315407570193008 126 0.03195633280626959 127 0.031647175879650664
 		 128 0.031349442622890425 129 0.031071485874716757 130 0.030875107096382252 131 0.030690072449059462
 		 132 0.030486741859122968 133 0.030114800119583909 134 0.029518250198484152 135 0.028883776010130983
@@ -28181,7 +28181,7 @@ createNode animCurveTA -n "BodyFiveControl_rotateY";
 		 11 -0.018040108969502137 12 -0.031749411586216129 13 -0.042467844889815684 14 -0.047434265584226462
 		 15 -0.051329237580257182 16 -0.054647208854468325 17 -0.056460763765186182 18 -0.04369385572249293
 		 19 -0.0097320845378085427 20 0.028162732359881624 21 0.066853347595203408 22 0.11260927834555419
-		 23 0.15780535354137495 24 0.19838384649557075 25 0.22091190214916487 26 0.21919051701433989
+		 23 0.15780535354137495 24 0.19838384649557078 25 0.22091190214916487 26 0.21919051701433989
 		 27 0.21465310763959394 28 0.20960486668246994 29 0.20454805754552305 30 0.19995594165642669
 		 31 0.19542883157370083 32 0.19080335864261042 33 0.18526537054408587 34 0.17835300412906346
 		 35 0.17121521881156407 36 0.16386546287832443 37 0.15509750733981026 38 0.14374244167426689
@@ -28201,9 +28201,9 @@ createNode animCurveTA -n "BodyFiveControl_rotateY";
 		 97 0 98 0 99 0 100 0 101 0 102 0 103 0 104 0 105 0 106 -0.0053123016132871972 107 -0.018040108969501964
 		 108 -0.031749411586216032 109 -0.042467844889815684 110 -0.047434265584226407 111 -0.051329237580257182
 		 112 -0.05464720885446836 113 -0.056460763765186182 114 -0.043693855722492785 115 -0.009732084537808175
-		 116 0.028162732359881357 117 0.066853347595203408 118 0.11260927834555451 119 0.15780535354137443
+		 116 0.028162732359881357 117 0.066853347595203408 118 0.11260927834555451 119 0.15780535354137445
 		 120 0.19838384649557056 121 0.22091190214916487 122 0.21919051701433992 123 0.21465310763959394
-		 124 0.20960486668246989 125 0.20454805754552305 126 0.19995594165642666 127 0.19542883157370078
+		 124 0.20960486668246989 125 0.20454805754552305 126 0.19995594165642669 127 0.19542883157370078
 		 128 0.19080335864261042 129 0.18526537054408587 130 0.17835300412906346 131 0.17121521881156412
 		 132 0.16386546287832449 133 0.15509750733981026 134 0.143742441674267 135 0.13198050580074525
 		 136 0.12008429540262146 137 0.10768582996976296 138 0.094343882099867923 139 0.080855131722010101
@@ -28312,11 +28312,11 @@ createNode animCurveTA -n "BodyFiveControl_rotateZ";
 		 31 -7.2661267047606275 32 -7.5008416157464168 33 -7.7940221320339296 34 -8.2435806916785559
 		 35 -8.7055659700049048 36 -9.1358150917209677 37 -9.429799547984576 38 -9.5069037080209693
 		 39 -9.5475937181500186 40 -9.5778422510323775 41 -9.593635487358485 42 -9.5659639402597847
-		 43 -9.4342418812858231 44 -8.9929180097571422 45 -7.8226564730416328 46 -5.1360861981127046
-		 47 -2.3116178858613106 48 0.25453575169639214 49 1.6840071624873969 50 1.9708027153885128
+		 43 -9.4342418812858249 44 -8.9929180097571422 45 -7.8226564730416328 46 -5.1360861981127046
+		 47 -2.311617885861311 48 0.25453575169639214 49 1.6840071624873969 50 1.9708027153885128
 		 51 2.7076664615366304 52 3.5207241065128332 53 4.2900003376226614 54 4.8874200803884973
 		 55 5.4731911961584254 56 6.0743699313716002 57 6.8206847396083381 58 7.9801428422100127
-		 59 9.1751300780311844 60 10.293933262372681 61 11.081353390880931 62 11.302869336415533
+		 59 9.1751300780311844 60 10.293933262372681 61 11.081353390880931 62 11.302869336415535
 		 63 11.428634702580871 64 11.525067180740054 65 11.575981041401567 66 10.837197773634808
 		 67 8.795387250052201 68 6.4902628653799921 69 3.9579359439751087 70 0.54278278942023772
 		 71 -2.8856970571895326 72 -5.9736610902478882 73 -7.6895668500596077 74 -7.5810764100995724
@@ -28324,9 +28324,9 @@ createNode animCurveTA -n "BodyFiveControl_rotateZ";
 		 79 -7.2661267047606257 80 -7.5008416157464186 81 -7.7940221320339296 82 -8.2435806916785541
 		 83 -8.7055659700049102 84 -9.1358150917209713 85 -9.429799547984576 86 -9.5069037080209693
 		 87 -9.5475937181500186 88 -9.5778422510323775 89 -9.593635487358485 90 -9.5659639402597847
-		 91 -9.4342418812858231 92 -8.9929180097571368 93 -7.8226564730416328 94 -5.1360861981127286
+		 91 -9.4342418812858249 92 -8.9929180097571368 93 -7.8226564730416328 94 -5.1360861981127295
 		 95 -2.3116178858613092 96 0.25453575169637344 97 1.6840071624873969 98 1.9708027153885048
-		 99 2.7076664615366348 100 3.5207241065128492 101 4.2900003376226614 102 4.8874200803885017
+		 99 2.7076664615366348 100 3.5207241065128496 101 4.2900003376226614 102 4.8874200803885017
 		 103 5.4731911961584352 104 6.0743699313715966 105 6.8206847396083381 106 7.9801428422100225
 		 107 9.1751300780311631 108 10.293933262372672 109 11.081353390880931 110 11.302869336415529
 		 111 11.428634702580869 112 11.525067180740056 113 11.575981041401567 114 10.837197773634797
@@ -28727,31 +28727,31 @@ createNode animCurveTA -n "BodyFourControl_rotateX";
 	setAttr -s 145 ".ktv[0:144]"  1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0
 		 11 0 12 0 13 0 14 -0.00069322118691883755 15 -0.0028742252443770119 16 -0.0057823642789268798
 		 17 -0.0099846572158151948 18 -0.01682278494577457 19 -0.024060340047342095 20 -0.03120559576780078
-		 21 -0.036986944130230973 22 -0.040213819101656535 23 -0.043039550991938416 24 -0.045741717397218461
+		 21 -0.036986944130230973 22 -0.040213819101656535 23 -0.043039550991938416 24 -0.045741717397218468
 		 25 -0.04802177011991314 26 -0.048991716886897782 27 -0.049780729038863408 28 -0.050640096676228007
 		 29 -0.05359008883742724 30 -0.063091170319706083 31 -0.073264216190907089 32 -0.082537551243049317
-		 33 -0.087708069727265081 34 -0.085336481904969938 35 -0.079358779841544755 36 -0.072804965449329892
-		 37 -0.066886820265981681 38 -0.062792288009078906 39 -0.058972965314501767 40 -0.055072557486824096
-		 41 -0.050087487069968045 42 -0.042761697049620087 43 -0.035077721727010278 44 -0.027422948394910086
-		 45 -0.020547412366139148 46 -0.014251797489502506 47 -0.0082738412108012242 48 -0.0029492708146087216
+		 33 -0.087708069727265081 34 -0.085336481904969938 35 -0.079358779841544755 36 -0.070831950368711594
+		 37 -0.065195779175051233 38 -0.057935377474488528 39 -0.054434797522996854 40 -0.048968909658088387
+		 41 -0.045259910234766422 42 -0.040715025052152055 43 -0.033439741485315012 44 -0.028757411997470568
+		 45 -0.020547412366139148 46 -0.014251797489502506 47 -0.0082738412108012242 48 -0.0026672285572643538
 		 49 0 50 0 51 0 52 0 53 0 54 0 55 0 56 0 57 0 58 0 59 0 60 0 61 0 62 -0.00069322118691884243
 		 63 -0.002874225244377011 64 -0.0057823642789268668 65 -0.0099846572158151948 66 -0.016822784945774549
 		 67 -0.024060340047342064 68 -0.031205595767800794 69 -0.036986944130230973 70 -0.040213819101656535
 		 71 -0.043039550991938437 72 -0.045741717397218468 73 -0.04802177011991314 74 -0.048991716886897789
 		 75 -0.049780729038863408 76 -0.050640096676228 77 -0.05359008883742724 78 -0.063091170319706041
 		 79 -0.073264216190907006 80 -0.082537551243049345 81 -0.087708069727265081 82 -0.085336481904969966
-		 83 -0.079358779841544699 84 -0.072804965449329864 85 -0.066886820265981681 86 -0.062792288009078892
-		 87 -0.058972965314501767 88 -0.055072557486824138 89 -0.050087487069968045 90 -0.042761697049620129
-		 91 -0.03507772172701034 92 -0.027422948394910048 93 -0.020547412366139148 94 -0.014251797489502557
+		 83 -0.079358779841544699 84 -0.072804965449329864 85 -0.066886820265981681 86 -0.062792288009078906
+		 87 -0.058680220455317476 88 -0.052064522889373917 89 -0.048278134463222461 90 -0.041782433257432264
+		 91 -0.034056314476915608 92 -0.027422948394910048 93 -0.020547412366139148 94 -0.014251797489502557
 		 95 -0.0082738412108012225 96 -0.0029492708146087623 97 0 98 0 99 0 100 0 101 0 102 0
 		 103 0 104 0 105 0 106 0 107 0 108 0 109 0 110 -0.00069322118691882313 111 -0.0028742252443770171
 		 112 -0.005782364278926924 113 -0.0099846572158151948 114 -0.016822784945774619 115 -0.024060340047342189
 		 116 -0.031205595767800742 117 -0.036986944130230973 118 -0.040213819101656556 119 -0.043039550991938388
 		 120 -0.045741717397218447 121 -0.04802177011991314 122 -0.048991716886897782 123 -0.049780729038863408
 		 124 -0.050640096676228021 125 -0.05359008883742724 126 -0.063091170319706152 127 -0.073264216190907186
-		 128 -0.082537551243049276 129 -0.087708069727265081 130 -0.085336481904969924 131 -0.079358779841544824
-		 132 -0.072804965449329934 133 -0.066886820265981681 134 -0.062792288009078934 135 -0.058972965314501753
-		 136 -0.055072557486824054 137 -0.050087487069968045 138 -0.042761697049620052 139 -0.035077721727010215
+		 128 -0.082537551243049276 129 -0.087708069727265081 130 -0.085336481904969924 131 -0.079358779841544838
+		 132 -0.072804965449329934 133 -0.066886820265981681 134 -0.060263190219690135 135 -0.056758607858076293
+		 136 -0.053146920425840107 137 -0.048733238304332724 138 -0.041665089019589242 139 -0.034850635928838726
 		 140 -0.027422948394910111 141 -0.020547412366139148 142 -0.014251797489502485 143 -0.0082738412108012849
 		 144 -0.0029492708146087597 145 0;
 	setAttr -s 145 ".kit[48:144]"  1 18 18 18 18 18 18 18 
@@ -28773,16 +28773,16 @@ createNode animCurveTA -n "BodyFourControl_rotateX";
 		0.99999633517080078 0.99999822022803397 0.9999991965263475 0.9999993297962041 0.99999945558193637 
 		0.99999976833860549 0.99999993214238669 0.99999994040610718 0.9999996817334379 0.99999659984574418 
 		0.9999915106848174 0.99999170608832944 0.99999542437522615 1 0.99999847107805062 
-		0.99999655576920587 0.99999658842912398 0.99999780119735715 0.99999862639295722 0.99999869295463628 
-		0.99999826839943307 0.9999966759933645 0.99999505880699313 0.99999483983329629 0.99999536943551282 
+		0.99999655576920587 0.99999658842912398 0.99999780119735715 0.99999852289019464 0.99999747591428001 
+		0.99999762684248428 0.99999768127901811 0.99999556396773537 0.99999547767254404 0.9999959975608903 
 		0.99999619519674721 0.99999669609943043 0.99999719820414956 0.99999849858546086 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 0.99999981881229982 0.99999943196357455 0.999998891135498 
 		0.9999973266443879 0.99999565466418161 0.99999546296831354 0.99999633517080078 0.99999822022803397 
 		0.99999919652634761 0.9999993297962041 0.99999945558193648 0.99999976833860549 0.99999993214238669 
 		0.99999994040610718 0.99999968173343812 0.99999659984574418 0.9999915106848174 0.99999170608832966 
 		0.99999542437522615 1 0.99999847107805073 0.99999655576920587 0.99999658842912398 
-		0.99999780119735715 0.999998626392957 0.99999869295463628 0.99999826839943307 0.9999966759933645 
-		0.99999505880699313 0.99999483983329651 0.99999536943551282 0.99999619519674721 0.99999669609943054 
+		0.99999655012777133 0.99999775016137993 0.99999888931394898 0.9999985874091416 0.99999710860331181 
+		0.99999577305839982 0.99999555128204465 0.99999551304036882 0.99999619519674721 0.99999669609943054 
 		0.99999719820414956 0.99999849858546086 1;
 	setAttr -s 145 ".kiy[48:144]"  0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00060197621842910233 
 		-0.0010658670312763381 -0.0014892037383610174 -0.0023122941156996598 -0.0029479913084511076 
@@ -28790,17 +28790,17 @@ createNode animCurveTA -n "BodyFourControl_rotateX";
 		-0.0011577595357399038 -0.0010434729659821553 -0.00068067814370958947 -0.00036839546951758663 
 		-0.00034523583519176503 -0.00079783019661380675 -0.0026077378991024715 -0.0041205046167394517 
 		-0.0040728067167329343 -0.003025099768838514 0 0.0017486685109296229 0.0026245856293154505 
-		0.0026121121937942313 0.0020970456482707922 0.0016574716284251348 0.001616814466507953 
-		0.0018609669893201938 0.0025783720100384594 0.0031436223689145669 0.0032125234286845216 
-		0.0030432067843361413 0.0027585488991409661 0.0025705622387513058 0.0023671890188576442 
+		0.0026121121937942313 0.0020970456482707896 0.0017187837062395839 0.0022468122014725669 
+		0.0021786026254721983 0.0021534708234410807 0.0029785977994293278 0.0030074298762513621 
+		0.002829286517859591 0.0027585488991409661 0.0025705622387513058 0.0023671890188576442 
 		0.0017328666492330157 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00060197621842910678 -0.0010658670312763429 
 		-0.0014892037383610239 -0.0023122941156996741 -0.0029479913084511024 -0.003012315187398485 
 		-0.0027073317062331734 -0.0018866745253127534 -0.0012676539982597449 -0.0011577595357398995 
 		-0.0010434729659821536 -0.00068067814370959695 -0.00036839546951758864 -0.00034523583519176655 
 		-0.00079783019661381108 -0.0026077378991025048 -0.0041205046167394474 -0.0040728067167329195 
 		-0.003025099768838491 0 0.0017486685109296064 0.002624585629315444 0.00261211219379423 
-		0.002097045648270806 0.0016574716284251461 0.001616814466507963 0.001860966989320201 
-		0.0025783720100384716 0.0031436223689145595 0.0032125234286845103 0.0030432067843361313 
+		0.0026267341996987692 0.0021212430738461832 0.0014904264049571457 0.0016808270945012631 
+		0.0024047421932919103 0.0029075531522613335 0.0029828536872585332 0.0029956466964091979 
 		0.0027585488991409648 0.0025705622387513071 0.002367189018857642 0.0017328666492330193 
 		0;
 	setAttr -s 145 ".kox[48:144]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999981881229982 
@@ -28808,16 +28808,16 @@ createNode animCurveTA -n "BodyFourControl_rotateX";
 		0.99999633517080067 0.99999822022803397 0.99999919652634761 0.9999993297962041 0.99999945558193637 
 		0.99999976833860549 0.99999993214238669 0.99999994040610718 0.99999968173343812 0.99999659984574418 
 		0.9999915106848174 0.99999170608832966 0.99999542437522615 1 0.99999847107805073 
-		0.99999655576920587 0.99999658842912398 0.99999780119735715 0.999998626392957 0.99999869295463628 
-		0.99999826839943307 0.9999966759933645 0.99999505880699313 0.99999483983329651 0.99999536943551282 
+		0.99999655576920587 0.99999658842912398 0.99999780119735715 0.99999852289019464 0.99999747591428001 
+		0.99999762684248428 0.99999768127901811 0.99999556396773537 0.99999547767254404 0.99999599756089008 
 		0.99999619519674721 0.99999669609943054 0.99999719820414934 0.99999849858546086 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 0.99999981881229982 0.99999943196357455 0.999998891135498 
 		0.9999973266443879 0.99999565466418161 0.99999546296831354 0.99999633517080078 0.99999822022803397 
 		0.99999919652634761 0.9999993297962041 0.99999945558193648 0.99999976833860549 0.99999993214238669 
 		0.99999994040610718 0.9999996817334379 0.99999659984574418 0.9999915106848174 0.99999170608832966 
 		0.99999542437522615 1 0.99999847107805062 0.99999655576920587 0.99999658842912398 
-		0.99999780119735715 0.99999862639295722 0.99999869295463628 0.99999826839943307 0.9999966759933645 
-		0.99999505880699313 0.99999483983329629 0.99999536943551282 0.99999619519674721 0.99999669609943054 
+		0.99999655012777133 0.99999775016137993 0.99999888931394898 0.9999985874091416 0.99999710860331181 
+		0.99999577305839982 0.99999555128204465 0.99999551304036882 0.99999619519674721 0.99999669609943054 
 		0.99999719820414956 0.99999849858546086 1;
 	setAttr -s 145 ".koy[48:144]"  0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00060197621842910233 
 		-0.0010658670312763381 -0.0014892037383610174 -0.0023122941156996598 -0.0029479913084511076 
@@ -28825,17 +28825,17 @@ createNode animCurveTA -n "BodyFourControl_rotateX";
 		-0.0011577595357399038 -0.0010434729659821553 -0.00068067814370958947 -0.00036839546951758669 
 		-0.00034523583519176503 -0.00079783019661380686 -0.0026077378991024715 -0.0041205046167394517 
 		-0.0040728067167329352 -0.0030250997688385135 0 0.0017486685109296231 0.0026245856293154505 
-		0.0026121121937942313 0.0020970456482707922 0.0016574716284251346 0.001616814466507953 
-		0.0018609669893201938 0.0025783720100384594 0.0031436223689145669 0.003212523428684522 
-		0.0030432067843361413 0.0027585488991409661 0.0025705622387513058 0.0023671890188576438 
+		0.0026121121937942313 0.0020970456482707896 0.0017187837062395839 0.0022468122014725669 
+		0.0021786026254721983 0.0021534708234410807 0.0029785977994293278 0.0030074298762513621 
+		0.0028292865178595906 0.0027585488991409661 0.0025705622387513058 0.0023671890188576438 
 		0.0017328666492330159 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00060197621842910688 -0.0010658670312763429 
 		-0.0014892037383610239 -0.0023122941156996741 -0.0029479913084511024 -0.0030123151873984845 
 		-0.0027073317062331734 -0.0018866745253127534 -0.0012676539982597449 -0.0011577595357398995 
 		-0.0010434729659821536 -0.00068067814370959684 -0.00036839546951758858 -0.00034523583519176655 
 		-0.00079783019661381098 -0.0026077378991025048 -0.0041205046167394474 -0.0040728067167329204 
 		-0.003025099768838491 0 0.0017486685109296062 0.002624585629315444 0.00261211219379423 
-		0.002097045648270806 0.0016574716284251461 0.001616814466507963 0.001860966989320201 
-		0.0025783720100384716 0.0031436223689145595 0.0032125234286845099 0.0030432067843361313 
+		0.0026267341996987692 0.0021212430738461832 0.0014904264049571457 0.0016808270945012631 
+		0.0024047421932919103 0.0029075531522613335 0.0029828536872585332 0.0029956466964091975 
 		0.0027585488991409648 0.0025705622387513067 0.002367189018857642 0.0017328666492330193 
 		0;
 createNode animCurveTA -n "BodyFourControl_rotateY";
@@ -28845,31 +28845,31 @@ createNode animCurveTA -n "BodyFourControl_rotateY";
 	setAttr -s 145 ".ktv[0:144]"  1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0
 		 11 0 12 0 13 0 14 0.02678383243765874 15 0.092215702849950051 16 0.16318420251282925
 		 17 0.22205557329005918 18 0.25647032997796487 19 0.28701791396581666 20 0.31597881154460589
-		 21 0.33759363792695718 22 0.34634577849448661 23 0.35278708930275321 24 0.35817987382232208
+		 21 0.33759363792695718 22 0.34634577849448661 23 0.35278708930275327 24 0.35817987382232208
 		 25 0.36111167550654755 26 0.36101781166276459 27 0.36081965465922289 28 0.36062306205307754
 		 29 0.36051094690633684 30 0.3680182123723405 31 0.38386688391168156 32 0.39959043435992253
-		 33 0.4085574458887602 34 0.4015416293016863 35 0.38175159558630373 36 0.35927430828501139
-		 37 0.33369253125007386 38 0.30318944627633165 39 0.27191815775206812 40 0.24047883390211142
-		 41 0.20879952267933621 42 0.17558392894464234 43 0.14216167193412399 44 0.1091896811014114
-		 45 0.080258462084253163 46 0.055434238259679747 47 0.032144791812623592 48 0.011452876051338429
+		 33 0.4085574458887602 34 0.4015416293016863 35 0.38175159558630373 36 0.35966849017495661
+		 37 0.33402703496296282 38 0.30415489233356713 39 0.27286286713800312 40 0.24179557162126181
+		 41 0.20989886997249019 42 0.17606977329209483 43 0.14255585221411807 44 0.10884583546176121
+		 45 0.080258462084253163 46 0.055434238259679747 47 0.032144791812623592 48 0.011521825375719939
 		 49 0 50 0 51 0 52 0 53 0 54 0 55 0 56 0 57 0 58 0 59 0 60 0 61 0 62 0.02678383243765893
 		 63 0.092215702849949968 64 0.16318420251282892 65 0.22205557329005918 66 0.25647032997796482
 		 67 0.28701791396581655 68 0.31597881154460594 69 0.33759363792695718 70 0.34634577849448661
 		 71 0.35278708930275327 72 0.35817987382232214 73 0.36111167550654755 74 0.36101781166276459
 		 75 0.36081965465922289 76 0.36062306205307754 77 0.36051094690633684 78 0.36801821237234045
-		 79 0.38386688391168144 80 0.39959043435992253 81 0.4085574458887602 82 0.40154162930168635
+		 79 0.3838668839116815 80 0.39959043435992253 81 0.4085574458887602 82 0.40154162930168635
 		 83 0.38175159558630356 84 0.35927430828501133 85 0.33369253125007386 86 0.30318944627633143
-		 87 0.27191815775206818 88 0.24047883390211172 89 0.20879952267933621 90 0.17558392894464248
-		 91 0.14216167193412424 92 0.10918968110141125 93 0.080258462084253163 94 0.055434238259679962
+		 87 0.27198148215280504 88 0.24114796245391534 89 0.20922528054490955 90 0.17581952924744673
+		 91 0.14240981299166708 92 0.10918968110141125 93 0.080258462084253163 94 0.055434238259679962
 		 95 0.032144791812623578 96 0.011452876051338575 97 0 98 0 99 0 100 0 101 0 102 0
 		 103 0 104 0 105 0 106 0 107 0 108 0 109 0 110 0.026783832437658181 111 0.092215702849950287
 		 112 0.16318420251283028 113 0.22205557329005918 114 0.25647032997796504 115 0.287017913965817
 		 116 0.31597881154460566 117 0.33759363792695718 118 0.34634577849448667 119 0.35278708930275315
 		 120 0.35817987382232208 121 0.36111167550654755 122 0.36101781166276459 123 0.36081965465922289
-		 124 0.36062306205307754 125 0.36051094690633684 126 0.36801821237234056 127 0.38386688391168167
+		 124 0.36062306205307754 125 0.36051094690633684 126 0.36801821237234061 127 0.38386688391168167
 		 128 0.39959043435992242 129 0.4085574458887602 130 0.40154162930168624 131 0.38175159558630395
-		 132 0.35927430828501156 133 0.33369253125007386 134 0.30318944627633199 135 0.27191815775206818
-		 136 0.24047883390211117 137 0.20879952267933621 138 0.1755839289446422 139 0.14216167193412371
+		 132 0.35927430828501156 133 0.33369253125007386 134 0.30370225037227894 135 0.27238897508358079
+		 136 0.24091172621604934 137 0.20911974549600768 138 0.17584737394025965 139 0.14221751183799441
 		 140 0.10918968110141153 141 0.080258462084253163 142 0.055434238259679677 143 0.032144791812623856
 		 144 0.011452876051338583 145 0;
 	setAttr -s 145 ".kit[48:144]"  1 18 18 18 18 18 18 18 
@@ -28891,33 +28891,33 @@ createNode animCurveTA -n "BodyFourControl_rotateY";
 		0.99994390361136731 0.99997977554207929 0.99999493712955756 0.99999692846578558 0.99999848011212167 
 		1 0.9999999981296841 0.99999999658232586 0.99999999790982663 1 0.99998803606545872 
 		0.99997813833247262 0.99998662972095065 1 0.99998424072837089 0.99996081939374248 
-		0.99994934703691518 0.99993101834596543 0.9999163146547887 0.99991375912954694 0.99991263338447489 
-		0.99990764758267392 0.99990262090052073 0.99990333145881705 0.999915965267278 0.99993662895985969 
+		0.99994934703691518 0.99993101834596543 0.99991648611568418 0.99991558947671177 0.99991363370979292 
+		0.99990640972041844 0.99990210117570844 0.9999026442843878 0.99991529029076043 0.99993662895985969 
 		0.9999492318739136 0.99995757743264757 0.99997733823647639 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 0.99981354436420888 0.99959219494537488 0.99963045903189274 0.99980919179455774 
 		0.99990745557307026 0.99992234053821116 0.99994390361136709 0.99997977554207929 0.99999493712955756 
 		0.99999692846578547 0.99999848011212167 1 0.9999999981296841 0.99999999658232586 
 		0.99999999790982663 1 0.99998803606545872 0.99997813833247284 0.99998662972095065 
-		1 0.99998424072837089 0.99996081939374248 0.99994934703691518 0.99993101834596565 
-		0.9999163146547887 0.99991375912954694 0.99991263338447511 0.99990764758267381 0.99990262090052073 
-		0.99990333145881727 0.999915965267278 0.99993662895985969 0.9999492318739136 0.99995757743264757 
+		1 0.99998424072837089 0.99996081939374248 0.99994934703691518 0.99993227389968919 
+		0.99991758526296703 0.99991353922551329 0.99991221604673841 0.99990716473681873 0.99990184678660088 
+		0.99990256290914137 0.99991581361068294 0.99993662895985969 0.9999492318739136 0.99995757743264757 
 		0.99997733823647661 1;
 	setAttr -s 145 ".kiy[48:144]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.019310010509530112 
 		0.028555976682436694 0.027183549725658711 0.019534072875702593 0.013604421685196474 
 		0.012462459331351794 0.010591960652346456 0.0063599140570209708 0.0031820929043859603 
 		0.0024785195167064092 0.0017434946075473344 0 -6.1160703128960102e-05 -8.2676164637465938e-05 
-		-6.4655600436392226e-05 0 0.0048915974841275151 0.0066123261506100608 0.0051711100679039104 
-		0 -0.0056141156831267065 -0.0088521001686196789 -0.010064957051416754 -0.011745575745800372 
-		-0.012936911810224452 -0.013132947247977598 -0.013218381070486706 -0.013590301898165069 
-		-0.013955239742452896 -0.013904234518982157 -0.012963888444741757 -0.011257800157751352 
+		-6.4655600436392226e-05 0 0.0048915974841275151 0.0066123261506100608 0.0051711100679039 
+		0 -0.0056141156831267065 -0.0088521001686196685 -0.010064957051416754 -0.011745575745800383 
+		-0.012923652504721921 -0.012992841161182539 -0.013142492962836219 -0.013681074520029887 
+		-0.01399242882431233 -0.013953564171533973 -0.013015845832838661 -0.011257800157751352 
 		-0.010076391951996838 -0.0092110441878530923 -0.006732236886163004 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0.019310010509530288 0.028555976682436833 0.027183549725658795 0.019534072875702455 
 		0.013604421685196422 0.012462459331351768 0.010591960652346417 0.0063599140570209656 
 		0.003182092904385956 0.002478519516706401 0.0017434946075473366 0 -6.1160703128960428e-05 
 		-8.2676164637465058e-05 -6.4655600436392565e-05 0 0.0048915974841275151 0.0066123261506100444 
 		0.0051711100679038861 0 -0.0056141156831266527 -0.0088521001686196529 -0.010064957051416728 
-		-0.011745575745800374 -0.01293691181022452 -0.013132947247977686 -0.013218381070486779 
-		-0.013590301898165081 -0.013955239742452861 -0.013904234518982117 -0.012963888444741712 
+		-0.011638196329195856 -0.012838328624753891 -0.0131496795971601 -0.013249913226163963 
+		-0.013625781004271271 -0.014010595731265981 -0.013959394246542646 -0.012975580576069052 
 		-0.011257800157751347 -0.010076391951996834 -0.0092110441878530801 -0.0067322368861630275 
 		0;
 	setAttr -s 145 ".kox[48:144]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99981354436420888 
@@ -28925,33 +28925,33 @@ createNode animCurveTA -n "BodyFourControl_rotateY";
 		0.99994390361136709 0.99997977554207929 0.99999493712955756 0.99999692846578547 0.99999848011212167 
 		1 0.9999999981296841 0.99999999658232586 0.99999999790982663 1 0.99998803606545872 
 		0.99997813833247284 0.99998662972095054 1 0.99998424072837089 0.99996081939374237 
-		0.99994934703691518 0.99993101834596565 0.9999163146547887 0.99991375912954694 0.99991263338447511 
-		0.99990764758267381 0.99990262090052073 0.99990333145881727 0.99991596526727788 0.99993662895985969 
+		0.99994934703691518 0.99993101834596565 0.99991648611568407 0.99991558947671177 0.99991363370979292 
+		0.99990640972041844 0.99990210117570844 0.9999026442843878 0.99991529029076043 0.99993662895985969 
 		0.9999492318739136 0.99995757743264757 0.99997733823647661 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 0.99981354436420888 0.99959219494537488 0.99963045903189274 0.99980919179455774 
 		0.99990745557307026 0.99992234053821116 0.99994390361136731 0.99997977554207929 0.99999493712955756 
 		0.99999692846578558 0.99999848011212167 1 0.9999999981296841 0.99999999658232586 
 		0.99999999790982663 1 0.99998803606545872 0.99997813833247262 0.99998662972095065 
-		1 0.99998424072837089 0.99996081939374248 0.99994934703691518 0.99993101834596565 
-		0.9999163146547887 0.99991375912954694 0.99991263338447489 0.99990764758267392 0.99990262090052073 
-		0.99990333145881705 0.999915965267278 0.99993662895985969 0.9999492318739136 0.99995757743264757 
+		1 0.99998424072837089 0.99996081939374248 0.99994934703691518 0.99993227389968919 
+		0.99991758526296703 0.99991353922551329 0.99991221604673841 0.99990716473681873 0.99990184678660088 
+		0.99990256290914137 0.99991581361068294 0.99993662895985969 0.9999492318739136 0.99995757743264757 
 		0.99997733823647661 1;
 	setAttr -s 145 ".koy[48:144]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.019310010509530115 
 		0.028555976682436694 0.027183549725658711 0.019534072875702593 0.013604421685196474 
 		0.012462459331351794 0.010591960652346454 0.0063599140570209708 0.0031820929043859599 
 		0.0024785195167064092 0.0017434946075473344 0 -6.1160703128960102e-05 -8.2676164637465938e-05 
-		-6.4655600436392226e-05 0 0.0048915974841275151 0.0066123261506100617 0.0051711100679039095 
-		0 -0.0056141156831267065 -0.0088521001686196771 -0.010064957051416754 -0.011745575745800374 
-		-0.012936911810224452 -0.013132947247977598 -0.013218381070486708 -0.013590301898165066 
-		-0.013955239742452896 -0.013904234518982159 -0.012963888444741755 -0.011257800157751352 
+		-6.4655600436392226e-05 0 0.0048915974841275151 0.0066123261506100617 0.0051711100679038991 
+		0 -0.0056141156831267065 -0.0088521001686196667 -0.010064957051416754 -0.011745575745800384 
+		-0.012923652504721918 -0.012992841161182539 -0.013142492962836219 -0.013681074520029887 
+		-0.01399242882431233 -0.013953564171533971 -0.013015845832838662 -0.011257800157751352 
 		-0.010076391951996838 -0.0092110441878530923 -0.0067322368861630049 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0.019310010509530288 0.028555976682436833 0.027183549725658795 0.019534072875702455 
 		0.013604421685196422 0.012462459331351768 0.010591960652346419 0.0063599140570209656 
 		0.0031820929043859564 0.0024785195167064014 0.0017434946075473366 0 -6.1160703128960428e-05 
 		-8.2676164637465058e-05 -6.4655600436392552e-05 0 0.0048915974841275151 0.0066123261506100435 
 		0.0051711100679038861 0 -0.0056141156831266527 -0.0088521001686196529 -0.010064957051416728 
-		-0.011745575745800376 -0.01293691181022452 -0.013132947247977686 -0.013218381070486777 
-		-0.013590301898165085 -0.013955239742452861 -0.013904234518982116 -0.01296388844474171 
+		-0.011638196329195855 -0.012838328624753891 -0.0131496795971601 -0.013249913226163965 
+		-0.013625781004271271 -0.014010595731265981 -0.013959394246542647 -0.012975580576069052 
 		-0.011257800157751347 -0.010076391951996834 -0.0092110441878530801 -0.0067322368861630275 
 		0;
 createNode animCurveTA -n "BodyFourControl_rotateZ";
@@ -28965,12 +28965,12 @@ createNode animCurveTA -n "BodyFourControl_rotateZ";
 		 15 11.653673098990231 16 7.9558632080727021 17 4.7426811241321349 18 2.5121325189917463
 		 19 0.4379681441534769 20 -1.557180188303052 21 -3.1322005150497145 22 -3.9266948648906022
 		 23 -4.5990708686696467 24 -5.2405459032908324 25 -5.8091618554111184 26 -6.0884495693241458
-		 27 -6.3270735805553304 28 -6.5891718896463747 29 -7.4896958596998635 30 -10.140923393517337
-		 31 -12.967667796462445 32 -15.542453211210361 33 -16.977765021323872 34 -16.606064993739647
-		 35 -15.643172872587018 36 -14.577851120641753 37 -13.550614853910227 38 -12.680076644780614
-		 39 -11.832913608860821 40 -10.974645232218881 41 -9.9892984154930193 42 -8.8273937907388405
-		 43 -7.6359485219219474 44 -6.4084383702199768 45 -4.9264158692785225 46 -2.570297279238293
-		 47 -0.16389417993357308 48 2.0106683985619762 49 3.2201555118723975 50 3.5814286847941377
+		 27 -6.3270735805553304 28 -6.5891718896463756 29 -7.4896958596998635 30 -10.140923393517337
+		 31 -12.967667796462447 32 -15.542453211210361 33 -16.977765021323872 34 -16.606064993739647
+		 35 -15.643172872587018 36 -14.263372986584827 37 -13.260403622895362 38 -11.763707368143029
+		 39 -10.878354567399848 40 -9.5244516538211759 41 -8.668117621731021 42 -8.1604619384185604
+		 43 -6.976709746491859 44 -7.1097757028057931 45 -4.9264158692785225 46 -2.570297279238293
+		 47 -0.16389417993357308 48 3.4173477786849191 49 3.2201555118723975 50 3.5814286847941377
 		 51 4.6174623060964155 52 5.7997899892794704 53 7.1821277983324476 54 8.8387567120302908
 		 55 10.775204904647824 56 12.710740148720378 57 14.21898204361195 58 14.976994215307176
 		 59 15.591270072285319 60 16.11896448849015 61 16.408135377639582 62 15.043384773013937
@@ -28979,66 +28979,66 @@ createNode animCurveTA -n "BodyFourControl_rotateZ";
 		 71 -4.5990708686696502 72 -5.2405459032908359 73 -5.8091618554111184 74 -6.0884495693241467
 		 75 -6.3270735805553295 76 -6.5891718896463711 77 -7.4896958596998635 78 -10.140923393517321
 		 79 -12.967667796462418 80 -15.542453211210372 81 -16.977765021323872 82 -16.606064993739651
-		 83 -15.643172872587007 84 -14.577851120641748 85 -13.550614853910227 86 -12.680076644780609
-		 87 -11.832913608860821 88 -10.974645232218888 89 -9.9892984154930193 90 -8.827393790738844
-		 91 -7.6359485219219554 92 -6.4084383702199688 93 -4.9264158692785225 94 -2.5702972792383143
+		 83 -15.643172872587007 84 -14.577851120641748 85 -13.550614853910227 86 -12.680076644780611
+		 87 -11.771236398456976 88 -10.25896265421793 89 -9.4933094226552264 90 -8.5080592838453626
+		 91 -7.2246484687856265 92 -6.4084383702199688 93 -4.9264158692785225 94 -2.5702972792383143
 		 95 -0.16389417993357308 96 2.0106683985619589 97 3.2201555118723975 98 3.5814286847941283
 		 99 4.6174623060964217 100 5.7997899892794944 101 7.1821277983324476 102 8.8387567120303085
-		 103 10.775204904647858 104 12.710740148720365 105 14.21898204361195 106 14.976994215307181
+		 103 10.775204904647859 104 12.710740148720365 105 14.21898204361195 106 14.976994215307181
 		 107 15.591270072285308 108 16.118964488490146 109 16.408135377639582 110 15.043384773013974
 		 111 11.653673098990218 112 7.9558632080726497 113 4.7426811241321349 114 2.5121325189917356
 		 115 0.43796814415345264 116 -1.5571801883030394 117 -3.1322005150497145 118 -3.9266948648906088
-		 119 -4.5990708686696404 120 -5.2405459032908288 121 -5.8091618554111184 122 -6.0884495693241449
+		 119 -4.5990708686696404 120 -5.2405459032908288 121 -5.8091618554111184 122 -6.0884495693241458
 		 123 -6.3270735805553304 124 -6.5891718896463765 125 -7.4896958596998635 126 -10.140923393517353
 		 127 -12.96766779646247 128 -15.542453211210352 129 -16.977765021323872 130 -16.606064993739647
-		 131 -15.643172872587026 132 -14.57785112064176 133 -13.550614853910227 134 -12.680076644780621
-		 135 -11.832913608860819 136 -10.974645232218872 137 -9.9892984154930193 138 -8.8273937907388333
-		 139 -7.6359485219219358 140 -6.4084383702199803 141 -4.9264158692785225 142 -2.5702972792382868
+		 131 -15.643172872587026 132 -14.57785112064176 133 -13.550614853910227 134 -12.20254014622706
+		 135 -11.366731535885771 136 -10.516262282247363 137 -9.6179700513168704 138 -8.469822305491796
+		 139 -7.5444434529520681 140 -6.4084383702199803 141 -4.9264158692785225 142 -2.5702972792382868
 		 143 -0.16389417993359931 144 2.0106683985619602 145 3.2201555118723975;
-	setAttr -s 145 ".kit[48:144]"  1 18 18 18 18 18 18 18 
+	setAttr -s 145 ".kit[47:144]"  1 1 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
-		18 18 18 18 18 18 1 18 18 18 18 18 18 18 18 18 18 
+		18 18 18 18 18 18 18 1 18 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
-		18 18 18 1;
-	setAttr -s 145 ".kot[48:144]"  1 18 18 18 1 18 18 18 
+		18 18 18 18 1;
+	setAttr -s 145 ".kot[47:144]"  1 1 18 18 18 1 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
-		18 18 18 18 18 18 1 18 18 18 1 18 18 18 18 18 18 
+		18 18 18 18 18 18 18 1 18 18 18 1 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
-		18 18 18 1;
-	setAttr -s 145 ".kix[48:144]"  1 0.95974560239961082 0.90689573776407961 
-		0.88095577926879476 0.84361713511877479 0.7990277269097148 0.77670425934504428 0.81104833042855695 
-		0.90340240934694827 0.96109193026126372 0.97256937403798294 0.98567878220551541 1 
-		0.70860309262610899 0.55871464775369473 0.56841423121914703 0.65939457350641217 0.74271148012002786 
-		0.76108428238263526 0.80087010323175278 0.89575967280646573 0.95590565941827199 0.96416290352389611 
-		0.96935261878047918 0.98459528037174038 0.99416841243139331 0.99454597896253882 0.97161049735835003 
-		0.802351929100385 0.65705547996154212 0.66229151305870182 0.76575283401255179 1 0.96308486993250941 
-		0.92040110467675484 0.91590008012228685 0.92928553268072733 0.94096100826568652 0.94172942393085191 
-		0.93287268318711813 0.91201728527850778 0.89696557873588312 0.89205081888883864 0.86971741550078552 
-		0.77939971582957179 0.70800530193471922 0.72159089457221948 0.81586267846522664 1 
-		0.95974560239961015 0.90689573776407895 0.8809557792687942 0.84361713511877401 0.79902772690971524 
-		0.77670425934504506 0.81104833042855806 0.9034024093469486 0.96109193026126394 0.97256937403798294 
-		0.98567878220551519 1 0.7086030926261061 0.55871464775369317 0.5684142312191458 0.65939457350641373 
-		0.74271148012002886 0.76108428238263603 0.80087010323175389 0.89575967280646596 0.9559056594182721 
-		0.96416290352389633 0.96935261878047929 0.98459528037174016 0.9941684124313932 0.99454597896253893 
-		0.97161049735834981 0.80235192910038133 0.65705547996154268 0.66229151305870326 0.76575283401255412 
-		1 0.96308486993251008 0.92040110467675518 0.91590008012228707 0.92928553268072678 
-		0.94096100826568585 0.94172942393085124 0.93287268318711758 0.91201728527850723 0.89696557873588367 
-		0.89205081888883919 0.86971741550078585 0.77939971582957202 0.70800530193471933 0.7215908945722197 
-		0.81586267846522609 1;
-	setAttr -s 145 ".kiy[48:144]"  0 0.28087075083498458 0.4213551006281348 
-		0.47319859992703972 0.53694518280173698 0.60129418060504647 0.62986545667727023 0.58497914980711097 
-		0.42879375786749618 0.27622871245885755 0.23261301056339506 0.16863374012887317 0 
-		-0.70560729667479616 -0.82935995947806929 -0.82274252457712793 -0.75179704470707831 
+		18 18 18 18 1;
+	setAttr -s 145 ".kix[47:144]"  0.98857356846801403 1 0.95974560239961082 
+		0.90689573776407961 0.88095577926879476 0.84361713511877479 0.7990277269097148 0.77670425934504428 
+		0.81104833042855695 0.90340240934694827 0.96109193026126372 0.97256937403798294 0.98567878220551541 
+		1 0.70860309262610899 0.55871464775369473 0.56841423121914703 0.65939457350641217 
+		0.74271148012002786 0.76108428238263526 0.80087010323175278 0.89575967280646573 0.95590565941827199 
+		0.96416290352389611 0.96935261878047918 0.98459528037174038 0.99416841243139331 0.99454597896253882 
+		0.97161049735835003 0.802351929100385 0.65705547996154212 0.66229151305870182 0.76575283401255179 
+		1 0.96308486993250941 0.92040110467675484 0.91590008012228685 0.92928553268072744 
+		0.93704436325927176 0.89188820599023455 0.90254586923240299 0.93886366805027255 0.90322595652175208 
+		0.91540154084755188 0.90105124253404478 0.77939971582957179 0.70800530193471922 0.72159089457221948 
+		0.81586267846522664 1 0.95974560239961015 0.90689573776407895 0.8809557792687942 
+		0.84361713511877401 0.79902772690971524 0.77670425934504506 0.81104833042855806 0.9034024093469486 
+		0.96109193026126394 0.97256937403798294 0.98567878220551519 1 0.7086030926261061 
+		0.55871464775369317 0.5684142312191458 0.65939457350641373 0.74271148012002886 0.76108428238263603 
+		0.80087010323175389 0.89575967280646596 0.9559056594182721 0.96416290352389633 0.96935261878047929 
+		0.98459528037174016 0.9941684124313932 0.99454597896253893 0.97161049735834981 0.80235192910038133 
+		0.65705547996154268 0.66229151305870326 0.76575283401255412 1 0.96308486993251008 
+		0.92040110467675518 0.91590008012228707 0.89532644377914594 0.90938897415127429 0.94292164730152328 
+		0.93899975360131027 0.91913372879898558 0.91723908567452839 0.9180900649985021 0.87683779740157064 
+		0.77939971582957202 0.70800530193471933 0.7215908945722197 0.81586267846522609 1;
+	setAttr -s 145 ".kiy[47:144]"  0.15073917780861382 0 0.28087075083498458 
+		0.4213551006281348 0.47319859992703972 0.53694518280173698 0.60129418060504647 0.62986545667727023 
+		0.58497914980711097 0.42879375786749618 0.27622871245885755 0.23261301056339506 0.16863374012887317 
+		0 -0.70560729667479616 -0.82935995947806929 -0.82274252457712793 -0.75179704470707831 
 		-0.66961157195639731 -0.64865300054043462 -0.59883810646080438 -0.44453864688422018 
 		-0.29367391830416023 -0.26531094110188963 -0.24567356484454536 -0.17484888867160087 
 		-0.10783861888786941 -0.10429906868925087 -0.23658622407709995 -0.59685122255792589 
 		-0.75384222238642729 -0.7492462557333307 -0.64313497588122615 0 0.26919794447038681 
-		0.39097545512449922 0.40140633182847096 0.36936215121516813 0.33851496410590581 0.33637136040820409 
-		0.36020627002214567 0.41015176624418059 0.44210038516495581 0.45193510211063787 0.49355001486641037 
+		0.39097545512449922 0.40140633182847096 0.36936215121516786 0.34921033960068532 0.45225593198488934 
+		0.4305937225872275 0.34428914129723515 0.4291653195044608 0.40254194689985745 0.43371264487890376 
 		0.62652700098621661 0.70620711723426233 0.69231971001154069 0.57824570027588273 0 
 		0.28087075083498719 0.42135510062813641 0.47319859992704083 0.53694518280173831 0.60129418060504602 
 		0.62986545667726934 0.5849791498071093 0.42879375786749541 0.27622871245885716 0.23261301056339437 
@@ -29047,40 +29047,40 @@ createNode animCurveTA -n "BodyFourControl_rotateZ";
 		-0.44453864688421979 -0.29367391830415973 -0.26531094110188841 -0.24567356484454492 
 		-0.17484888867160256 -0.10783861888787014 -0.10429906868925143 -0.23658622407710098 
 		-0.59685122255793077 -0.75384222238642684 -0.74924625573332926 -0.64313497588122326 
-		0 0.26919794447038464 0.39097545512449844 0.40140633182847041 0.36936215121516991 
-		0.3385149641059077 0.33637136040820587 0.36020627002214706 0.4101517662441817 0.44210038516495498 
-		0.45193510211063642 0.49355001486640981 0.6265270009862165 0.70620711723426222 0.69231971001154058 
+		0 0.26919794447038464 0.39097545512449844 0.40140633182847041 0.44541055114331057 
+		0.4159467438171538 0.33301466491760034 0.34391781392751181 0.39394566704568879 0.39833711816871281 
+		0.39637183622331984 0.48078631121108506 0.6265270009862165 0.70620711723426222 0.69231971001154058 
 		0.57824570027588373 0;
-	setAttr -s 145 ".kox[48:144]"  1 0.95974560239961093 0.90689573776407961 
-		0.88095577926879487 0.8665701286133759 0.7990277269097148 0.77670425934504428 0.81104833042855695 
-		0.90340240934694827 0.96109193026126372 0.97256937403798283 0.98567878220551541 1 
-		0.7086030926261091 0.55871464775369473 0.56841423121914703 0.65939457350641217 0.74271148012002786 
-		0.76108428238263526 0.80087010323175278 0.89575967280646573 0.95590565941827199 0.964162903523896 
-		0.96935261878047918 0.98459528037174038 0.9941684124313932 0.99454597896253882 0.97161049735834992 
-		0.80235192910038489 0.65705547996154212 0.66229151305870171 0.76575283401255179 1 
-		0.96308486993250941 0.92040110467675484 0.91590008012228685 0.92928553268072733 0.9409610082656864 
-		0.94172942393085191 0.93287268318711802 0.91201728527850767 0.89696557873588312 0.89205081888883853 
-		0.86971741550078563 0.77939971582957179 0.70800530193471911 0.72159089457221948 0.81586267846522675 
-		1 0.95974560239961004 0.90689573776407895 0.8809557792687942 0.8665701286133759 0.79902772690971524 
-		0.77670425934504506 0.81104833042855817 0.9034024093469486 0.96109193026126383 0.97256937403798305 
-		0.98567878220551519 1 0.70860309262610599 0.55871464775369317 0.56841423121914592 
-		0.65939457350641373 0.74271148012002886 0.76108428238263603 0.80087010323175389 0.89575967280646596 
-		0.95590565941827221 0.96416290352389644 0.96935261878047929 0.98459528037174004 0.9941684124313932 
-		0.99454597896253893 0.9716104973583497 0.80235192910038133 0.65705547996154268 0.66229151305870337 
-		0.76575283401255412 1 0.96308486993251008 0.92040110467675529 0.91590008012228707 
-		0.92928553268072678 0.94096100826568585 0.94172942393085124 0.93287268318711758 0.91201728527850734 
-		0.89696557873588367 0.89205081888883919 0.86971741550078585 0.77939971582957202 0.70800530193471933 
-		0.72159089457221981 0.81586267846522609 1;
-	setAttr -s 145 ".koy[48:144]"  0 0.28087075083498464 0.4213551006281348 
-		0.47319859992703978 0.4990553197742682 0.60129418060504647 0.62986545667727023 0.58497914980711097 
-		0.42879375786749618 0.27622871245885761 0.23261301056339503 0.16863374012887317 0 
-		-0.70560729667479616 -0.82935995947806929 -0.82274252457712804 -0.75179704470707831 
+	setAttr -s 145 ".kox[47:144]"  0.98857354949777754 1 0.95974560239961093 
+		0.90689573776407961 0.88095577926879487 0.8665701286133759 0.7990277269097148 0.77670425934504428 
+		0.81104833042855695 0.90340240934694827 0.96109193026126372 0.97256937403798283 0.98567878220551541 
+		1 0.7086030926261091 0.55871464775369473 0.56841423121914703 0.65939457350641217 
+		0.74271148012002786 0.76108428238263526 0.80087010323175278 0.89575967280646573 0.95590565941827199 
+		0.964162903523896 0.96935261878047918 0.98459528037174038 0.9941684124313932 0.99454597896253882 
+		0.97161049735834992 0.80235192910038489 0.65705547996154212 0.66229151305870171 0.76575283401255179 
+		1 0.96308486993250941 0.92040110467675484 0.91590008012228685 0.92928553268072744 
+		0.93704436325927165 0.89188820599023455 0.90254586923240299 0.93886366805027266 0.90322595652175208 
+		0.91540154084755199 0.90105124253404467 0.77939971582957179 0.70800530193471911 0.72159089457221948 
+		0.81586267846522675 1 0.95974560239961004 0.90689573776407895 0.8809557792687942 
+		0.8665701286133759 0.79902772690971524 0.77670425934504506 0.81104833042855817 0.9034024093469486 
+		0.96109193026126383 0.97256937403798305 0.98567878220551519 1 0.70860309262610599 
+		0.55871464775369317 0.56841423121914592 0.65939457350641373 0.74271148012002886 0.76108428238263603 
+		0.80087010323175389 0.89575967280646596 0.95590565941827221 0.96416290352389644 0.96935261878047929 
+		0.98459528037174004 0.9941684124313932 0.99454597896253893 0.9716104973583497 0.80235192910038133 
+		0.65705547996154268 0.66229151305870337 0.76575283401255412 1 0.96308486993251008 
+		0.92040110467675529 0.91590008012228707 0.89532644377914594 0.9093889741512744 0.94292164730152328 
+		0.93899975360131027 0.91913372879898558 0.91723908567452839 0.91809006499850199 0.87683779740157064 
+		0.77939971582957202 0.70800530193471933 0.72159089457221981 0.81586267846522609 1;
+	setAttr -s 145 ".koy[47:144]"  0.15073930221864912 0 0.28087075083498464 
+		0.4213551006281348 0.47319859992703978 0.4990553197742682 0.60129418060504647 0.62986545667727023 
+		0.58497914980711097 0.42879375786749618 0.27622871245885761 0.23261301056339503 0.16863374012887317 
+		0 -0.70560729667479616 -0.82935995947806929 -0.82274252457712804 -0.75179704470707831 
 		-0.66961157195639731 -0.64865300054043462 -0.59883810646080438 -0.44453864688422018 
 		-0.29367391830416023 -0.26531094110188963 -0.24567356484454536 -0.17484888867160087 
 		-0.10783861888786939 -0.10429906868925087 -0.23658622407709992 -0.59685122255792589 
 		-0.75384222238642729 -0.74924625573333048 -0.64313497588122615 0 0.26919794447038686 
-		0.39097545512449922 0.40140633182847096 0.36936215121516813 0.33851496410590576 0.33637136040820409 
-		0.36020627002214561 0.41015176624418054 0.44210038516495581 0.45193510211063787 0.49355001486641037 
+		0.39097545512449922 0.40140633182847096 0.36936215121516786 0.34921033960068526 0.45225593198488934 
+		0.4305937225872275 0.3442891412972352 0.4291653195044608 0.40254194689985751 0.43371264487890365 
 		0.62652700098621661 0.70620711723426233 0.6923197100115408 0.57824570027588285 0 
 		0.28087075083498719 0.42135510062813641 0.47319859992704078 0.4990553197742682 0.60129418060504602 
 		0.62986545667726934 0.5849791498071093 0.42879375786749541 0.27622871245885716 0.23261301056339437 
@@ -29089,9 +29089,9 @@ createNode animCurveTA -n "BodyFourControl_rotateZ";
 		-0.44453864688421979 -0.29367391830415973 -0.26531094110188846 -0.24567356484454492 
 		-0.17484888867160253 -0.10783861888787014 -0.10429906868925143 -0.23658622407710098 
 		-0.59685122255793077 -0.75384222238642684 -0.74924625573332926 -0.64313497588122337 
-		0 0.26919794447038464 0.39097545512449844 0.40140633182847041 0.36936215121516991 
-		0.3385149641059077 0.33637136040820587 0.36020627002214706 0.4101517662441817 0.44210038516495498 
-		0.45193510211063637 0.49355001486640981 0.6265270009862165 0.70620711723426222 0.69231971001154058 
+		0 0.26919794447038464 0.39097545512449844 0.40140633182847041 0.44541055114331052 
+		0.41594674381715385 0.33301466491760034 0.34391781392751181 0.39394566704568884 0.39833711816871281 
+		0.39637183622331978 0.48078631121108506 0.6265270009862165 0.70620711723426222 0.69231971001154058 
 		0.57824570027588373 0;
 createNode animCurveTU -n "BodyFourControl_scaleX";
 	rename -uid "2C3490C1-47BC-B53D-3B1D-9A9E6A09B98D";
@@ -29384,35 +29384,35 @@ createNode animCurveTA -n "BodyThreeControl_rotateX";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 145 ".ktv[0:144]"  1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 -0.17684853656366753
-		 11 -0.55019544708696499 12 -0.92059488200086859 13 -1.1318306340074709 14 -1.1298658397917694
-		 15 -1.1231835130568693 16 -1.111957558020451 17 -1.093016140385817 18 -1.0610888504380773
+		 11 -0.55019544708696499 12 -0.92059488200086859 13 -1.1318306340074709 14 -1.1298658397917696
+		 15 -1.1231835130568695 16 -1.111957558020451 17 -1.093016140385817 18 -1.0610888504380773
 		 19 -1.0271293741218106 20 -0.99264877328012946 21 -0.95689856306637788 22 -0.9188693081709014
-		 23 -0.8804847191234737 24 -0.84202866636214535 25 -0.80351348691356617 26 -0.76488290677303594
+		 23 -0.8804847191234737 24 -0.84202866636214546 25 -0.80351348691356617 26 -0.76488290677303594
 		 27 -0.72623520138427389 28 -0.68759703134521866 29 -0.64906355636179636 30 -0.61067130225772981
 		 31 -0.57230284245454199 32 -0.53396574749618453 33 -0.49585284122938822 34 -0.45803623014277367
 		 35 -0.42026965633957525 36 -0.3825706259144292 37 -0.34535618469659451 38 -0.30871639887959629
 		 39 -0.27217641829514655 40 -0.23580928780240099 41 -0.20072463593495293 42 -0.16677518374773029
-		 43 -0.13304097347192848 44 -0.099922466265482818 45 -0.071582635909426859 46 -0.049156571593712041
+		 43 -0.13304097347192848 44 -0.10058111466279605 45 -0.071702153287670711 46 -0.049244202167354693
 		 47 -0.02845864904244302 48 -0.010132943555078787 49 0 50 0 51 0 52 0 53 0 54 0 55 0
 		 56 0 57 0 58 -0.1768485365636665 59 -0.55019544708696755 60 -0.92059488200086936
-		 61 -1.1318306340074709 62 -1.1298658397917694 63 -1.1231835130568695 64 -1.111957558020451
+		 61 -1.1318306340074709 62 -1.1298658397917696 63 -1.1231835130568695 64 -1.111957558020451
 		 65 -1.093016140385817 66 -1.0610888504380773 67 -1.0271293741218108 68 -0.99264877328012946
 		 69 -0.95689856306637788 70 -0.9188693081709014 71 -0.88048471912347337 72 -0.84202866636214502
 		 73 -0.80351348691356617 74 -0.76488290677303561 75 -0.72623520138427389 76 -0.68759703134521888
 		 77 -0.64906355636179636 78 -0.61067130225772992 79 -0.57230284245454222 80 -0.53396574749618431
 		 81 -0.49585284122938822 82 -0.45803623014277373 83 -0.42026965633957492 84 -0.38257062591442903
 		 85 -0.34535618469659451 86 -0.30871639887959601 87 -0.2721764182951466 88 -0.23580928780240135
-		 89 -0.20072463593495293 90 -0.16677518374773043 91 -0.13304097347192873 92 -0.099922466265482665
+		 89 -0.20072463593495293 90 -0.16677518374773043 91 -0.13304097347192873 92 -0.099922466265482679
 		 93 -0.071582635909426859 94 -0.049156571593712214 95 -0.02845864904244302 96 -0.010132943555078919
 		 97 0 98 0 99 0 100 0 101 0 102 0 103 0 104 0 105 0 106 -0.17684853656366903 107 -0.55019544708695989
-		 108 -0.92059488200086614 109 -1.1318306340074709 110 -1.1298658397917694 111 -1.1231835130568693
+		 108 -0.92059488200086614 109 -1.1318306340074709 110 -1.1298658397917696 111 -1.1231835130568695
 		 112 -1.1119575580204508 113 -1.093016140385817 114 -1.0610888504380773 115 -1.0271293741218102
 		 116 -0.99264877328012968 117 -0.95689856306637788 118 -0.91886930817090129 119 -0.88048471912347415
 		 120 -0.84202866636214546 121 -0.80351348691356617 122 -0.76488290677303628 123 -0.72623520138427378
 		 124 -0.68759703134521821 125 -0.64906355636179636 126 -0.61067130225772959 127 -0.57230284245454155
 		 128 -0.53396574749618464 129 -0.49585284122938822 130 -0.45803623014277356 131 -0.42026965633957558
 		 132 -0.38257062591442947 133 -0.34535618469659451 134 -0.30871639887959662 135 -0.27217641829514655
-		 136 -0.23580928780240071 137 -0.20072463593495293 138 -0.16677518374773015 139 -0.13304097347192817
+		 136 -0.23580928780240071 137 -0.20072463593495293 138 -0.16677518374773018 139 -0.13304097347192817
 		 140 -0.099922466265482929 141 -0.071582635909426859 142 -0.049156571593711958 143 -0.028458649042443229
 		 144 -0.010132943555078927 145 0;
 	setAttr -s 145 ".kit[48:144]"  1 18 18 18 18 18 18 18 
@@ -29515,21 +29515,21 @@ createNode animCurveTA -n "BodyThreeControl_rotateY";
 		 19 -0.29579497858246084 20 -0.28586517923639893 21 -0.27556975498807906 22 -0.26461800643456102
 		 23 -0.25356392796962757 24 -0.24248926922702391 25 -0.23139758305084707 26 -0.22027266352932526
 		 27 -0.20914281224111317 28 -0.19801570696390355 29 -0.18691875199932145 30 -0.17586246613450118
-		 31 -0.16481303260483568 32 -0.15377263159224022 33 -0.142796792932635 34 -0.13190628201136928
+		 31 -0.16481303260483568 32 -0.15377263159224022 33 -0.142796792932635 34 -0.13190628201136931
 		 35 -0.12103018093714843 36 -0.11017353115364882 37 -0.099456434436987096 38 -0.088904828247872658
 		 39 -0.078381964189367964 40 -0.067908877880834953 41 -0.057805122590438456 42 -0.048028284603313702
-		 43 -0.038313432455736388 44 -0.028775891833660989 45 -0.020614525092136952 46 -0.014156217715203676
+		 43 -0.038313432455736388 44 -0.026381631186019171 45 -0.020194890795109468 46 -0.013848306098614082
 		 47 -0.0081955844084319624 48 -0.0029181073946156601 49 0 50 0 51 0 52 0 53 0 54 0
 		 55 0 56 0 57 0 58 -0.050929230925670796 59 -0.15844649621319956 60 -0.26511494098529903
 		 61 -0.32594707792429473 62 -0.3253812521601846 63 -0.32345686099464055 64 -0.32022398574715361
 		 65 -0.31476919459355768 66 -0.30557470334033804 67 -0.29579497858246084 68 -0.28586517923639893
 		 69 -0.27556975498807906 70 -0.26461800643456102 71 -0.25356392796962751 72 -0.24248926922702388
 		 73 -0.23139758305084707 74 -0.2202726635293252 75 -0.20914281224111317 76 -0.19801570696390366
-		 77 -0.18691875199932145 78 -0.17586246613450121 79 -0.16481303260483576 80 -0.15377263159224017
+		 77 -0.18691875199932145 78 -0.17586246613450121 79 -0.16481303260483576 80 -0.15377263159224019
 		 81 -0.142796792932635 82 -0.13190628201136931 83 -0.12103018093714833 84 -0.11017353115364878
 		 85 -0.099456434436987096 86 -0.088904828247872575 87 -0.078381964189367964 88 -0.067908877880835036
 		 89 -0.057805122590438456 90 -0.048028284603313737 91 -0.03831343245573645 92 -0.02877589183366094
-		 93 -0.020614525092136952 94 -0.01415621771520373 95 -0.0081955844084319624 96 -0.0029181073946157004
+		 93 -0.020614525092136952 94 -0.01415621771520373 95 -0.0081955844084319624 96 -0.0029181073946157009
 		 97 0 98 0 99 0 100 0 101 0 102 0 103 0 104 0 105 0 106 -0.050929230925671545 107 -0.15844649621319734
 		 108 -0.26511494098529814 109 -0.32594707792429473 110 -0.3253812521601846 111 -0.32345686099464049
 		 112 -0.32022398574715355 113 -0.31476919459355768 114 -0.30557470334033798 115 -0.29579497858246073
@@ -29646,21 +29646,21 @@ createNode animCurveTA -n "BodyThreeControl_rotateZ";
 		 31 -10.949470407780671 32 -10.524073950407445 33 -10.126761266164879 34 -9.5218424971466007
 		 35 -8.6413928871210217 36 -7.7709317429762104 37 -7.147072593109983 38 -6.8666397317420156
 		 39 -6.5537355977570044 40 -6.2173000000508933 41 -5.7345963261526762 42 -5.0626527120473321
-		 43 -4.3586192657995797 44 -3.609449892541932 45 -2.5344318722730121 46 -0.49396211901298648
-		 47 1.6223746302000663 48 3.5403544287836053 49 4.6080061778842589 50 5.3701835147118251
-		 51 6.9912521713437741 52 8.6059323687764984 53 9.5508902395590365 54 9.5926110194409926
+		 43 -4.3586192657995797 44 -2.2411512752893379 45 -2.1988317775634609 46 -0.13538821702499049
+		 47 1.6223746302000666 48 3.5403544287836053 49 4.6080061778842589 50 5.3701835147118251
+		 51 6.991252171343775 52 8.6059323687764984 53 9.5508902395590365 54 9.5926110194409926
 		 55 9.6085225481046823 56 9.6183263049388064 57 9.6230559128683666 58 7.9919322734910576
 		 59 4.0755650221082682 60 -0.14605821650093348 61 -3.4690799312640408 62 -4.9456445299085461
 		 63 -6.1325134586391314 64 -7.2340646646189297 65 -8.0632411012487779 66 -8.3673824028254469
 		 67 -8.5903717032610931 68 -8.8076376348485876 69 -9.0992093691200697 70 -9.5723667729258715
-		 71 -10.07290139801764 72 -10.56495731703304 73 -10.945695268058216 74 -11.133128554340313
+		 71 -10.07290139801764 72 -10.564957317033041 73 -10.945695268058216 74 -11.133128554340313
 		 75 -11.283811592838079 76 -11.412995034123812 77 -11.483742772399655 78 -11.336811112523913
 		 79 -10.949470407780675 80 -10.524073950407443 81 -10.126761266164879 82 -9.5218424971466042
 		 83 -8.6413928871210128 84 -7.7709317429762077 85 -7.147072593109983 86 -6.8666397317420129
 		 87 -6.5537355977570044 88 -6.2173000000508969 89 -5.7345963261526762 90 -5.0626527120473348
 		 91 -4.3586192657995841 92 -3.6094498925419272 93 -2.5344318722730121 94 -0.49396211901300396
-		 95 1.622374630200067 96 3.5403544287835915 97 4.6080061778842589 98 5.3701835147118038
-		 99 6.9912521713437812 100 8.6059323687765268 101 9.5508902395590365 102 9.5926110194409944
+		 95 1.622374630200067 96 3.540354428783592 97 4.6080061778842589 98 5.3701835147118038
+		 99 6.9912521713437821 100 8.6059323687765268 101 9.5508902395590365 102 9.5926110194409944
 		 103 9.6085225481046841 104 9.6183263049388064 105 9.6230559128683666 106 7.9919322734910327
 		 107 4.0755650221083446 108 -0.14605821650089135 109 -3.4690799312640408 110 -4.9456445299085257
 		 111 -6.1325134586391314 112 -7.2340646646189475 113 -8.0632411012487779 114 -8.3673824028254487
@@ -29690,9 +29690,9 @@ createNode animCurveTA -n "BodyThreeControl_rotateZ";
 		18 18 1;
 	setAttr -s 145 ".kix[32:144]"  0.98959026182720222 0.95486118712784263 
 		0.93886319873207658 0.95435226951501906 0.99227938773819857 0.99236699810778106 0.99087868700327653 
-		0.98560065355077553 0.97198247765989587 0.96089458838520869 0.95667114613762805 0.93414405051374927 
-		0.8374832293800325 0.75421912544489256 0.76384130488797675 0.84788045277689672 1 
-		0.89473266795221695 0.82781323915784899 0.88134233818922914 0.99862848553857941 0.9999271596857412 
+		0.98560065355077553 0.97198247765989587 0.96089458838520869 0.86091718137003959 0.99858892288130696 
+		0.99858892288130696 0.78075012188063064 0.79238843409640003 0.84788045277689672 0.90660023661813383 
+		0.89473266795221684 0.82781323915784899 0.88134233818922914 0.99862848553857941 0.9999271596857412 
 		0.99998549691192817 0.99999536748791096 1 0.65233814520946265 0.50604303877108714 
 		0.53476213139602291 0.70526258687231991 0.8733133810366861 0.90177423227579034 0.92707290892834704 
 		0.97296683538927364 0.99396085275498913 0.99577586582186406 0.99436925916382113 0.98741527974578003 
@@ -29713,9 +29713,9 @@ createNode animCurveTA -n "BodyThreeControl_rotateZ";
 		0.83748322938003328 0.75421912544489356 0.76384130488797752 0.84788045277689661 1;
 	setAttr -s 145 ".kiy[32:144]"  0.14391356328285881 0.29705237470319434 
 		0.34429042110778107 0.29868335352264325 0.12402264579465218 0.12331967023371086 0.13475692057427993 
-		0.16908977414463661 0.2350533197428398 0.27691440918092458 0.2911705997310115 0.35689619343692325 
-		0.54646302757569221 0.65662280710704946 0.64540410670140058 0.53018745533900047 0 
-		0.44660211922818721 0.56100377991149908 0.47247823538777139 0.052355972638500566 
+		0.16908977414463661 0.2350533197428398 0.27691440918092458 0.50874512953134643 0.053105207830787385 
+		0.053105207830787385 0.62484337812237434 0.61001686002130706 0.53018745533900047 
+		0.42199053421130645 0.44660211922818727 0.56100377991149908 0.47247823538777139 0.052355972638500566 
 		0.012069603258024733 0.0053857186896410173 0.0030438466975137588 0 -0.75792806011169556 
 		-0.86250822773543678 -0.84500264072059716 -0.70894617818150596 -0.48715884319416003 
 		-0.43220739697905342 -0.37488107651778402 -0.23094487920839923 -0.10973524133374203 
@@ -29738,8 +29738,8 @@ createNode animCurveTA -n "BodyThreeControl_rotateZ";
 		0.54646302757569121 0.65662280710704812 0.64540410670139969 0.53018745533900069 0;
 	setAttr -s 145 ".kox[32:144]"  0.98959029503506535 0.95486118712784263 
 		0.93886319873207658 0.95435226951501906 0.9922793788167511 0.99236699810778106 0.99087868700327653 
-		0.98560065355077553 0.97198247765989609 0.96089458838520869 0.95667114613762816 0.93414405051374938 
-		0.8374832293800325 0.75421912544489256 0.76384130488797675 0.84788045277689661 1 
+		0.98560065355077553 0.97198247765989609 0.96089458838520869 0.86091718137003947 0.99858892288130696 
+		0.99858892288130696 0.78075012188063064 0.79238843409640014 0.84788045277689661 0.90660020283190423 
 		0.89473266795221695 0.82781323915784899 0.88134233818922914 0.99974310023597368 0.9999271596857412 
 		0.99998549691192817 0.99999536748791096 1 0.65233814520946265 0.50604303877108714 
 		0.53476213139602291 0.7052625868723198 0.87331338103668588 0.90177423227579034 0.92707290892834704 
@@ -29761,9 +29761,9 @@ createNode animCurveTA -n "BodyThreeControl_rotateZ";
 		0.83748322938003328 0.75421912544489378 0.76384130488797763 0.84788045277689661 1;
 	setAttr -s 145 ".koy[32:144]"  0.14391333493603806 0.29705237470319434 
 		0.34429042110778107 0.29868335352264325 0.12402271717327749 0.12331967023371088 0.13475692057427993 
-		0.16908977414463658 0.23505331974283983 0.27691440918092458 0.2911705997310115 0.35689619343692325 
-		0.54646302757569221 0.65662280710704946 0.64540410670140058 0.53018745533900036 0 
-		0.44660211922818716 0.56100377991149908 0.47247823538777134 0.022665690604165029 
+		0.16908977414463658 0.23505331974283983 0.27691440918092458 0.50874512953134643 0.053105207830787385 
+		0.053105207830787385 0.62484337812237423 0.61001686002130706 0.53018745533900036 
+		0.42199060679729594 0.44660211922818727 0.56100377991149908 0.47247823538777134 0.022665690604165029 
 		0.012069603258024733 0.0053857186896410173 0.0030438466975137588 0 -0.75792806011169556 
 		-0.86250822773543678 -0.84500264072059716 -0.70894617818150585 -0.48715884319415997 
 		-0.43220739697905342 -0.37488107651778407 -0.23094487920839923 -0.10973524133374203 
@@ -29984,26 +29984,26 @@ createNode animCurveTA -n "RightEyeControl_rotateX";
 		 54 0.00087523559968909258 55 0.00074557609009968896 56 0.00061312701545850697 57 0.00048057541838969839
 		 58 0.0003480405906101279 59 0.00021553181365824566 60 8.3054405816039879e-05 61 -4.9385173881546744e-05
 		 62 -0.0001817786064218034 63 -0.00031411497837762625 64 -0.00044637969872304221 65 -0.00057855283281613688
-		 66 -0.00071060645553848185 67 -0.00084250028786855564 68 -0.00097417418594691364
-		 69 -0.0011055345320874418 70 -0.0012364280045472483 71 -0.0013665870277954886 72 -0.0014955049154367751
+		 66 -0.00071060645553848185 67 -0.00084250028786855575 68 -0.00097417418594691364
+		 69 -0.0011055345320874418 70 -0.0012364280045472486 71 -0.0013665870277954886 72 -0.0014955049154367751
 		 73 -0.001622112082378012 74 -0.0017437808938174926 75 -0.0018524186119002158 76 -0.0019126357231822357
 		 77 -0.00034907139142115114 78 0.0056343595347612243 79 0.019615539635146728 80 0.033927095228612585
 		 81 0.048250982620298082 82 0.062573114583741152 83 0.07689243410038242 84 0.091208363905067466
-		 85 0.10552020588719722 86 0.11982706106119932 87 0.13412775008708527 88 0.14842069621218509
+		 85 0.10552020588719722 86 0.11982706106119932 87 0.1341277500870853 88 0.14842069621218509
 		 89 0.16270374523572378 90 0.17697387948063514 91 0.19122674626781422 92 0.20545584626062344
 		 93 0.21965106283430838 94 0.23379582755395123 95 0.24786122535711683 96 0.26179250210125926
 		 97 0.27547407502120963 98 0.28862199354754003 99 0.30036173070235417 100 0.306868983166317
-		 101 0.30628794264482734 102 0.30406541068064585 103 0.29734636050556146 104 0.290184429310823
+		 101 0.30628794264482734 102 0.30406541068064585 103 0.29734636050556146 104 0.29018442931082306
 		 105 0.28300141874261658 106 0.27581723782066242 107 0.26863286149157511 108 0.26144832806261364
 		 109 0.2542636261910074 110 0.24707874109882086 111 0.2398936577409293 112 0.23270836235167972
-		 113 0.22552284531759287 114 0.21833710700958808 115 0.21115116989191232 116 0.20396510465470416
+		 113 0.22552284531759287 114 0.21833710700958808 115 0.21115116989191232 116 0.20396510465470419
 		 117 0.19676197104118909 118 0.18957248223441059 119 0.18239361747599253 120 0.17522075584533942
 		 121 0.16806313978677168 122 0.16097146702053949 123 0.15367810180083527 124 0.14637744791652094
 		 125 0.13907735961744189 126 0.13177830367713633 127 0.1244804733822695 128 0.11718409186261268
 		 129 0.10988943834493321 130 0.10259686780996155 131 0.095306838295380975 132 0.0880199507294043
 		 133 0.080737008543085756 134 0.073459109405125608 135 0.066187790966852261 136 0.05892527112722111
 		 137 0.051674861610251102 138 0.044441717321904606 139 0.037234280675143346 140 0.030067285282351298
-		 141 0.022968631007638098 142 0.015997212818430088 143 0.0092977171609514922 144 0.0033157575122732285
+		 141 0.022968631007638098 142 0.015997212818430088 143 0.0092977171609514922 144 0.003315757512273229
 		 145 0;
 	setAttr -s 95 ".kit[94]"  1;
 	setAttr -s 95 ".kot[94]"  5;
@@ -30017,15 +30017,15 @@ createNode animCurveTA -n "RightEyeControl_rotateY";
 		 54 -2.2320164694397864 55 -2.1641936116188463 56 -2.130574372189455 57 -2.0984410416572548
 		 58 -2.0663801518324805 59 -2.034328804822108 60 -2.0022852066350012 61 -1.9702507667476177
 		 62 -1.9382274893846563 63 -1.9062180138432054 64 -1.8742258693700034 65 -1.8422558777477138
-		 66 -1.8103147934941486 67 -1.7784123592849919 68 -1.7465631226960097 69 -1.7147897279405013
+		 66 -1.8103147934941486 67 -1.7784123592849921 68 -1.7465631226960097 69 -1.7147897279405013
 		 70 -1.6831292604282164 71 -1.6516464412353262 72 -1.6204638274906058 73 -1.5898401300637051
-		 74 -1.5604109203449328 75 -1.5341336669469607 76 -1.5195683730510909 77 -1.5401408262500731
+		 74 -1.5604109203449328 75 -1.5341336669469607 76 -1.5195683730510912 77 -1.5401408262500733
 		 78 -1.6188672657049725 79 -1.8028233508106992 80 -1.9911263209351133 81 -2.1795915455549641
 		 82 -2.3680336732899425 83 -2.5564387965160371 84 -2.7447993199203276 85 -2.93310605817712
 		 86 -3.1213471829668271 87 -3.3095071772325375 88 -3.4975652949967122 89 -3.685493192561732
-		 90 -3.8732511651204775 91 -4.060781942699875 92 -4.2480000108787506 93 -4.4347722611018208
+		 90 -3.8732511651204775 91 -4.060781942699875 92 -4.2480000108787515 93 -4.4347722611018208
 		 94 -4.620880695717819 95 -4.8059448674649303 96 -4.9892443537726869 97 -5.1692583850899148
-		 98 -5.3422509080405423 99 -5.4967154147319555 100 -5.5823339876614462 101 -5.5727648338796332
+		 98 -5.3422509080405423 99 -5.4967154147319555 100 -5.5823339876614462 101 -5.5727648338796341
 		 102 -5.536148270534869 103 -5.4254244209129849 104 -5.3036187646531427 105 -5.1812959286881695
 		 106 -5.0589555078156749 107 -4.9366230075306881 108 -4.8143005791227083 109 -4.6919892262270864
 		 110 -4.5696899368383352 111 -4.4474037025489981 112 -4.3251314298437356 113 -4.202873751743736
@@ -30035,7 +30035,7 @@ createNode animCurveTA -n "RightEyeControl_rotateY";
 		 126 -2.5337818846586129 127 -2.3934620480111404 128 -2.2531700666792069 129 -2.1129113106379149
 		 130 -1.9726926053736102 131 -1.8325227578593062 132 -1.6924133225087332 133 -1.552379747381216
 		 134 -1.4124431380229034 135 -1.2726330597945117 136 -1.1329921575931234 137 -0.99358410795801999
-		 138 -0.85450802741283849 139 -0.71592624338507782 140 -0.5781220480338537 141 -0.44163188907725703
+		 138 -0.85450802741283849 139 -0.71592624338507782 140 -0.57812204803385381 141 -0.44163188907725703
 		 142 -0.30758817600512628 143 -0.17877288343965961 144 -0.06375409371940241 145 0;
 	setAttr -s 95 ".kit[94]"  1;
 	setAttr -s 95 ".kot[94]"  5;
@@ -30051,8 +30051,8 @@ createNode animCurveTA -n "RightEyeControl_rotateZ";
 		 62 -3.3208295312536436 63 -3.4516289591205362 64 -3.5823575675331214 65 -3.7129956533688286
 		 66 -3.8435156158293324 67 -3.9738776436904604 68 -4.1040222915987634 69 -4.2338570291364812
 		 70 -4.3632303152272387 71 -4.491877681941105 72 -4.6192983274981536 73 -4.7444350888814126
-		 74 -4.8646908484305813 75 -4.9720668567038668 76 -5.0315846112491895 77 -5.030781574765526
-		 78 -5.0275568758924782 79 -5.0174723692671721 80 -4.9884982760585066 81 -4.9244859206317866
+		 74 -4.8646908484305813 75 -4.9720668567038677 76 -5.0315846112491895 77 -5.030781574765526
+		 78 -5.0275568758924782 79 -5.0174723692671721 80 -4.9884982760585066 81 -4.9244859206317875
 		 82 -4.8590102679181708 83 -4.7935970261543197 84 -4.728330626290858 85 -4.6632289350598581
 		 86 -4.5983079037715573 87 -4.5335846962571278 88 -4.4690775857224505 89 -4.4048052767827377
 		 90 -4.3407853961420377 91 -4.2770313449725554 92 -4.213545803457758 93 -4.150307116132697
@@ -30067,7 +30067,7 @@ createNode animCurveTA -n "RightEyeControl_rotateZ";
 		 126 2.2625726233093606 127 2.1372785146660269 128 2.0120029573150675 129 1.8867567544498964
 		 130 1.7615462990800359 131 1.6363794710828201 132 1.5112665890062145 133 1.3862214474829593
 		 134 1.2612628930392071 135 1.1364173265201829 136 1.0117228283447299 137 0.88723625946108198
-		 138 0.76304612749831446 139 0.63929738523740387 140 0.51624300278281821 141 0.39436200940141453
+		 138 0.76304612749831446 139 0.63929738523740387 140 0.51624300278281821 141 0.39436200940141458
 		 142 0.27466560761937575 143 0.15963800459938227 144 0.056930201664743003 145 0;
 	setAttr -s 95 ".kit[94]"  1;
 	setAttr -s 95 ".kot[94]"  5;
@@ -30208,9 +30208,9 @@ createNode animCurveTA -n "RightEyelidControl_rotateX";
 	setAttr -s 95 ".ktv[0:94]"  1 0 35 0 46 -0.0043561939247713424 54 -0.011745840704177966
 		 55 -0.012473229506259995 56 -0.012979346454866368 57 -0.013396129134253859 58 -0.013621528626872584
 		 59 -0.0128441037339338 60 -0.0099293110820229177 61 -0.0042343273159546665 62 0.0016313924542666388
-		 63 0.007506243149378612 64 0.013383230627764538 65 0.019266567326904526 66 0.025156757675605983
+		 63 0.007506243149378612 64 0.013383230627764538 65 0.01926656732690453 66 0.025156757675605983
 		 67 0.031053539238202275 68 0.036955466209318867 69 0.042858397090544578 70 0.048751636130516564
-		 71 0.054607053537720579 72 0.060343065150721222 73 0.065672688397851176 74 0.069169779948777668
+		 71 0.054607053537720586 72 0.060343065150721222 73 0.065672688397851189 74 0.069169779948777668
 		 75 0.070190753561673411 76 0.071099495855090983 77 0.072002745916382366 78 0.072905517805292225
 		 79 0.073808018077628545 80 0.074710203119513777 81 0.075611999281736439 82 0.076513307176731396
 		 83 0.077413990963980467 84 0.078313860350054346 85 0.079212640856630961 86 0.080109922637947334
@@ -30244,10 +30244,10 @@ createNode animCurveTA -n "RightEyelidControl_rotateY";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
 	setAttr -s 95 ".ktv[0:94]"  1 0 35 0 46 -0.092131439059567791 54 0.02136837050260507
-		 55 0.042089394855369937 56 0.068638338935996523 57 0.09684760398835171 58 0.12794698895690682
+		 55 0.042089394855369937 56 0.068638338935996523 57 0.09684760398835171 58 0.12794698895690684
 		 59 0.16313272753114444 60 0.19855402170157416 61 0.23400040407647013 62 0.26946078242105576
 		 63 0.30493565924253946 64 0.34042623407426192 65 0.37593357875363992 66 0.41145824545097631
-		 67 0.4469995149689367 68 0.48255374152148373 69 0.51811049604592885 70 0.55364284588473156
+		 67 0.44699951496893675 68 0.48255374152148373 69 0.51811049604592885 70 0.55364284588473156
 		 71 0.58907995836872118 72 0.62421639921929073 73 0.65832952746894524 74 0.68782822052841452
 		 75 0.71207479333701373 76 0.73607974463912906 77 0.76006867017183644 78 0.78405135422527594
 		 79 0.80802716072259351 80 0.83199461148063925 81 0.85595173235076816 82 0.87989588197916713
@@ -30291,17 +30291,17 @@ createNode animCurveTA -n "RightEyelidControl_rotateZ";
 		 79 17.374657841334738 80 15.099313172314497 81 12.824939799647378 82 10.551797273034035
 		 83 8.2802287378203783 84 6.0107141594327649 85 3.7439457881544196 86 1.4809572752250797
 		 87 -0.77664243670670907 88 -3.0262183125414213 89 -5.2631717160915041 90 -7.4787945775788467
-		 91 -9.6547046753588948 92 -11.745742661533388 93 -13.612824229559433 94 -14.647734208695967
+		 91 -9.6547046753588948 92 -11.74574266153339 93 -13.612824229559433 94 -14.647734208695967
 		 95 -14.631060321084767 96 -14.565696340679214 97 -14.359574556686191 98 -14.056134548079394
-		 99 -13.750752845061527 100 -13.44533486204957 101 -13.13991966635618 102 -12.834508323306601
-		 103 -12.529101132446591 104 -12.223698404615613 105 -11.91830048194889 106 -11.612907742364861
+		 99 -13.750752845061527 100 -13.445334862049572 101 -13.13991966635618 102 -12.834508323306602
+		 103 -12.529101132446591 104 -12.223698404615613 105 -11.918300481948892 106 -11.612907742364861
 		 107 -11.307520604366792 108 -11.002139532626318 109 -10.696765044512276 110 -10.391397717756474
 		 111 -10.086038199493817 112 -9.7806872169723125 113 -9.475345590303041 114 -9.170014247716912
 		 115 -8.8646942439208747 116 -8.5593867823111847 117 -8.2409367769016608 118 -7.9305944382581472
-		 119 -7.6258425984735725 120 -7.3213019187719519 121 -7.0167900062553992 122 -6.712303224798009
+		 119 -7.6258425984735725 120 -7.3213019187719519 121 -7.0167900062553992 122 -6.7123032247980099
 		 123 -6.4078448197710536 124 -6.1034189489739497 125 -5.7990306308284572 126 -5.4946859634478535
 		 127 -5.1903924285070975 128 -4.8861593036314543 129 -4.5819982303489386 130 -4.2779240100306044
-		 131 -3.9739557412134436 132 -3.6701184804636728 133 -3.366445727994988 134 -3.0629832526830696
+		 131 -3.9739557412134436 132 -3.6701184804636728 133 -3.3664457279949884 134 -3.0629832526830696
 		 135 -2.759795169112282 136 -2.4569739557704735 137 -2.1546576997552123 138 -1.8530613422869897
 		 139 -1.5525369019203932 140 -1.2536987178211039 141 -0.95771011496286551 142 -0.66702680374504197
 		 143 -0.3876816937041615 144 -0.13825527987332681 145 0;
@@ -30480,7 +30480,7 @@ createNode animCurveTA -n "LeftEyeControl_rotateX";
 	setAttr ".wgt" no;
 	setAttr -s 138 ".ktv[0:137]"  1 0 2 0.00024632146420952529 3 0.0011341116963427596
 		 4 0.0022740719333849105 6 0.0047514648968372698 7 0.0059035543596320369 8 0.0070107579680014145
-		 10 0.0092605823002222445 11 0.010141080107284227 12 0.010575931253641233 14 0.010297272785034266
+		 10 0.0092605823002222445 11 0.010141080107284227 12 0.010575931253641233 14 0.010297272785034268
 		 15 0.0098353177197182066 16 0.0092209196519690961 18 0.0079236012150246463 19 0.0073009895941146315
 		 20 0.0066832932700099171 21 0.0060185990342570342 22 0.0053849669672418219 23 0.0047729299241467786
 		 24 0.0041629420920781283 26 0.0028686466731360099 27 0.0022607014805972369 28 0.0016676106720328293
@@ -30492,7 +30492,7 @@ createNode animCurveTA -n "LeftEyeControl_rotateX";
 		 50 0.00022794413200873692 51 0.00034240443818965035 52 0.00045685649902252773 53 0.0005712992090441824
 		 54 0.00068573125729367202 55 0.00080015107755283788 56 0.00091455678348655901 57 0.0010289460830860161
 		 58 0.0011433161643300879 59 0.0012576635401819634 60 0.0013719838351214481 61 0.0014862714859872697
-		 62 0.0016005193145091881 63 0.0017147179030651142 64 0.0018288546604504346 65 0.0019429123842292515
+		 62 0.0016005193145091881 63 0.0017147179030651144 64 0.0018288546604504346 65 0.0019429123842292515
 		 66 0.0020568669766492867 67 0.0021706836792587396 68 0.0022843105914065846 69 0.0023976669264771685
 		 70 0.0025106203767279235 71 0.0026229400400455227 72 0.0027341886755540197 73 0.0028434432935555195
 		 74 0.0029484363981140214 75 0.003042184427364147 76 0.0030941482904630222 77 0.0012172432580485205
@@ -30501,13 +30501,13 @@ createNode animCurveTA -n "LeftEyeControl_rotateX";
 		 86 -0.14304237126154196 87 -0.1602089403974907 88 -0.17736621494340837 89 -0.1945116089933662
 		 90 -0.21164150012316549 91 -0.22875066337010347 92 -0.24583129692046868 93 -0.26287125676232187
 		 94 -0.27985065412086518 95 -0.29673477931060971 96 -0.31345790537449814 97 -0.329881286583174
-		 98 -0.34566406823568874 99 -0.35975646680062423 100 -0.36756778268236168 101 -0.36685214052270498
-		 102 -0.36411501445109012 103 -0.3558407882757823 104 -0.34709554840993201 105 -0.33832768827925069
-		 106 -0.32955835346059031 107 -0.32078855900516584 108 -0.31201832220660763 109 -0.30324760569319847
+		 98 -0.34566406823568874 99 -0.35975646680062423 100 -0.36756778268236168 101 -0.36685214052270504
+		 102 -0.36411501445109012 103 -0.3558407882757823 104 -0.34709554840993201 105 -0.33832768827925075
+		 106 -0.32955835346059031 107 -0.32078855900516584 108 -0.31201832220660769 109 -0.30324760569319847
 		 110 -0.29447636705763203 111 -0.28570456340628703 112 -0.27693215550865807 113 -0.26815911596819547
 		 114 -0.25938544584193851 115 -0.2506112091484346 116 -0.24183660734024365 117 -0.23301336412076928
 		 118 -0.22422900583354777 119 -0.21547492392976791 120 -0.20673794972278103 121 -0.19804442230468183
-		 122 -0.18953881989750443 123 -0.18094518913570706 124 -0.17234893530133377 125 -0.16375359482212817
+		 122 -0.18953881989750443 123 -0.18094518913570706 124 -0.1723489353013338 125 -0.16375359482212817
 		 126 -0.15515948058778897 127 -0.14656680994796104 128 -0.13797584515980266 129 -0.12938691497091062
 		 130 -0.12080043734449537 131 -0.11221695158694937 132 -0.10363716524804635 133 -0.095062024310103091
 		 134 -0.086492821199115458 135 -0.077931366388998669 136 -0.069380271296353602 137 -0.060843435238171074
@@ -30523,22 +30523,22 @@ createNode animCurveTA -n "LeftEyeControl_rotateY";
 	rename -uid "7EAEDCCE-4799-5FA3-47F3-138D42C2391C";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 138 ".ktv[0:137]"  1 0 2 0.26696882466911442 3 1.2291761401620225
+	setAttr -s 138 ".ktv[0:137]"  1 0 2 0.26696882466911448 3 1.2291761401620225
 		 4 2.464691062214436 6 5.149746097182172 7 6.3984069509288197 8 7.5984194912259264
 		 10 10.03683044989927 11 10.991134068666002 12 11.462435665631979 14 11.334486859988749
 		 15 11.121913952141123 16 10.790976799484998 18 10.101195287494484 19 9.7636164595130648
-		 20 9.4272722438156489 21 9.0753861582802706 22 8.7335675115898237 23 8.3981930121714718
+		 20 9.4272722438156489 21 9.0753861582802724 22 8.7335675115898237 23 8.3981930121714718
 		 24 8.0631275213766163 26 7.3658742336586229 27 7.0300929409831312 28 6.6989364766832553
 		 30 6.0078911788197242 31 5.6836740540245962 32 5.3772036214984862 34 4.9022654411653459
 		 35 4.820611202951282 36 4.7460636772345488 37 4.6716824791081972 38 4.5973065708662908
 		 39 4.522932235669721 40 4.4485595062767196 41 4.3741885210648803 42 4.2998194375817729
-		 43 4.225452432944163 44 4.1510877068867646 45 4.0767254854764863 46 4.0023660255829672
+		 43 4.2254524329441638 44 4.1510877068867646 45 4.0767254854764863 46 4.0023660255829672
 		 47 3.9280096202885266 48 3.8536566054753183 49 3.7793073678986056 50 3.7049623551509989
 		 51 3.6306220880531561 52 3.5562871761862733 53 3.4819583375322543 54 3.4076364235407399
 		 55 3.3333224514471378 56 3.259017646398064 57 3.1847234970191698 58 3.1104418296763647
-		 59 3.0361749091482131 60 2.9619255772700268 61 2.8876974472323416 62 2.8134951812149525
-		 63 2.7393248958233882 64 2.6651947688578428 65 2.5911159730446696 66 2.5171041595156938
-		 67 2.4431819033685813 68 2.3693829133045266 69 2.2957596590292821 70 2.2223980724545278
+		 59 3.0361749091482135 60 2.9619255772700268 61 2.887697447232342 62 2.8134951812149525
+		 63 2.7393248958233882 64 2.6651947688578432 65 2.5911159730446696 66 2.5171041595156938
+		 67 2.4431819033685818 68 2.3693829133045266 69 2.2957596590292821 70 2.2223980724545278
 		 71 2.149448121069875 72 2.0771937863234662 73 2.0062345363013074 74 1.9380430759012801
 		 75 1.8771551247251299 76 1.8434053682278835 77 1.8658886937941137 78 1.9519276387762405
 		 79 2.1529704853107443 80 2.3587639772898541 81 2.5647347947736181 82 2.7706803700183005
@@ -30547,16 +30547,16 @@ createNode animCurveTA -n "LeftEyeControl_rotateY";
 		 91 4.6206595666995947 92 4.8252673856132189 93 5.0293879767690886 94 5.2327830938035511
 		 95 5.4350369516099173 96 5.6353622111654467 97 5.8320968462353697 98 6.0211577801163596
 		 99 6.189969722901191 100 6.2835409771930717 101 6.2717249201615388 102 6.2265263298388378
-		 103 6.0898820036777614 104 5.9439227233907594 105 5.7975209248210655 106 5.651095463515893
-		 107 5.5046669355978777 108 5.3582362439137441 109 5.2118032547516044 110 5.0653677678757232
+		 103 6.0898820036777623 104 5.9439227233907594 105 5.7975209248210655 106 5.651095463515893
+		 107 5.5046669355978786 108 5.3582362439137441 109 5.2118032547516044 110 5.0653677678757232
 		 111 4.9189295782682247 112 4.7724884982828444 113 4.626044396870518 114 4.4795972790875824
 		 115 4.3331474511630566 116 4.1866958767335891 117 4.0400116289323078 118 3.8935133849508414
-		 119 3.7471599662948716 120 3.6008883813150145 121 3.4548246215317975 122 3.3096597901469393
-		 123 3.1597288271957575 124 3.0096233159846788 125 2.859528408511034 126 2.7094546826599863
-		 127 2.559406154932037 128 2.409387414946929 129 2.2594042038940816 130 2.1094638204316767
+		 119 3.7471599662948716 120 3.6008883813150145 121 3.4548246215317975 122 3.3096597901469398
+		 123 3.1597288271957575 124 3.0096233159846788 125 2.8595284085110344 126 2.7094546826599863
+		 127 2.559406154932037 128 2.409387414946929 129 2.2594042038940816 130 2.1094638204316771
 		 131 1.9595756821371308 132 1.8097521445175082 133 1.6600097266808214 134 1.5103709974682016
-		 135 1.3608675720733172 136 1.2115450520598774 137 1.0624715288048452 138 0.9137529908033617
-		 139 0.76556302000856047 140 0.61820454986209239 141 0.47225122120885415 142 0.32891395603548457
+		 135 1.3608675720733174 136 1.2115450520598774 137 1.0624715288048452 138 0.9137529908033617
+		 139 0.76556302000856058 140 0.61820454986209239 141 0.47225122120885415 142 0.32891395603548457
 		 143 0.19116760952159953 144 0.068174308424509181 145 0;
 	setAttr -s 138 ".kit[137]"  1;
 	setAttr -s 138 ".kot[137]"  1;
@@ -30577,30 +30577,30 @@ createNode animCurveTA -n "LeftEyeControl_rotateZ";
 		 30 0.1218825642812767 31 0.12268981701497654 32 0.12342851322764499 34 0.1244421209690714
 		 35 0.11507176248276961 36 0.078502531884283813 37 -0.036026130435907577 38 -0.17835883507242747
 		 39 -0.32136609780003145 40 -0.46438719077344243 41 -0.60740536284888325 42 -0.75041988921373881
-		 43 -0.89343041818826319 44 -1.0364365653764127 45 -1.1794378960347942 46 -1.3224339161932606
+		 43 -0.8934304181882633 44 -1.0364365653764127 45 -1.1794378960347942 46 -1.3224339161932606
 		 47 -1.4654240622435493 48 -1.6084076882717269 49 -1.7513840505329707 50 -1.8943522882899633
-		 51 -2.0373113999851156 52 -2.1802602133710103 53 -2.3231973477416146 54 -2.4661211657274502
+		 51 -2.0373113999851156 52 -2.1802602133710107 53 -2.3231973477416146 54 -2.4661211657274502
 		 55 -2.6090297111468144 56 -2.7519206279969821 57 -2.8947910535951964 58 -3.0376374757715627
 		 59 -3.180455539272268 60 -3.3232397791418085 61 -3.4659832470797625 62 -3.6086769775401573
 		 63 -3.7513092080619885 64 -3.8938642124298819 65 -4.0363205050735385 66 -4.1786479882815817
 		 67 -4.3208032492975796 68 -4.4627214650294516 69 -4.6043017342722674 70 -4.7453788067486222
 		 71 -4.8856642893717703 72 -5.0246120752046597 73 -5.1610693647160186 74 -5.2922040913528283
-		 75 -5.4092938968229101 76 -5.4741959397819961 77 -5.4727338873048801 78 -5.4669851404161802
+		 75 -5.4092938968229101 76 -5.4741959397819961 77 -5.472733887304881 78 -5.4669851404161802
 		 79 -5.449231566124153 80 -5.3985863314325462 81 -5.3281279039411356 82 -5.2568895639970767
 		 83 -5.1857405978583255 84 -5.1147339315433706 85 -5.0438853110328994 86 -4.973209962547438
-		 87 -4.9027243436409416 88 -4.832445979595569 89 -4.7623928096674426 90 -4.6925817393201807
-		 91 -4.6230256213843459 92 -4.5537270263771692 93 -4.4846651849197565 94 -4.4157676092837521
-		 95 -4.346844813383715 96 -4.2774274636661689 97 -4.2063112468899044 98 -4.1300608735716251
+		 87 -4.9027243436409425 88 -4.832445979595569 89 -4.7623928096674426 90 -4.6925817393201807
+		 91 -4.6230256213843468 92 -4.5537270263771692 93 -4.4846651849197565 94 -4.4157676092837521
+		 95 -4.346844813383715 96 -4.2774274636661698 97 -4.2063112468899044 98 -4.1300608735716251
 		 99 -4.0367414734026488 100 -3.8677148045472758 101 -3.5835953131778679 102 -3.2947313640528959
-		 103 -3.0057018262689743 104 -2.7167114773207217 105 -2.4277780561837576 106 -2.1389130411106962
+		 103 -3.0057018262689748 104 -2.7167114773207217 105 -2.4277780561837576 106 -2.1389130411106962
 		 107 -1.8501305100674441 108 -1.5614486022313299 109 -1.2728911141507755 110 -0.98448986133963212
 		 111 -0.69628831098762445 112 -0.40834735339957523 113 -0.12075481638202067 114 0.16635815727529077
-		 115 0.45278743560209461 116 0.73819870282152256 117 1.0538974551555818 118 1.3439421585981948
+		 115 0.45278743560209461 116 0.73819870282152267 117 1.0538974551555818 118 1.3439421585981948
 		 119 1.6100399899309943 120 1.8627988497773724 121 2.0879475036289876 122 2.2126595621163689
-		 123 2.200475113142768 124 2.1539432781440113 125 2.0490332309781434 126 1.9416094634571237
+		 123 2.200475113142768 124 2.1539432781440118 125 2.0490332309781434 126 1.9416094634571237
 		 127 1.8340892784468863 128 1.7265850130869005 129 1.6191059380553112 130 1.5116575394645462
-		 131 1.4042465793713217 132 1.296881912558981 133 1.1895753767865418 134 1.0823431450568739
-		 135 0.97520787305422152 136 0.86820223919996908 137 0.76137503828375352 138 0.65480222245333375
+		 131 1.4042465793713217 132 1.296881912558981 133 1.189575376786542 134 1.0823431450568739
+		 135 0.97520787305422152 136 0.86820223919996908 137 0.76137503828375352 138 0.65480222245333386
 		 139 0.54860818183364912 140 0.44301000079306307 141 0.33841875464832799 142 0.23570219914530655
 		 143 0.13699213773930324 144 0.048854218940875944 145 0;
 	setAttr -s 138 ".kit[137]"  1;
@@ -30778,22 +30778,22 @@ createNode animCurveTA -n "LeftEyelidControl_rotateX";
 		 51 0.0029262894105324447 52 0.0021142619132239323 53 0.0013067740396769864 54 0.00050698396757086861
 		 55 -0.00027847096738172882 56 -0.0010332890100383464 57 -0.0017072637922774959 58 -0.0020808432020688011
 		 59 -0.00097323392378348297 60 0.0031781343844883812 61 0.011687577123050038 62 0.020472647919379645
-		 63 0.029282382561660172 64 0.03810087694944813 65 0.04692748840230334 66 0.055762394061846882
-		 67 0.064605242808667321 68 0.073454289960854083 69 0.082304546442092064 70 0.091143128301942322
+		 63 0.029282382561660172 64 0.03810087694944813 65 0.04692748840230334 66 0.055762394061846889
+		 67 0.064605242808667321 68 0.073454289960854083 69 0.082304546442092077 70 0.091143128301942322
 		 71 0.099936150872199703 72 0.10858533927065708 73 0.11674499921313811 74 0.12269722290217031
 		 75 0.12574939252943321 76 0.12866981587482904 77 0.13158343875182396 78 0.13449606212467083
 		 79 0.13740783760290037 80 0.14031859760896412 81 0.14322810304683375 82 0.14613603317191437
 		 83 0.14904194971053131 84 0.1519452387101011 85 0.15484501460886602 86 0.15773995510303934
-		 87 0.16062800194391391 88 0.16350578424835635 89 0.16636741918574649 90 0.16920176690995492
+		 87 0.16062800194391391 88 0.16350578424835638 89 0.16636741918574649 90 0.16920176690995492
 		 91 0.171985311862901 92 0.17466028370055772 93 0.17704875805927311 94 0.17837267233869031
 		 95 0.17816962619864504 96 0.17737365682252745 97 0.17486361035976292 98 0.17116847195415638
 		 99 0.16744968857957146 100 0.16373046340563341 101 0.1600112721742461 102 0.15629212785839958
 		 103 0.15257303410581013 104 0.14885399470172286 105 0.14513501381248689 106 0.14141609604020117
 		 107 0.137697246481186 108 0.13397847079397679 109 0.13025977527882857 110 0.12654116697106604
-		 111 0.1228226537511696 112 0.11910424447519635 113 0.1153859491300428 114 0.11166777901923379
+		 111 0.1228226537511696 112 0.11910424447519635 113 0.1153859491300428 114 0.1116677790192338
 		 115 0.10794974698645518 116 0.1042318676860558 117 0.10035394515811666 118 0.096574753680787773
 		 119 0.092863640460953731 120 0.08915509864142987 121 0.085446907134084205 122 0.081739021660021061
-		 123 0.078031481739724545 124 0.074324338004765525 125 0.070617651566936945 126 0.066911496685967048
+		 123 0.078031481739724545 124 0.074324338004765525 125 0.070617651566936959 126 0.066911496685967048
 		 127 0.063205964469895973 128 0.059501167896935069 129 0.055797248731703525 130 0.052094387217785212
 		 131 0.048392815927469621 132 0.044692839986902017 133 0.04099486734468083 134 0.037299455350942881
 		 135 0.033607384760553444 136 0.02991978172959759 137 0.026238327812659622 138 0.022565640454823472
@@ -30817,23 +30817,23 @@ createNode animCurveTA -n "LeftEyelidControl_rotateY";
 		 48 0.12594790000550285 49 0.12034248460545376 50 0.10910557901065897 51 0.097408944651573154
 		 52 0.08570508267037584 53 0.074021814647947853 54 0.06231561107803843 55 0.050450477789062011
 		 56 0.038011352931408983 57 0.023487080807173894 58 -0.00086796290887974708 59 -0.039816121113717594
-		 60 -0.07958872026662521 61 -0.1194315240758563 62 -0.15930293269690943 63 -0.19920269520045333
+		 60 -0.079588720266625224 61 -0.1194315240758563 62 -0.15930293269690943 63 -0.19920269520045333
 		 64 -0.23913306953809763 65 -0.2790961397629983 66 -0.31909298199070568 67 -0.35912219399965023
 		 68 -0.39917666776056532 69 -0.43923607019542066 70 -0.47924789190465822 71 -0.51907403359675708
-		 72 -0.5583139692339304 73 -0.59555879799681954 74 -0.62380706856171075 75 -0.64042547419056906
+		 72 -0.5583139692339304 73 -0.59555879799681954 74 -0.62380706856171075 75 -0.64042547419056917
 		 76 -0.65651484057829779 77 -0.67257606780644319 78 -0.68863225027303177 79 -0.70468378295791589
 		 80 -0.72072971906707017 81 -0.73676873928739683 82 -0.75279907539970103 83 -0.76881831135984213
-		 84 -0.78482306267551205 85 -0.80080844757442771 86 -0.81676717668812526 87 -0.83268790365779932
-		 88 -0.84855204605976731 89 -0.86432717403908788 90 -0.87995187777158523 91 -0.89529652474076293
+		 84 -0.78482306267551205 85 -0.80080844757442782 86 -0.81676717668812526 87 -0.83268790365779932
+		 88 -0.84855204605976742 89 -0.86432717403908788 90 -0.87995187777158523 91 -0.89529652474076293
 		 92 -0.91004264854878392 93 -0.92320941842280013 94 -0.93050766493166603 95 -0.92944844444026631
 		 96 -0.9252961514022281 97 -0.91220211943918172 98 -0.8929258784975671 99 -0.87352629004658922
 		 100 -0.85412439688335329 101 -0.83472268078649869 102 -0.81532120943156416 103 -0.79592000184740586
 		 104 -0.77651907778032014 105 -0.75711845896468866 106 -0.73771816940804757 107 -0.7183182356961122
-		 108 -0.69891868734747697 109 -0.67951955722836233 110 -0.66012088203958974 111 -0.6407227028908612
+		 108 -0.69891868734747709 109 -0.67951955722836233 110 -0.66012088203958974 111 -0.6407227028908612
 		 112 -0.62132506598112025 113 -0.6019280234085026 114 -0.58253163413953291 115 -0.56313596517521525
 		 116 -0.54374109296214701 117 -0.52351133136835903 118 -0.50379661503433582 119 -0.48443703909028135
 		 120 -0.46509087723969117 121 -0.44574654284485782 122 -0.42640380491831409 123 -0.40706286962456306
-		 124 -0.38772400109075034 125 -0.36838751811566389 126 -0.34905380808625841 127 -0.32972334628122174
+		 124 -0.38772400109075039 125 -0.36838751811566389 126 -0.34905380808625841 127 -0.32972334628122174
 		 128 -0.31039672206825397 129 -0.29107467498364747 130 -0.27175814529495645 131 -0.25244834625023721
 		 132 -0.23314686958556244 133 -0.21385584342567659 134 -0.19457817527074522 135 -0.17531793804504001
 		 136 -0.15608100650984208 137 -0.13687615274558948 138 -0.11771703104518032 139 -0.09862600363601258
@@ -30868,7 +30868,7 @@ createNode animCurveTA -n "LeftEyelidControl_rotateZ";
 		 70 -26.7368267026946 71 -29.416825777419849 72 -31.992290578971716 73 -34.29191540256307
 		 74 -35.566581019192348 75 -35.339838074684103 76 -34.479708725439053 77 -32.676208777074365
 		 78 -30.826140589055854 79 -28.974074155193144 80 -27.12243212908125 81 -25.271474724695871
-		 82 -23.421386469491662 83 -21.572409770778794 84 -19.72488358793326 85 -17.879296792480126
+		 82 -23.421386469491665 83 -21.572409770778794 84 -19.72488358793326 85 -17.879296792480126
 		 86 -16.036379354958981 87 -14.19726752002147 88 -12.363822164769722 89 -10.539009686061082
 		 90 -8.7247273053767724 91 -6.9330025944283671 92 -5.1962741218477992 93 -3.6198177261637166
 		 94 -2.6879493113238739 95 -2.5890703817571414 96 -2.5058976736700642 97 -2.4230275251782745
@@ -30881,7 +30881,7 @@ createNode animCurveTA -n "LeftEyelidControl_rotateZ";
 		 122 -0.34773757068493882 123 -0.26513660159442642 124 -0.18254445919048254 125 -0.099962504994069612
 		 126 -0.01739239345143764 127 0.065163845624500671 128 0.14770369517123325 129 0.23022399678853264
 		 130 0.3127207347961849 131 0.39518872767304419 132 0.47762117745716443 133 0.56000899538610582
-		 134 0.64233976415286376 135 0.72459608917507867 136 0.80675288061259431 137 0.88877267479914412
+		 134 0.64233976415286387 135 0.72459608917507878 136 0.80675288061259431 137 0.88877267479914412
 		 138 0.97059715719055051 139 1.0521308235298557 140 1.1332070007687953 141 1.2135100734780964
 		 142 1.2923737961035415 143 1.3681614124711361 144 1.4358319486068492 145 1.4733412435084163;
 	setAttr -s 138 ".kit[137]"  1;
@@ -31219,15 +31219,15 @@ createNode animCurveTA -n "BodyTwo_rotateZ";
 		 65 -8.6348397817722411 66 -8.6148772216900191 67 -8.5480949736207581 68 -8.440657811922998
 		 69 -8.2638115098992149 70 -7.9982324691778484 71 -7.7179357953794696 72 -7.4214647435408239
 		 73 -7.0130538661268798 74 -6.431230606074636 75 -5.8211955534708881 76 -5.187910539991905
-		 77 -4.4043006823739459 78 -3.1226626136619409 79 -1.8101750366717029 80 -0.62353755343178519
+		 77 -4.4043006823739459 78 -3.1226626136619413 79 -1.8101750366717029 80 -0.62353755343178519
 		 81 0.036562423598111043 82 0.03608635037417731 83 0.03464301726669565 84 0.03297046371806072
 		 85 0.030849544910906187 86 0.02793278170566988 87 0.024892248758173263 88 0.021831511648585444
-		 89 0.018789023237918177 90 0.015671434760027737 91 0.012545609109248426 92 0.0094700864931754267
+		 89 0.018789023237918177 90 0.015671434760027737 91 0.012545609109248427 92 0.0094700864931754267
 		 93 0.0068237162097168997 94 0.0046921258214664098 95 0.002717458066673231 96 0.00096771854821442373
 		 97 0 98 -0.3289006204776011 99 -1.1996787100612405 100 -2.1698459956714733 101 -3.1507075589858551
 		 102 -4.2379180471623394 103 -5.3712028689469413 104 -6.399222216934481 105 -6.9716239195277989
 		 106 -6.9411230648798643 107 -6.876732371734227 108 -6.8128500261660543 109 -6.7764184497810209
-		 110 -7.0667967829046443 111 -7.6798177083878656 112 -8.287998994985692 113 -8.6348397817722411
+		 110 -7.0667967829046452 111 -7.6798177083878656 112 -8.287998994985692 113 -8.6348397817722411
 		 114 -8.6148772216900191 115 -8.5480949736207563 116 -8.440657811922998 117 -8.2638115098992149
 		 118 -7.9982324691778466 119 -7.7179357953794741 120 -7.4214647435408274 121 -7.0130538661268798
 		 122 -6.4312306060746449 123 -5.8211955534708864 124 -5.1879105399918926 125 -4.4043006823739459
@@ -32219,11 +32219,11 @@ createNode animCurveTL -n "HeadRootControl_translateZ";
 		 93 5.0681705607426063e-09 94 3.5298840689630827e-09 95 2.0515988776679138e-09 96 7.3164243308704057e-10
 		 97 0 98 -5.308169794369843e-10 99 -2.462866918690658e-09 100 -5.0967642552041301e-09
 		 101 -7.7841468732988953e-09 102 -1.0470306341048097e-08 103 -1.3147426362997186e-08
-		 104 -1.5809579998087994e-08 105 -1.8446355258147832e-08 106 -2.103586994782271e-08
-		 107 -2.35243798832894e-08 108 -2.5746362993223052e-08 109 -2.6977992366680416e-08
+		 104 -1.5809579998087994e-08 105 -1.8446355258147832e-08 106 -2.1035869947822713e-08
+		 107 -2.3524379883289403e-08 108 -2.5746362993223052e-08 109 -2.6977992366680416e-08
 		 110 -2.6760234258756642e-08 111 -2.5926919907110753e-08 112 -2.3979756452843072e-08
 		 113 -2.1986581497279225e-08 114 -1.9991689088206648e-08 115 -1.7997041158190608e-08
-		 116 -1.600278491854628e-08 117 -1.3875814392459453e-08 118 -1.183399201637941e-08
+		 116 -1.600278491854628e-08 117 -1.3875814392459453e-08 118 -1.1833992016379411e-08
 		 119 -9.8510391368653662e-09 120 -7.8723382194378589e-09 121 -5.8949193133234311e-09
 		 122 -3.9188835842950127e-09 123 -1.9446355772867861e-09 124 2.7223432456743389e-11
 		 125 1.9957943419214079e-09 126 3.9596775395097378e-09 127 5.9165808119457037e-09
@@ -32274,17 +32274,17 @@ createNode animCurveTL -n "HeadRootControl_translateZ";
 		4.7856808375637196e-08 4.7874484069062962e-08 4.7866850035924546e-08 4.7856484716158036e-08 
 		4.7843987932489639e-08 4.7828822011644374e-08 4.7810182701958922e-08 4.7786937289330215e-08 
 		4.7757456543649987e-08 4.7719332328863704e-08 4.7668890451552721e-08 4.7600312209521782e-08 
-		4.7503964643973886e-08 4.7363019836194381e-08 4.7146061012559891e-08 4.678927054351345e-08 
+		4.7503964643973886e-08 4.7363019836194381e-08 4.7146061012559891e-08 4.6789270543513444e-08 
 		4.6147805562672848e-08 4.4838622948010803e-08 4.1593341841052802e-08 3.0495169432889787e-08 
 		0 -1.7556625234120151e-08 -3.2548500510133965e-08 -3.7932913556920829e-08 -3.8305465823175567e-08 
 		-3.8232308579845596e-08 -3.8061182237526069e-08 -3.7773583318041649e-08 -3.7255774283216365e-08 
 		-3.6198860196896224e-08 -3.3578899630512423e-08 -2.4619186532014916e-08 0 -2.9554403024287989e-08 
 		-5.479136730920528e-08 -6.385535945529894e-08 -6.4482505030127705e-08 -6.4359353876378891e-08 
 		-6.407128388447887e-08 -6.3587146741807857e-08 -6.2715479396816016e-08 -6.093629550169892e-08 
-		-5.6525916544804219e-08 -4.1443349800691879e-08 0 1.261286951483601e-08 3.3365733670962584e-08 
+		-5.6525916544804219e-08 -4.1443349800691879e-08 0 1.2612869514836009e-08 3.3365733670962584e-08 
 		4.7284060917978443e-08 4.7856808375637216e-08 4.7874484069063008e-08 4.7866850035924533e-08 
 		4.9454721188773974e-08 5.0025514826002024e-08 4.8297303067129161e-08 4.7539845563298722e-08 
-		4.747343788250283e-08 4.7441455621714266e-08 4.7403404832439848e-08 4.7353284201020683e-08 
+		4.7473437882502824e-08 4.7441455621714266e-08 4.7403404832439848e-08 4.7353284201020683e-08 
 		4.7285159030498444e-08 4.7189449284636046e-08 4.7049437640291154e-08 4.6833915262023253e-08 
 		4.6479487039634301e-08 4.5842269085229981e-08 4.4541754337641425e-08 4.1317959664234016e-08 
 		3.0293266297215435e-08 0 -1.7556625234120065e-08 -3.2548500510133826e-08 -3.7932913556920829e-08 
@@ -32318,18 +32318,18 @@ createNode animCurveTL -n "HeadRootControl_translateZ";
 		4.785680837563719e-08 4.7874484069062962e-08 4.7866850035924553e-08 4.7856484716158029e-08 
 		4.7843987932489639e-08 4.7828822011644381e-08 4.7810182701958916e-08 4.7786937289330215e-08 
 		4.7757456543649987e-08 4.7719332328863704e-08 4.7668890451552721e-08 4.7600312209521782e-08 
-		4.7503964643973886e-08 4.7363019836194381e-08 4.7146061012559898e-08 4.678927054351345e-08 
+		4.7503964643973886e-08 4.7363019836194381e-08 4.7146061012559898e-08 4.6789270543513444e-08 
 		4.6147805562672848e-08 4.4838622948010803e-08 4.1593341841052802e-08 3.0495169432889787e-08 
 		0 -1.7556625234120151e-08 -3.2548500510133965e-08 -3.7932913556920829e-08 -3.8305465823175553e-08 
 		-3.8232308579845596e-08 -3.8061182237526075e-08 -3.7773583318041649e-08 -3.7255774283216365e-08 
 		-3.6198860196896217e-08 -3.3578899630512417e-08 -2.4619186532014916e-08 0 -2.9554403024287989e-08 
 		-5.479136730920528e-08 -6.385535945529894e-08 -6.4482505030127705e-08 -6.4359353876378891e-08 
 		-6.4071283884478857e-08 -6.3587146741807843e-08 -6.2715479396816016e-08 -6.0936295501698907e-08 
-		-5.6525916544804212e-08 -4.1443349800691879e-08 0 1.261286951483601e-08 3.3365733670962584e-08 
+		-5.6525916544804212e-08 -4.1443349800691879e-08 0 1.2612869514836009e-08 3.3365733670962584e-08 
 		4.7284060917978443e-08 4.7856808375637216e-08 4.7874484069063008e-08 4.7866850035924533e-08 
 		4.945472118877398e-08 5.0025514826002024e-08 4.8297303067129154e-08 4.7539845563298722e-08 
-		4.747343788250283e-08 4.7441455621714266e-08 4.7403404832439848e-08 4.7353284201020683e-08 
-		4.7285159030498438e-08 4.7189449284636039e-08 4.7049437640291154e-08 4.683391526202326e-08 
+		4.7473437882502824e-08 4.7441455621714266e-08 4.7403404832439848e-08 4.7353284201020683e-08 
+		4.7285159030498438e-08 4.7189449284636039e-08 4.7049437640291154e-08 4.6833915262023253e-08 
 		4.6479487039634301e-08 4.5842269085229981e-08 4.4541754337641425e-08 4.1317959664234009e-08 
 		3.0293266297215435e-08 0 -1.7556625234120065e-08 -3.2548500510133826e-08 -3.7932913556920823e-08 
 		-3.8305465823175606e-08 -3.8232308579845688e-08 -3.8061182237526102e-08 -3.7773583318041688e-08 
@@ -32353,7 +32353,7 @@ createNode animCurveTA -n "HeadRootControl_rotateX";
 		 43 -1.704837388321357e-05 44 -1.7272517051404194e-05 45 -1.7494523457347894e-05 46 -1.7712550703773167e-05
 		 47 -1.7922073735673738e-05 48 -1.8109156226842429e-05 49 -1.8212854715977127e-05
 		 50 -1.8206087511234755e-05 51 -1.8181098693947143e-05 52 -1.8128561830907111e-05
-		 53 -1.8073782522318825e-05 54 -1.8018816629998686e-05 55 -1.7963839830486876e-05
+		 53 -1.8073782522318829e-05 54 -1.8018816629998686e-05 55 -1.7963839830486876e-05
 		 56 -1.7908854679721329e-05 57 -1.7853827036676217e-05 58 -1.7798666516275899e-05
 		 59 -1.7743118192382963e-05 60 -1.768630540774407e-05 61 -1.7623961848612236e-05 62 -1.7557494753112077e-05
 		 63 -1.7484452845758454e-05 64 -1.7411156352374749e-05 65 -1.7337858005811856e-05
@@ -32367,14 +32367,14 @@ createNode animCurveTA -n "HeadRootControl_rotateX";
 		 89 -1.6596806234800318e-05 90 -1.6822970602412406e-05 91 -1.704837388321357e-05 92 -1.7272517051404198e-05
 		 93 -1.7494523457347894e-05 94 -1.7712550703773164e-05 95 -1.7922073735673738e-05
 		 96 -1.8109156226842429e-05 97 -1.8212854715977127e-05 98 -1.8206087511234755e-05
-		 99 -1.8181098693947143e-05 100 -1.8128561830907111e-05 101 -1.8073782522318825e-05
+		 99 -1.8181098693947143e-05 100 -1.8128561830907111e-05 101 -1.8073782522318829e-05
 		 102 -1.8018816629998686e-05 103 -1.7963839830486873e-05 104 -1.7908854679721329e-05
-		 105 -1.7853827036676217e-05 106 -1.7798666516275899e-05 107 -1.7743118192382967e-05
+		 105 -1.7853827036676217e-05 106 -1.7798666516275899e-05 107 -1.774311819238297e-05
 		 108 -1.7686305407744074e-05 109 -1.7623961848612236e-05 110 -1.7557494753112077e-05
 		 111 -1.7484452845758451e-05 112 -1.7411156352374742e-05 113 -1.7337858005811853e-05
 		 114 -1.7264569698709014e-05 115 -1.7191293683292581e-05 116 -1.7118032214030632e-05
 		 117 -1.7039895328987396e-05 118 -1.6964886467673788e-05 119 -1.6892040249558664e-05
-		 120 -1.6819350232493007e-05 121 -1.6746707311691935e-05 122 -1.6674115203605888e-05
+		 120 -1.6819350232493011e-05 121 -1.6746707311691935e-05 122 -1.6674115203605888e-05
 		 123 -1.6601588769691725e-05 124 -1.6529150098536655e-05 125 -1.6456832219798106e-05
 		 126 -1.6384686549933215e-05 127 -1.6312797296221963e-05 128 -1.6241311416374546e-05
 		 129 -1.6170507192463551e-05 130 -1.6100972061529768e-05 131 -1.6034149171969904e-05
@@ -32417,7 +32417,7 @@ createNode animCurveTA -n "HeadRootControl_rotateX";
 		0.99999999999999567 0.99999999999999545 0.99999999999999556 0.99999999999999556 0.99999999999999567 
 		0.99999999999999589 0.999999999999996 0.99999999999999645 0.99999999999999822 1;
 	setAttr -s 139 ".kiy[42:138]"  0 6.6509657011086174e-09 1.6236940518791543e-08 
-		2.2476246426593924e-08 2.2984981129376061e-08 2.302634353167565e-08 2.3030377011050563e-08 
+		2.2476246426593924e-08 2.2984981129376061e-08 2.3026343531675647e-08 2.3030377011050563e-08 
 		2.3041025655763639e-08 2.3077754986181076e-08 2.3186806127940299e-08 2.3532855540853076e-08 
 		2.4956046281248883e-08 2.6978040419730264e-08 2.9218697231672155e-08 3.0649042979631798e-08 
 		3.0702751482026794e-08 3.0701036951371587e-08 3.0696359926994218e-08 3.0690739022742497e-08 
@@ -32460,7 +32460,7 @@ createNode animCurveTA -n "HeadRootControl_rotateX";
 		0.99999999999999567 0.99999999999999556 0.99999999999999556 0.99999999999999545 0.99999999999999567 
 		0.99999999999999589 0.999999999999996 0.99999999999999656 0.99999999999999822 1;
 	setAttr -s 139 ".koy[42:138]"  0 6.6509657011086182e-09 1.6236940518791543e-08 
-		2.2476246426593928e-08 2.2984981129376058e-08 2.302634353167565e-08 2.3030377011050567e-08 
+		2.2476246426593928e-08 2.2984981129376058e-08 2.3026343531675647e-08 2.3030377011050567e-08 
 		2.3041025655763636e-08 2.3077754986181076e-08 2.3186806127940305e-08 2.3532855540853069e-08 
 		2.4956046281248883e-08 2.6429450083785216e-08 2.9218697231672155e-08 3.0649042979631798e-08 
 		3.0702751482026794e-08 3.0701036951371587e-08 3.0696359926994218e-08 3.0690739022742497e-08 
@@ -32490,7 +32490,7 @@ createNode animCurveTA -n "HeadRootControl_rotateY";
 	setAttr -s 144 ".ktv[0:143]"  1 0.0018658167526427833 2 0.0018615587591105571
 		 3 0.0018461031730613062 4 0.0018054797672004341 6 0.0017208491275712879 7 0.0016722819340601416
 		 8 0.0016130945977405021 9 0.0015026619641687192 10 0.0012957482434156494 11 0.0010737895122925605
-		 12 0.00084877066064718138 13 0.00062096404022928464 14 0.00038696729382113522 15 0.00015206405726877624
+		 12 0.00084877066064718138 13 0.00062096404022928464 14 0.00038696729382113528 15 0.00015206405726877624
 		 16 -8.2143985826850806e-05 17 -0.00030923211935038379 18 -0.0005311885984095148 19 -0.00075209541468437
 		 20 -0.00096905620581464846 21 -0.0011548958542091257 22 -0.0013024271612005612 23 -0.0014386821405897681
 		 24 -0.0015593382647096639 25 -0.0016260562134539889 26 -0.001608313942248937 27 -0.0015523453103913694
@@ -32502,7 +32502,7 @@ createNode animCurveTA -n "HeadRootControl_rotateY";
 		 47 0.0017200052598904864 48 0.0018138991173780484 49 0.0018658167526427833 50 0.0018615587591105571
 		 51 0.0018461031730613066 52 0.0018054797672004352 53 0.0017584110441049698 54 0.0017110421616771993
 		 55 0.0016632067562386318 56 0.0016089961235783582 57 0.0015026619641687192 58 0.0013490104602412792
-		 59 0.0011149338702636802 60 0.00086661866981273554 61 0.00062096404022928464 62 0.00038495939279000932
+		 59 0.0011149338702636802 60 0.00086661866981273554 61 0.00062096404022928464 62 0.00038495939279000938
 		 63 0.00015051298028176966 64 -8.2816827442217935e-05 65 -0.00030923211935038379 66 -0.00053111290372778524
 		 67 -0.00075203694154398577 68 -0.00096903084075375184 69 -0.0011548958542091257 70 -0.0013024300147699119
 		 71 -0.0014386842543448436 72 -0.001559339083789756 73 -0.0016260562134539889 74 -0.001608313942248937
@@ -32513,9 +32513,9 @@ createNode animCurveTA -n "HeadRootControl_rotateY";
 		 91 0.0011844004287248273 92 0.0013539576984589394 93 0.0014990712985003926 94 0.0016139594193058232
 		 95 0.0017200052598904864 96 0.0018138991173780477 97 0.0018658167526427833 98 0.0018615587591105575
 		 99 0.0018461031730613072 100 0.0018054797672004369 101 0.0017584110441049722 102 0.0017110421616772006
-		 103 0.0016632067562386322 104 0.0016089961235783588 105 0.0015026619641687192 106 0.0013490104602412777
+		 103 0.0016632067562386325 104 0.0016089961235783588 105 0.0015026619641687192 106 0.0013490104602412777
 		 107 0.0011149338702636847 108 0.00086661866981273803 109 0.00062096404022928464 110 0.00038495939279001307
-		 111 0.00015051298028176955 112 -8.281682744222196e-05 113 -0.00030923211935038379
+		 111 0.00015051298028176955 112 -8.2816827442221973e-05 113 -0.00030923211935038379
 		 114 -0.00053111290372778719 115 -0.00075203694154398946 116 -0.0009690308407537501
 		 117 -0.0011548958542091257 118 -0.0013024300147699132 119 -0.0014386842543448414
 		 120 -0.0015593390837897549 121 -0.0016260562134539889 122 -0.0016083139422489372
@@ -32566,7 +32566,7 @@ createNode animCurveTA -n "HeadRootControl_rotateY";
 		-0.00010345679872173905 -0.00010087848256857102 -9.8531039108688438e-05 -9.7970821996862286e-05 
 		-9.6288788055512987e-05 -9.3890910245609895e-05 -9.2740824693011848e-05 -9.1717317869965378e-05 
 		-8.4374573063797386e-05 -6.9826959549907174e-05 -5.9436503431039069e-05 -5.3806909513665139e-05 
-		-3.9243091318183752e-05 0 1.5437975434893294e-05 2.749562156498653e-05 3.8735073707335687e-05 
+		-3.9243091318183752e-05 0 1.5437975434893294e-05 2.7495621564986533e-05 3.8735073707335687e-05 
 		5.8235664716496202e-05 7.2471143687006525e-05 7.4826904645668263e-05 7.5963010637885081e-05 
 		7.7975126091941641e-05 7.9484992291572451e-05 7.9678621581230421e-05 7.930975759664088e-05 
 		7.8608783614653801e-05 7.8205736773608514e-05 7.7968356357929489e-05 7.6450794118488756e-05 
@@ -32610,7 +32610,7 @@ createNode animCurveTA -n "HeadRootControl_rotateY";
 		-0.00010345679872173905 -0.00010087848256857102 -9.8531039108688424e-05 -9.7970821996862286e-05 
 		-9.6288788055512973e-05 -9.3890910245609908e-05 -9.2740824693011848e-05 -9.1717317869965378e-05 
 		-8.4374573063797373e-05 -6.9826959549907174e-05 -5.9436503431039062e-05 -5.3806909513665146e-05 
-		-3.9243091318183752e-05 0 1.5437975434893294e-05 2.749562156498653e-05 3.8735073707335687e-05 
+		-3.9243091318183752e-05 0 1.5437975434893294e-05 2.7495621564986533e-05 3.8735073707335687e-05 
 		5.8235664716496195e-05 7.2471143687006525e-05 7.4826904645668277e-05 7.5963010637885081e-05 
 		7.7975126091941641e-05 7.9484992291572451e-05 7.9678621581230421e-05 7.930975759664088e-05 
 		7.8608783614653787e-05 7.8205736773608514e-05 7.7968356357929489e-05 7.6450794118488742e-05 
@@ -32621,7 +32621,7 @@ createNode animCurveTA -n "HeadRootControl_rotateY";
 		-8.1205581825746727e-05 -0.00010103189981518341 -0.00010345679872173887 -0.00010087848256857128 
 		-9.853103910868898e-05 -9.7970821996862882e-05 -9.6288788055513461e-05 -9.3890910245609936e-05 
 		-9.2740824693011617e-05 -9.1717317869965107e-05 -8.4374573063797075e-05 -6.9826959549907093e-05 
-		-5.943650343103894e-05 -5.3806909513664936e-05 -3.9243091318183785e-05 0 1.5437975434893415e-05 
+		-5.9436503431038933e-05 -5.3806909513664936e-05 -3.9243091318183785e-05 0 1.5437975434893415e-05 
 		2.7495621564986604e-05 3.8735073707335849e-05 5.8235664716496548e-05 7.2471143687006362e-05 
 		7.4826904645668006e-05 7.5963010637884864e-05 7.7975126091941465e-05 7.948499229157218e-05 
 		7.967862158123015e-05 7.9309757596640731e-05 7.860878361465399e-05 7.8205736773609002e-05 
@@ -32648,16 +32648,16 @@ createNode animCurveTA -n "HeadRootControl_rotateZ";
 		 52 -1.0823596934825999 53 -1.0541428643154021 54 -1.0257460951786106 55 -0.99706965412313264
 		 56 -0.96457138222996464 57 -0.90082601984539579 58 -0.80871478434809607 59 -0.66839019687114254
 		 60 -0.51952982569574901 61 -0.37226441755988882 62 -0.2307839952855836 63 -0.090237706039748608
-		 64 0.049639199284610386 65 0.18537098023087198 66 0.3183844077581669 67 0.45082428341283171
+		 64 0.049639199284610393 65 0.18537098023087198 66 0.3183844077581669 67 0.45082428341283171
 		 68 0.58090811364352679 69 0.69233075245597553 70 0.78077475371826388 71 0.86245665092194423
 		 72 0.93478699019499911 73 0.97478267578951261 74 0.96414651226717407 75 0.93059435236167387
-		 76 0.88544542714098418 77 0.81972243309482784 78 0.71875670539523306 79 0.61228730936632014
+		 76 0.88544542714098429 77 0.81972243309482784 78 0.71875670539523306 79 0.61228730936632014
 		 80 0.50457865553410663 81 0.39485736811139094 82 0.28138940927104933 83 0.16734641160492589
-		 84 0.053324225055591118 85 -0.059662968287404396 86 -0.17167874762051175 87 -0.28351229459284799
+		 84 0.053324225055591118 85 -0.059662968287404396 86 -0.17167874762051175 87 -0.28351229459284805
 		 88 -0.39484861678324867 89 -0.50233842503591053 90 -0.60650407095480785 91 -0.71003411419084128
 		 92 -0.81168056218222207 93 -0.89867348217076626 94 -0.96754678624430568 95 -1.0311193068244873
-		 96 -1.0874069382353124 97 -1.1185306005887334 98 -1.1159780121989831 99 -1.1067126741453863
-		 100 -1.0823596934825994 101 -1.0541428643154021 102 -1.0257460951786104 103 -0.99706965412313231
+		 96 -1.0874069382353124 97 -1.1185306005887334 98 -1.1159780121989831 99 -1.1067126741453865
+		 100 -1.0823596934825994 101 -1.0541428643154021 102 -1.0257460951786106 103 -0.99706965412313231
 		 104 -0.96457138222996497 105 -0.90082601984539579 106 -0.80871478434809507 107 -0.66839019687114531
 		 108 -0.51952982569575046 109 -0.37226441755988882 110 -0.2307839952855858 111 -0.090237706039748386
 		 112 0.049639199284612918 113 0.18537098023087198 114 0.31838440775816801 115 0.45082428341283382
@@ -33377,12 +33377,12 @@ createNode animCurveTA -n "LeftFinTwocontrol_rotateX";
 		 13 7.2830472522701157 14 7.3306183440784185 15 7.5037660175683349 16 7.7398122950288215
 		 18 8.2530980401372549 19 8.4933690624863019 20 8.7264258114261128 21 8.9817152141871439
 		 22 9.2142868712690227 23 9.4203100793411156 24 9.601084988029287 25 9.7007780359391091
-		 26 9.2877306326242586 27 7.9669849372462993 28 6.5225255137132772 30 3.6339558262253808
+		 26 9.2877306326242586 27 7.9669849372462993 28 6.522525513713278 30 3.6339558262253808
 		 31 2.572573613501024 32 1.9402449677613551 34 0.70104633727959298 35 0.14455929567832726
-		 36 -0.36348061204520093 37 -0.81223828056777148 38 -1.0602023426948159 39 -1.0595367461131648
+		 36 -0.36348061204520093 37 -0.81223828056777148 38 -1.0602023426948159 39 -1.0595367461131651
 		 40 -1.0570341029661561 41 -1.0498910190587762 42 -1.0317740963993616 43 -0.98934297589090725
 		 44 -0.90050205765945757 45 -0.80775375464511501 46 -0.7161574488458522 47 -0.62570391022686322
-		 48 -0.52412223665241775 49 -0.17429329251712236 50 1.340105294443825 51 3.4168209287151434
+		 48 -0.52412223665241775 49 -0.17429329251712236 50 1.340105294443825 51 3.4168209287151439
 		 52 5.5355519932219757 53 7.5841504761036012 54 9.4156159089126241 55 10.431148577650267
 		 56 10.197955886881365 57 9.5590079141745807 58 8.8754618393582447 59 8.2097290950867468
 		 60 7.6136869580877553 61 7.2830472522701157 62 7.3306183440784185 63 7.5037660175683332
@@ -33392,14 +33392,14 @@ createNode animCurveTA -n "LeftFinTwocontrol_rotateX";
 		 76 6.5225255137132816 77 5.0675899374585756 78 3.6611355693552614 79 2.572573613501024
 		 80 1.9377488689024822 81 1.3552839686853728 82 0.78429192973145723 83 0.22434748963457732
 		 84 -0.31362775642410823 85 -0.79396086892024276 86 -1.0602023426948159 87 -1.0395688486636303
-		 88 -0.96520174259574687 89 -0.86971123054361388 90 -0.77254784856443348 91 -0.67554347068474463
+		 88 -0.96520174259574687 89 -0.86971123054361388 90 -0.77254784856443359 91 -0.67554347068474463
 		 92 -0.57906317745599367 93 -0.4835004237511385 94 -0.38965019744020102 95 -0.29946057787858582
 		 96 -0.21893052645426467 97 -0.17429329251712236 98 0.70428923153096756 99 2.8471297363452428
 		 100 5.1264043567375861 101 7.3443771741562118 102 9.329824894312635 103 10.431148577650267
 		 104 10.197955886881374 105 9.5590079141745843 106 8.8754618393582394 107 8.2097290950867592
 		 108 7.6136869580877597 109 7.2830472522701157 110 7.3306183440784167 111 7.5037660175683314
 		 112 7.7398122950288197 113 7.9806518502838424 114 8.2213817884775455 115 8.4613016239000274
-		 116 8.6998801921987088 117 8.9619978867940127 118 9.2009334026400218 119 9.4126094352522003
+		 116 8.6998801921987088 117 8.9619978867940144 118 9.2009334026400218 119 9.4126094352522003
 		 120 9.5983474550372456 121 9.7007780359391091 122 9.2877306326242692 123 7.9669849372463011
 		 124 6.5225255137132718 125 5.0675899374586022 126 3.6611355693552765 127 2.572573613501024
 		 128 1.9377488689024935 129 1.3552839686853757 130 0.78429192973145145 131 0.2243474896345829
@@ -33486,13 +33486,13 @@ createNode animCurveTA -n "LeftFinTwocontrol_rotateY";
 	setAttr ".wgt" no;
 	setAttr -s 140 ".ktv[0:139]"  1 -0.44592284264666943 2 -0.5420297336440264
 		 3 -0.85859670288379375 4 -1.2175180036202959 6 -1.9454352921136751 7 -2.2663115373733356
-		 8 -2.5350280969701688 10 -3.0674385461026579 11 -3.3261215510504805 12 -3.5748915060142261
+		 8 -2.5350280969701688 10 -3.0674385461026579 11 -3.3261215510504809 12 -3.5748915060142266
 		 13 -3.7927751067256965 14 -3.9799887861937817 15 -4.1648754074181351 16 -4.3493742741348091
 		 18 -4.741695484069794 19 -4.9250688440122561 20 -5.102875955936284 21 -5.2976371060720631
 		 22 -5.4750653366620163 23 -5.632239675208659 24 -5.7701521487930574 25 -5.8462075815609644
-		 26 -5.5995697764486563 27 -4.9004566318916902 28 -4.1497384288190426 30 -2.7034848372927933
+		 26 -5.5995697764486563 27 -4.9004566318916902 28 -4.1497384288190435 30 -2.7034848372927933
 		 31 -2.3304890326306662 32 -2.2742895871786253 34 -2.2383835348548735 35 -2.219759990113773
-		 36 -2.1997837076547038 37 -2.172991131083732 38 -2.0988877420708816 39 -1.9414448382475291
+		 36 -2.1997837076547038 37 -2.1729911310837324 38 -2.0988877420708816 39 -1.9414448382475291
 		 40 -1.7778518979585582 41 -1.6140106176713067 42 -1.4505128813134203 43 -1.2875916695118328
 		 44 -1.1255841202995909 45 -0.96512133922473575 46 -0.80753468039845888 47 -0.65609474136154344
 		 48 -0.52087447219145699 49 -0.44592284264666943 50 -0.54202973364402762 51 -0.85859670288379508
@@ -33511,14 +33511,14 @@ createNode animCurveTA -n "LeftFinTwocontrol_rotateY";
 		 100 -1.2175180036202959 101 -1.5822536025463267 102 -1.942603234100313 103 -2.2663115373733356
 		 104 -2.5454438383161384 105 -2.8069230592605243 106 -3.0656705938773254 107 -3.3225251471091979
 		 108 -3.573176411896744 109 -3.7927751067256965 110 -3.9800996443071406 111 -4.1649836835619132
-		 112 -4.3494713553582152 113 -4.5336372019697544 114 -4.7173632297107577 115 -4.9004361441197295
+		 112 -4.3494713553582152 113 -4.5336372019697544 114 -4.7173632297107586 115 -4.9004361441197295
 		 116 -5.0824818146031596 117 -5.2824883568984458 118 -5.4648058570652571 119 -5.6263232550451621
 		 120 -5.7680488953443732 121 -5.8462075815609644 122 -5.5995697764486616 123 -4.9004566318916911
 		 124 -4.1497384288190382 125 -3.4145864882495496 126 -2.745748068079624 127 -2.3304890326306662
 		 128 -2.2704082700655492 129 -2.2466378750391405 130 -2.2271603509892963 131 -2.2085342015160174
 		 132 -2.1902207094345219 133 -2.1689612105448601 134 -2.0988877420708816 135 -1.9417223809843651
-		 136 -1.7781216694987623 137 -1.6142492084842883 138 -1.4507182708623538 139 -1.2877637703959302
-		 140 -1.1257230970227385 141 -0.96522750494103871 142 -0.80760862284023494 143 -0.65613771734993842
+		 136 -1.7781216694987623 137 -1.6142492084842885 138 -1.4507182708623538 139 -1.2877637703959302
+		 140 -1.1257230970227385 141 -0.96522750494103871 142 -0.80760862284023505 143 -0.65613771734993842
 		 144 -0.52088979831550664 145 -0.44592284264666943;
 	setAttr -s 140 ".kit[91:139]"  1 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
@@ -33600,19 +33600,19 @@ createNode animCurveTA -n "LeftFinTwocontrol_rotateZ";
 	rename -uid "04043E3E-4F55-DA64-DB57-2BB6634949B4";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 140 ".ktv[0:139]"  1 -8.0058211704882325 2 -8.5866210973628458
+	setAttr -s 140 ".ktv[0:139]"  1 -8.0058211704882343 2 -8.5866210973628458
 		 3 -10.178012896999284 4 -11.880482682650493 6 -15.133284939774368 7 -15.84662018329551
 		 8 -15.843680730451849 10 -15.825985224333017 11 -15.81778088484049 12 -15.81077192283772
 		 13 -15.806937569906101 14 -15.844075691167923 15 -15.97924978639751 16 -16.163527988610216
 		 18 -16.564243370981906 19 -16.751819775569363 20 -16.933764092464408 21 -17.133065147710383
 		 22 -17.314630759817327 23 -17.475470349435405 24 -17.616598926156126 25 -17.694427968154056
-		 26 -16.505584930795628 27 -13.075039292323725 28 -9.384207812047844 30 -2.2440238885094606
-		 31 -0.26380454804562303 32 0.17112350293615311 34 0.72227019820376648 35 0.9571413770066125
+		 26 -16.505584930795628 27 -13.075039292323725 28 -9.384207812047844 30 -2.244023888509461
+		 31 -0.26380454804562303 32 0.17112350293615314 34 0.72227019820376648 35 0.9571413770066125
 		 36 1.1676579989784797 37 1.3528609113077383 38 1.4550749026897984 39 1.3188347572393875
 		 40 0.82323652185902374 41 -0.10654579852650201 42 -1.0740814888904071 43 -2.0443542722516965
 		 44 -3.0138685522774202 45 -3.9822632215078295 46 -4.9500821275512177 47 -5.9203224402797625
-		 48 -6.9075199211595093 49 -8.0058211704882325 50 -9.4734365995588874 51 -10.972599586966936
-		 52 -12.451148458313641 53 -13.873013786604719 54 -15.142772962031936 55 -15.84662018329551
+		 48 -6.9075199211595093 49 -8.0058211704882343 50 -9.4734365995588874 51 -10.972599586966936
+		 52 -12.451148458313641 53 -13.873013786604721 54 -15.142772962031936 55 -15.84662018329551
 		 56 -15.843680730451849 57 -15.835626629660222 58 -15.827010358512245 59 -15.818618628900936
 		 60 -15.811105367019673 61 -15.806937569906101 62 -15.844075691167923 63 -15.97924978639751
 		 64 -16.163527988610216 65 -16.351548239306751 66 -16.539482913415466 67 -16.726785151021073
@@ -33620,11 +33620,11 @@ createNode animCurveTA -n "LeftFinTwocontrol_rotateZ";
 		 72 -17.608258152957873 73 -17.694427968154056 74 -16.505584930795603 75 -13.075039292323718
 		 76 -9.3842078120478565 77 -5.7598910953668137 78 -2.4359798718086387 79 -0.26380454804562303
 		 80 0.18875211364730649 81 0.45307755675780292 82 0.69235971156592868 83 0.92425866159638437
-		 84 1.146623819412143 85 1.3450840478087545 86 1.4550749026897984 87 1.2347234539531218
+		 84 1.146623819412143 85 1.3450840478087547 86 1.4550749026897984 87 1.2347234539531218
 		 88 0.44053418403864086 89 -0.57923845551005471 90 -1.6168761891342278 91 -2.6528158689229646
-		 92 -3.6831586870303861 93 -4.7037028174769588 94 -5.7059583395239724 95 -6.6691211127011485
-		 96 -7.5291263775083737 97 -8.0058211704882325 98 -9.411769292381388 99 -10.917345679735908
-		 100 -12.411465546144941 101 -13.849758359875763 102 -15.134452158014851 103 -15.84662018329551
+		 92 -3.6831586870303861 93 -4.7037028174769597 94 -5.7059583395239724 95 -6.6691211127011485
+		 96 -7.5291263775083737 97 -8.0058211704882343 98 -9.411769292381388 99 -10.917345679735908
+		 100 -12.411465546144941 101 -13.849758359875764 102 -15.134452158014851 103 -15.84662018329551
 		 104 -15.843680730451849 105 -15.835626629660222 106 -15.827010358512245 107 -15.818618628900936
 		 108 -15.811105367019673 109 -15.806937569906101 110 -15.844075691167923 111 -15.979249786397514
 		 112 -16.163527988610223 113 -16.351548239306751 114 -16.539482913415466 115 -16.726785151021076
@@ -33634,8 +33634,8 @@ createNode animCurveTA -n "LeftFinTwocontrol_rotateZ";
 		 128 0.18875211364730082 129 0.45307755675780098 130 0.69235971156593035 131 0.92425866159638148
 		 132 1.1466238194121436 133 1.3450840478087578 134 1.4550749026897984 135 1.2347234539531176
 		 136 0.44053418403862277 137 -0.57923845551004782 138 -1.6168761891342329 139 -2.652815868922981
-		 140 -3.6831586870303772 141 -4.7037028174769597 142 -5.7059583395239857 143 -6.6691211127011387
-		 144 -7.5291263775083737 145 -8.0058211704882325;
+		 140 -3.6831586870303772 141 -4.7037028174769597 142 -5.7059583395239857 143 -6.6691211127011396
+		 144 -7.5291263775083737 145 -8.0058211704882343;
 	setAttr -s 140 ".kit[91:139]"  1 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
@@ -33958,7 +33958,7 @@ createNode animCurveTA -n "RightFinTwoControl_rotateX";
 		 91 5.1127641129045154 92 4.1267807164820054 93 3.1501967236397315 94 2.1911166558492656
 		 95 1.2694457778576906 96 0.44648859588009016 97 -0.0096706943908358798 98 -0.66302753418695748
 		 99 -1.3310204848853264 100 -2.000958905633671 101 -2.6719896851278762 102 -3.3441302452762769
-		 103 -4.0174087251439925 104 -4.6916768442226218 105 -5.3662693941812751 106 -6.0389955644884106
+		 103 -4.0174087251439934 104 -4.6916768442226218 105 -5.3662693941812751 106 -6.0389955644884106
 		 107 -6.702614287229208 108 -7.3292169097150186 109 -7.7683827208587326 110 -8.136084626976464
 		 111 -8.2893994892253389 112 -8.4262564435441085 113 -8.561547751812105 114 -8.6963972807267567
 		 115 -8.830755806293535 116 -8.9643591678610015 117 -9.1111438538255705 118 -9.2449465319921487
@@ -34050,7 +34050,7 @@ createNode animCurveTA -n "RightFinTwoControl_rotateY";
 		 59 -1.2547995475921385 60 -1.3894659170462893 61 -1.5761049202026416 62 -1.808304913693533
 		 63 -2.0990941707914352 64 -2.3940014671008458 65 -2.6887843864079231 66 -2.9828982030377635
 		 67 -3.2759699183612163 68 -3.5673975444644972 69 -3.8560462953314496 70 -4.1395213196882334
-		 71 -4.4119393054620613 72 -4.6551805109064857 73 -4.7900073739705276 74 -4.6391701878840568
+		 71 -4.4119393054620613 72 -4.6551805109064857 73 -4.7900073739705276 74 -4.6391701878840577
 		 75 -4.0901580283170196 76 -3.3417086039943253 77 -2.5780607785591894 78 -1.8147605240636557
 		 79 -1.0540289224580817 80 -0.2975501759174769 81 0.45171704042454086 82 1.1875546723224615
 		 83 1.8946907488890814 84 2.5260904456160524 85 2.8760707894829438 86 2.8201882902366666
@@ -34066,9 +34066,9 @@ createNode animCurveTA -n "RightFinTwoControl_rotateY";
 		 123 -4.0901580283170276 124 -3.3417086039943253 125 -2.5780607785592071 126 -1.8147605240636644
 		 127 -1.0540289224580817 128 -0.29755017591749433 129 0.45171704042453154 130 1.1875546723224619
 		 131 1.8946907488890661 132 2.5260904456160462 133 2.8760707894829438 134 2.8201882902366688
-		 135 2.6167890331356127 136 2.3395018105629717 137 2.0565838502343077 138 1.7737946587674398
-		 139 1.4919571075884313 140 1.2116951636991788 141 0.93410496370373319 142 0.66149018629502854
-		 143 0.39950882552438216 144 0.16558644874245385 145 0.035924945436883932;
+		 135 2.6167890331356127 136 2.3395018105629721 137 2.0565838502343077 138 1.7737946587674398
+		 139 1.4919571075884313 140 1.2116951636991788 141 0.93410496370373319 142 0.66149018629502865
+		 143 0.39950882552438222 144 0.16558644874245385 145 0.035924945436883932;
 	setAttr -s 97 ".kit[48:96]"  1 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 
@@ -34144,10 +34144,10 @@ createNode animCurveTA -n "RightFinTwoControl_rotateZ";
 	rename -uid "54C6407C-4CAC-3C80-09AD-6891C931E8A8";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 97 ".ktv[0:96]"  1 1.9055738493502397 13 13.274253569149101
+	setAttr -s 97 ".ktv[0:96]"  1 1.9055738493502397 13 13.274253569149103
 		 25 21.652115902890046 37 1.8822546447826356 49 1.9055738493502397 54 5.1920084578813288
 		 55 6.2296744361960483 56 7.4343048236317788 57 8.65926657483657 58 9.8850925735054727
-		 59 11.102214003901375 60 12.282272764156458 61 13.274253569149101 62 14.130453287659726
+		 59 11.102214003901375 60 12.28227276415646 61 13.274253569149103 62 14.130453287659726
 		 63 14.882626281647998 64 15.626039874527914 65 16.367568685080176 66 17.107274013258191
 		 67 17.844344664173686 68 18.577278964557959 69 19.303224271607572 70 20.016157744557816
 		 71 20.701283003897565 72 21.313029299921492 73 21.652115902890046 74 21.263125577209685
@@ -34158,8 +34158,8 @@ createNode animCurveTA -n "RightFinTwoControl_rotateZ";
 		 91 1.8936190013562886 92 1.8959201105108656 93 1.8981992831361822 94 1.9004376047265581
 		 95 1.9025886199490742 96 1.9045092550349636 97 1.9055738493502397 98 2.0690961306095144
 		 99 2.6651333117517462 100 3.7096217070148647 101 4.7914927638353664 102 5.877437778224385
-		 103 6.9645401813651207 104 8.0524073890278416 105 9.1405182298563616 106 10.227251786653635
-		 107 11.307261892166652 108 12.359945009960057 109 13.274253569149101 110 14.130453287659707
+		 103 6.9645401813651207 104 8.0524073890278416 105 9.1405182298563634 106 10.227251786653635
+		 107 11.307261892166652 108 12.359945009960057 109 13.274253569149103 110 14.130453287659707
 		 111 14.882626281647989 112 15.626039874527914 113 16.367568685080162 114 17.107274013258184
 		 115 17.84434466417369 116 18.577278964557948 117 19.382525480721039 118 20.116554115496818
 		 119 20.766839440617531 120 21.337441154036558 121 21.652115902890046 122 21.263125577209699
@@ -34456,24 +34456,24 @@ createNode animCurveTA -n "RightFinThreeControl_rotateX";
 		 55 -0.24508492171303592 56 -0.28980296625472535 57 -0.33440395566991443 58 -0.37824801924690965
 		 59 -0.42038863982553437 60 -0.45801709582158129 61 -0.47887447573609698 62 -0.39551466369375377
 		 63 -0.092104399833269762 64 0.32152439392434456 65 0.7435525478990811 66 1.1653886176209334
-		 67 1.5858051274340879 68 2.0038713070133176 69 2.4179520515848485 70 2.8246109682629252
+		 67 1.5858051274340881 68 2.0038713070133176 69 2.4179520515848485 70 2.8246109682629252
 		 71 3.215408038669429 72 3.5643495789377528 73 3.757765383357055 74 3.4874345006073528
-		 75 2.5034931689850897 76 1.1621197396593075 77 -0.20649231228805545 78 -1.5744814464963732
+		 75 2.5034931689850897 76 1.1621197396593075 77 -0.20649231228805545 78 -1.5744814464963734
 		 79 -2.9378670328579251 80 -4.2936306388991836 81 -5.6364697176727256 82 -6.9552402526612296
 		 83 -8.2225717692597193 84 -9.3541683059800906 85 -9.9814041869805727 86 -9.7857219560253519
 		 87 -9.0734842977065746 88 -8.1025151560212123 89 -7.1118290127542227 90 -6.1215937759158221
 		 91 -5.134690872045824 92 -4.1533052294602228 93 -3.1812751599562592 94 -2.2266673926909215
-		 95 -1.3092943718752685 96 -0.49017473376988691 97 -0.036142566668271238 98 -0.044853726916133312
+		 95 -1.3092943718752685 96 -0.49017473376988691 97 -0.036142566668271238 98 -0.044853726916133319
 		 99 -0.076560317473131412 100 -0.11978482359032841 101 -0.16388706888469126 102 -0.20796924123662719
 		 103 -0.25190306855822869 104 -0.29559128468180051 105 -0.33886301998375357 106 -0.38135916893866584
 		 107 -0.42219774356233369 108 -0.45866238521566799 109 -0.47887447573609698 110 -0.39551466369375721
 		 111 -0.09210439983327344 112 0.32152439392434534 113 0.74355254789907221 114 1.1653886176209292
-		 115 1.5858051274340887 116 2.0038713070133092 117 2.4631855864182497 118 2.8818772525970684
+		 115 1.5858051274340887 116 2.0038713070133096 117 2.4631855864182497 118 2.8818772525970684
 		 119 3.2528015602317408 120 3.5782741493577306 121 3.757765383357055 122 3.4874345006073639
 		 123 2.5034931689851021 124 1.1621197396593059 125 -0.20649231228802384 126 -1.5744814464963572
-		 127 -2.9378670328579259 128 -4.2936306388991525 129 -5.6364697176727114 130 -6.9552402526612314
+		 127 -2.9378670328579259 128 -4.2936306388991525 129 -5.6364697176727114 130 -6.9552402526612322
 		 131 -8.2225717692596909 132 -9.3541683059800782 133 -9.9814041869805727 134 -9.785721956025359
-		 135 -9.0734842977065835 136 -8.1025151560212105 137 -7.1118290127542432 138 -6.1215937759158292
+		 135 -9.0734842977065835 136 -8.1025151560212105 137 -7.1118290127542441 138 -6.1215937759158292
 		 139 -5.1346908720458186 140 -4.1533052294602406 141 -3.1812751599562654 142 -2.2266673926909153
 		 143 -1.3092943718752821 144 -0.49017473376988829 145 -0.036142566668271238;
 	setAttr -s 97 ".kit[48:96]"  1 18 18 18 18 18 18 18 
@@ -34553,23 +34553,23 @@ createNode animCurveTA -n "RightFinThreeControl_rotateY";
 		 25 -3.1697575560243245 37 -14.497780760712269 49 0.18114934332899291 54 -2.1270883717667606
 		 55 -2.7148374414504803 56 -3.3346393289431684 57 -3.9528188067556203 58 -4.5605071267365362
 		 59 -5.1445853538243709 60 -5.666123991947126 61 -5.9552118438794039 62 -5.9004054516415136
-		 63 -5.7009229729419149 64 -5.428975359863685 65 -5.1515054379014922 66 -4.8741618051504707
+		 63 -5.7009229729419149 64 -5.4289753598636858 65 -5.1515054379014922 66 -4.8741618051504707
 		 67 -4.5977514873296919 68 -4.3228864359572539 69 -4.0506416797716573 70 -3.7832765364436831
 		 71 -3.5263400462889587 72 -3.2969222194550287 73 -3.1697575560243245 74 -3.3926469014869376
 		 75 -4.2039121078450137 76 -5.3098821052137044 77 -6.4383105013627082 78 -7.5662252983042517
 		 79 -8.690344443946417 80 -9.8081792236018348 81 -10.915357657249675 82 -12.002691440090626
-		 83 -13.047613460636533 84 -13.980621220726205 85 -14.497780760712269 86 -14.208959219313305
+		 83 -13.047613460636533 84 -13.980621220726205 85 -14.497780760712269 86 -14.208959219313307
 		 87 -13.157716204994387 88 -11.724592702755858 89 -10.262367453461545 90 -8.800807729540157
 		 91 -7.3441664365855983 92 -5.8956684681459031 93 -4.4609790658949651 94 -3.0520044981628045
 		 95 -1.6979873826770788 96 -0.48898953288306646 97 0.18114934332899291 98 0.060410755154756982
-		 99 -0.37904953150568477 100 -0.97815064945375885 101 -1.5894174245612493 102 -2.2004059842921238
+		 99 -0.37904953150568477 100 -0.97815064945375885 101 -1.5894174245612496 102 -2.2004059842921238
 		 103 -2.8093384494253058 104 -3.4148666895820088 105 -4.0146224143707121 106 -4.6036283425899054
 		 107 -5.1696599276844362 108 -5.6750678442227116 109 -5.9552118438794039 110 -5.9004054516415163
-		 111 -5.7009229729419175 112 -5.428975359863685 113 -5.1515054379014975 114 -4.8741618051504743
+		 111 -5.7009229729419175 112 -5.4289753598636858 113 -5.1515054379014975 114 -4.8741618051504743
 		 115 -4.5977514873296919 116 -4.3228864359572601 117 -4.0209020871352639 118 -3.7456257984642192
 		 119 -3.501755009930442 120 -3.2877672627740586 121 -3.1697575560243245 122 -3.3926469014869287
 		 123 -4.2039121078450039 124 -5.3098821052137053 125 -6.4383105013626842 126 -7.5662252983042411
-		 127 -8.6903444439464188 128 -9.8081792236018117 129 -10.915357657249665 130 -12.002691440090627
+		 127 -8.6903444439464188 128 -9.8081792236018117 129 -10.915357657249666 130 -12.002691440090627
 		 131 -13.04761346063651 132 -13.980621220726194 133 -14.497780760712269 134 -14.208959219313318
 		 135 -13.157716204994403 136 -11.72459270275586 137 -10.262367453461577 138 -8.8008077295401712
 		 139 -7.3441664365855956 140 -5.8956684681459315 141 -4.4609790658949731 142 -3.0520044981627912
@@ -34650,7 +34650,7 @@ createNode animCurveTA -n "RightFinThreeControl_rotateZ";
 	setAttr -s 97 ".ktv[0:96]"  1 9.4716257191993858 13 52.58607177190131
 		 25 21.348304400184215 37 -22.844047160235185 49 9.4716257191993858 54 31.036775894802972
 		 55 34.870128631746432 56 38.320247688136732 57 41.693593994464756 58 45.000448856612728
-		 59 48.177367143254592 60 51.013854700518671 61 52.58607177190131 62 52.211524065586708
+		 59 48.177367143254592 60 51.013854700518678 61 52.58607177190131 62 52.211524065586708
 		 63 50.833758616402704 64 48.036919837527925 65 45.125318890326625 66 42.204972081296084
 		 67 39.285263412109764 68 36.366878752833898 69 33.448950694930851 70 30.528318665318835
 		 71 27.594500427912863 72 24.607089575075676 73 21.348304400184215 74 17.411691600621474
@@ -34658,16 +34658,16 @@ createNode animCurveTA -n "RightFinThreeControl_rotateZ";
 		 79 -2.4373794563896212 80 -6.3653321275442751 81 -10.255829712687644 82 -14.076594130044663
 		 83 -17.748328335747516 84 -21.026808833840558 85 -22.844047160235185 86 -22.208206374412971
 		 87 -19.893894287173858 88 -16.738872091011235 89 -13.51978238233856 90 -10.302157828148671
-		 91 -7.0953612024983723 92 -3.9064921103473225 93 -0.74802258442671898 94 2.3538357188388495
+		 91 -7.0953612024983723 92 -3.9064921103473225 93 -0.74802258442671898 94 2.3538357188388499
 		 95 5.3347051600759778 96 7.9963146063343791 97 9.4716257191993858 98 13.202079447818338
 		 99 17.088676981159896 100 20.982698015528609 101 24.871222410392772 102 28.750576291919877
-		 103 32.61615112867549 104 36.46003699774851 105 40.267269482871178 106 44.006261252624341
+		 103 32.61615112867549 104 36.460036997748517 105 40.267269482871178 106 44.006261252624341
 		 107 47.599412382329071 108 50.80772628705494 109 52.58607177190131 110 52.211524065586723
 		 111 50.833758616402719 112 48.036919837527911 113 45.125318890326675 114 42.204972081296113
 		 115 39.285263412109757 116 36.366878752833955 117 33.510446464025904 118 30.599743407403871
 		 119 27.641632925366618 120 24.62554541370238 121 21.348304400184215 122 17.410498675154777
-		 123 13.429389373425064 124 9.4495347753311005 125 5.476023811369596 126 1.5119486874286523
-		 127 -2.4380401076476526 128 -6.3658656149487713 129 -10.256237247934585 130 -14.076877970576298
+		 123 13.429389373425066 124 9.4495347753311005 125 5.476023811369596 126 1.5119486874286523
+		 127 -2.438040107647653 128 -6.3658656149487722 129 -10.256237247934585 130 -14.076877970576298
 		 131 -17.748493306298982 132 -21.02686766573866 133 -22.844047160235185 134 -22.208206374412995
 		 135 -19.893894287173882 136 -16.738872091011231 137 -13.519782382338621 138 -10.302157828148694
 		 139 -7.0953612024983501 140 -3.9064921103473678 141 -0.74802258442673009 142 2.353835718838877
@@ -34952,8 +34952,8 @@ createNode animCurveTU -n "RightFinThreeControl_scaleZ";
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 select -ne :time1;
-	setAttr ".o" 44;
-	setAttr ".unw" 44;
+	setAttr ".o" 1;
+	setAttr ".unw" 1;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1

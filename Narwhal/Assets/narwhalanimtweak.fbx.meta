@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b29919905e4da884d9186ef456cb3adb
+guid: 2321bb36f8fa2c047b58dffb7d886960
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -61,29 +61,35 @@ ModelImporter:
     100110: //RootNode
     100112: polySurface231
     100114: polySurface233
-    100116: RightEyeControl
-    100118: RightEyeControlGroup1
-    100120: RightEyelidControl
-    100122: RightEyelidControlGroup
-    100124: RightFinOne
-    100126: RightFinOneControl
-    100128: RightFinOneControlGroup
-    100130: RightFinThree
-    100132: RightFinThreeControl
-    100134: RightFinThreeControlGroup
-    100136: RightFinTwo
-    100138: RightFinTwoControl
-    100140: RightFinTwoControlGroup
-    100142: RightFlukeOne
-    100144: RightFlukeOneControl
-    100146: RightFlukeOneControlGroup
-    100148: RightFlukeThree
-    100150: RightFlukeThreeControl
-    100152: RightFlukeThreeControlGroup
-    100154: RightFlukeTwo
-    100156: RightFlukeTwoControl
-    100158: RightFlukeTwoControlGroup
-    100160: transform13
+    100116: polySurface234
+    100118: polySurface235
+    100120: polySurface236
+    100122: polySurface237
+    100124: RightEyeControl
+    100126: RightEyeControlGroup1
+    100128: RightEyelidControl
+    100130: RightEyelidControlGroup
+    100132: RightFinOne
+    100134: RightFinOneControl
+    100136: RightFinOneControlGroup
+    100138: RightFinThree
+    100140: RightFinThreeControl
+    100142: RightFinThreeControlGroup
+    100144: RightFinTwo
+    100146: RightFinTwoControl
+    100148: RightFinTwoControlGroup
+    100150: RightFlukeOne
+    100152: RightFlukeOneControl
+    100154: RightFlukeOneControlGroup
+    100156: RightFlukeThree
+    100158: RightFlukeThreeControl
+    100160: RightFlukeThreeControlGroup
+    100162: RightFlukeTwo
+    100164: RightFlukeTwoControl
+    100166: RightFlukeTwoControlGroup
+    100168: transform13
+    100170: transform14
+    100172: transform15
     400000: Body2
     400002: BodyFive
     400004: BodyFiveControl
@@ -142,38 +148,50 @@ ModelImporter:
     400110: //RootNode
     400112: polySurface231
     400114: polySurface233
-    400116: RightEyeControl
-    400118: RightEyeControlGroup1
-    400120: RightEyelidControl
-    400122: RightEyelidControlGroup
-    400124: RightFinOne
-    400126: RightFinOneControl
-    400128: RightFinOneControlGroup
-    400130: RightFinThree
-    400132: RightFinThreeControl
-    400134: RightFinThreeControlGroup
-    400136: RightFinTwo
-    400138: RightFinTwoControl
-    400140: RightFinTwoControlGroup
-    400142: RightFlukeOne
-    400144: RightFlukeOneControl
-    400146: RightFlukeOneControlGroup
-    400148: RightFlukeThree
-    400150: RightFlukeThreeControl
-    400152: RightFlukeThreeControlGroup
-    400154: RightFlukeTwo
-    400156: RightFlukeTwoControl
-    400158: RightFlukeTwoControlGroup
-    400160: transform13
+    400116: polySurface234
+    400118: polySurface235
+    400120: polySurface236
+    400122: polySurface237
+    400124: RightEyeControl
+    400126: RightEyeControlGroup1
+    400128: RightEyelidControl
+    400130: RightEyelidControlGroup
+    400132: RightFinOne
+    400134: RightFinOneControl
+    400136: RightFinOneControlGroup
+    400138: RightFinThree
+    400140: RightFinThreeControl
+    400142: RightFinThreeControlGroup
+    400144: RightFinTwo
+    400146: RightFinTwoControl
+    400148: RightFinTwoControlGroup
+    400150: RightFlukeOne
+    400152: RightFlukeOneControl
+    400154: RightFlukeOneControlGroup
+    400156: RightFlukeThree
+    400158: RightFlukeThreeControl
+    400160: RightFlukeThreeControlGroup
+    400162: RightFlukeTwo
+    400164: RightFlukeTwoControl
+    400166: RightFlukeTwoControlGroup
+    400168: transform13
+    400170: transform14
+    400172: transform15
     2100000: phongE1
     2100002: blinn4
-    2300000: polySurface231
-    2300002: polySurface233
-    3300000: polySurface231
-    3300002: polySurface233
+    2300000: polySurface234
+    2300002: polySurface235
+    2300004: polySurface236
+    2300006: polySurface237
+    3300000: polySurface234
+    3300002: polySurface235
+    3300004: polySurface236
+    3300006: polySurface237
     4300000: transform13
-    4300002: polySurface233
-    4300004: polySurface231
+    4300002: polySurface236
+    4300004: polySurface237
+    4300006: polySurface234
+    4300008: polySurface235
     7400000: Take 001
     9500000: //RootNode
     13700000: transform13
@@ -186,7 +204,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
@@ -197,7 +215,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 0
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -213,7 +231,7 @@ ModelImporter:
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
-      cycleOffset: 60
+      cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
